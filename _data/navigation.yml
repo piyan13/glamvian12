@@ -1,0 +1,12 @@
+# main links links
+main:
+  - title: "Archive"
+    url: /archive/
+
+  - title: "About"
+    url: /About/
+
+  - title: "Tag"
+    url: /Tags/
+
+  

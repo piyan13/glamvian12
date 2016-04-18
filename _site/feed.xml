@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.0.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2016-04-18T23:10:12+07:00</updated><id>/</id><title>./SO</title><subtitle>personal blog</subtitle><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><entry><title>Apps tasbih digital for android</title><link href="/App-TasbihDigital-for-Android/" rel="alternate" type="text/html" title="Apps tasbih digital for android" /><published>2012-07-21T00:00:00+07:00</published><updated>2012-07-21T00:00:00+07:00</updated><id>/App-TasbihDigital-for-Android</id><content type="html" xml:base="/App-TasbihDigital-for-Android/">&lt;p&gt;selamat menunaikan ibadah puasa di bulan ramadhan buat yang muslim.
+Semoga tahun ini lebih baek dari bulan ramadhan tahun tahun sebelumnya. Okey pada postingan kali ini saya akan mencoba promo aplikasi sederhana buatan sendiri. Semua berawal dari iseng kangen makan pentol jumbo isi telur puyuh yang ada di negeri arab surabaya (kawasan wisata religi sunan ampel surabaya) karena lumayan lama gak main main di daerah situ terakhir waktu menjelang UAS SMK jadi agak lupa dimana tempat orang jualan pentol .Saya mencari melewati gang sempit pasar pusat jualan berbagai macam asesoris untuk ole-ole disana lah saya melihat ada tasbih konvensional berbagai jenis sampek ada yang digital. Nah berangkat dari situ ide untuk membuat App TasbihDigital untuk android muncul. Ini tampilan screenshotnya&lt;/p&gt;
+&lt;figure style=&quot;width: 120px&quot; class=&quot;align-left&quot;&gt;
+   &lt;img src=&quot;/images/tampilanU.png&quot; /&gt;
+&lt;figcaption&gt;UI.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure style=&quot;width: 120px&quot; class=&quot;align-right&quot; alt=&quot;&quot;&gt; 
+  &lt;img src=&quot;/images/menu.png&quot; /&gt;
+&lt;figcaption&gt;menu&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure style=&quot;width: 120px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/repeat.png&quot; /&gt;
+&lt;figcaption&gt;repeat&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure style=&quot;width: 120px&quot; class=&quot;align-left&quot;&gt;
+&lt;img src=&quot;/images/input repeat.png&quot; /&gt;
+&lt;figcaption&gt;input repeat&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure style=&quot;width: 120px&quot; class=&quot;align-right&quot;&gt;
+&lt;img src=&quot;/images/fisnishing.png&quot; /&gt;
+&lt;figcaption&gt;count done&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;idenya simpel ketika count di touch maka angka di monitor semakin bermtambah dan berhenti di angka yang kita inginkan mulai 7,33,100 atau bisa di inputkan sesuai selera heuheuheu&lt;/p&gt;
+
+&lt;p&gt;tester masih di samsung galaxy mini dengan OS 2.3.4(Gingerbread). Silahkan di ‘fork’ &lt;a href=&quot;https://github.com/glamvian/Tasbih-digital&quot;&gt;github TasbihDigital&lt;/a&gt; semoga bermanfaat untuk error ,logcat kritik dan saran sangat di terima.&lt;/p&gt;</content><category term="Android" /><summary>selamat menunaikan ibadah puasa di bulan ramadhan buat yang muslim.
+Semoga tahun ini lebih baek dari bulan ramadhan tahun tahun sebelumnya. Okey pada postingan kali ini saya akan mencoba promo aplikasi sederhana buatan sendiri. Semua berawal dari iseng kangen makan pentol jumbo isi telur puyuh yang ada di negeri arab surabaya (kawasan wisata religi sunan ampel surabaya) karena lumayan lama gak main main di daerah situ terakhir waktu menjelang UAS SMK jadi agak lupa dimana tempat orang jualan pentol .Saya mencari melewati gang sempit pasar pusat jualan berbagai macam asesoris untuk ole-ole disana lah saya melihat ada tasbih konvensional berbagai jenis sampek ada yang digital. Nah berangkat dari situ ide untuk membuat App TasbihDigital untuk android muncul. Ini tampilan screenshotnya
+
+   
+UI.
+
+ 
+  
+menu
+
+
+
+repeat
+
+
+
+input repeat
+
+
+
+count done
+
+
+
+
+
+
+
+
+
+
+
+
+idenya simpel ketika count di touch maka angka di monitor semakin bermtambah dan berhenti di angka yang kita inginkan mulai 7,33,100 atau bisa di inputkan sesuai selera heuheuheu
+
+tester masih di samsung galaxy mini dengan OS 2.3.4(Gingerbread). Silahkan di ‘fork’ github TasbihDigital semoga bermanfaat untuk error ,logcat kritik dan saran sangat di terima.</summary></entry><entry><title>Kenapa harus linux??</title><link href="/Kenapa-harus-linux/" rel="alternate" type="text/html" title="Kenapa harus linux??" /><published>2012-02-13T00:00:00+07:00</published><updated>2012-02-13T00:00:00+07:00</updated><id>/Kenapa-harus-linux??</id><content type="html" xml:base="/Kenapa-harus-linux/">&lt;p style=&quot;text-align: justify;&quot;&gt;hari pertama setelah vakum ngeblog karena insiden salah input tahun 1889.
+oke oke kenapa harus Linux? kita sebagai warga indonesia yang berasaskan pancasila harusnya menjunjung tinggi sila ke 2 dan ke 5 dimana hak hak operating system berlisensi dan software proprietary harus kita hormati.
+ Dampak buruk yang timbul dari tidak mengamalkan sila sila tersebut adalah  membajak operating system berlisensi dan software propietary .&lt;/p&gt;
+&lt;figure style=&quot;width: 200px&quot; class=&quot;align-left&quot;&gt;
+&lt;img src=&quot;/images/software-pirate.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;figcaption&gt;credit:braintless tales.com&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;sebagai dosen/guru atau tenaga pengajar apa tidak malu ketika mengajar dengan media operating system bajakan ? apakah ilmu itu barokah kalau medianya saja dari hal hal yang buruk dan mana sisi edukasinya?&lt;/p&gt;
+
+&lt;p&gt;sebagai progammer/designer atau pekerja seni lainnya sangat dipertanyakan ke aslian atau originalitas karyannya kalau mereka membuat suatu produk/karya dari operating system dan software bajakan dan apakah gajinya berkah?&lt;/p&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;sebagai mahasiswa/murid? sebagai pejabat tinggi pemerintah? apapun bidangnya kalau sudah masuk di area computing harusnya mulai “sadar” apa itu operating system dan software proprietary. Gak sanggup membeli operating system yang asli karena mahal? ya kan ada Linux operating system yg berlisensi GNU(General Public License) bebas dipakai diubah dan di sebarkan kembali… trus jugak gak bisa beli software priopetary? ya kan ada software-software opensource.&lt;/p&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;Indonesia sebagai negara berkembang mengharuskan warganya untuk berpola pikir ekonomis kalau mau dipikir kenapa gak memakai yang gratis dan legal/halal kan lebih barokah. Dalam agamapun dijelaskan tentang dilarang mengambil hak oranglain tanpa isin dengan nama lain mencuri atau membajak tentunya dalam agama apapun pasti melarang setiap umatnya untuk itu.&lt;/p&gt;
+
+&lt;p&gt;Dalam UU HAKI ketentuan pidana pasal 72 hukuman bagi yang memakai operating system dan software bajakan dendanya mencapai Rp.500.000.000(Lima ratus juta rupiah).&lt;/p&gt;
+
+&lt;figure style=&quot;width: 250px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/linux.png&quot; alt=&quot;&quot; /&gt;
+&lt;figcaption&gt;credit:google.com&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;Masih kenapa harus Linux?ya Linux yang dibangun oleh Linus trovalds pada tahun 1991 haruse menjadi berkah buat warga warga negara berkembang dengan linux kita yg berekonomi menengah ke atas bisa belajar / bekerja/ bekarya . Haruse dengan Linux memangkas anggaran suatu negara/pemerintahan untuk membeli operating system berlisensi dan software priopetary dan anggarannya bisa di alihkan untuk dunia pendidikkan atau menghidupi warganya yang “miskin”. Haruse  dengan Linux kita sebagai mahasiswa/penggiat dunia teknologi informasi bisa menjadi kreatif dan cerdas  apakah kita bisa melihat struktur dan mempelajari operating system berlisensi? tentunya selain mahal jugak semua akses tertutup .&lt;/p&gt;</content><category term="Linux" /><summary>hari pertama setelah vakum ngeblog karena insiden salah input tahun 1889.
+oke oke kenapa harus Linux? kita sebagai warga indonesia yang berasaskan pancasila harusnya menjunjung tinggi sila ke 2 dan ke 5 dimana hak hak operating system berlisensi dan software proprietary harus kita hormati.
+ Dampak buruk yang timbul dari tidak mengamalkan sila sila tersebut adalah  membajak operating system berlisensi dan software propietary .
+
+
+credit:braintless tales.com
+
+sebagai dosen/guru atau tenaga pengajar apa tidak malu ketika mengajar dengan media operating system bajakan ? apakah ilmu itu barokah kalau medianya saja dari hal hal yang buruk dan mana sisi edukasinya?</summary></entry></feed>
