@@ -7,9 +7,9 @@ layout: "single"
 
 {% include base_path %}
 
-Blog {social overdrive} ini adalah blog personal dari glamvian dimana semua yang tertulis disini adalah asumsi dan hasil dari pembelajaran si penulis mengenai technology opensource lingkupnya adalah operating system `linux` yang dipake sehari hari ,bahasa pemrogaman `java` untuk membangun aplikasi `android` 
+Blog {social overdrive} ini adalah blog personal dari glamvian (@glmvn) dimana semua yang tertulis disini adalah asumsi dan hasil dari pembelajaran si penulis mengenai technology opensource lingkupnya adalah operating system `linux` yang dipake sehari hari ,bahasa pemrogaman `java` untuk membangun aplikasi `android` 
 tidak menutup kemungkinan si penulis di masa yang akan datang akan menuangkan tulisan di technology baru opensource.
-<figure>
+<figure style="width: 350px">
  <a href="/images/BetterDeveloper.png"><img src="/images/BetterDeveloper.png"></a>
 <figcaption>photo credit : appdesignVault.com</figcaption>
 </figure>
