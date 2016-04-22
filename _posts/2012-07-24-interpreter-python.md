@@ -29,7 +29,7 @@ yang paling meneyenangkan bagi pengguna operating system Linux seperti saya adal
 
 maka akan muncul:
 
-```console
+```python
 Python 2.7.2+ (default, Oct  4 2011, 20:03:08) 
 [GCC 4.6.1] on linux2
 Type "help", "copyright", "credits" or "license" for more information.
