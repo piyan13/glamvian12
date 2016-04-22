@@ -1,4 +1,80 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.0.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2016-04-21T16:52:55+07:00</updated><id>/</id><title>./SO</title><subtitle>personal blog</subtitle><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><entry><title>Bingung pilih Distro Linux?</title><link href="/Bingung-pilih-distro-linux/" rel="alternate" type="text/html" title="Bingung pilih Distro Linux?" /><published>2012-07-23T00:00:00+07:00</published><updated>2012-07-23T00:00:00+07:00</updated><id>/Bingung-pilih-distro-linux?</id><content type="html" xml:base="/Bingung-pilih-distro-linux/">&lt;figure style=&quot;width: 300px&quot; class=&quot;align-center&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.0.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2016-04-22T17:36:00+07:00</updated><id>/</id><title>./SO</title><subtitle>personal blog</subtitle><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><entry><title>Interpreter Python</title><link href="/interpreter-python/" rel="alternate" type="text/html" title="Interpreter Python" /><published>2012-07-24T00:00:00+07:00</published><updated>2012-07-24T00:00:00+07:00</updated><id>/interpreter-python</id><content type="html" xml:base="/interpreter-python/">&lt;figure style=&quot;width: 300px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/pytthon.png&quot; /&gt;
+&lt;figcaption&gt;credit: google.com&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;lagi pingin nerusin bikin desain logo button app lakok malas datang iseng buka koleksi buku  eh tiba tiba menyelinap buku pemrogaman python.Menurutku ini bahasa pemrogaman yang tak kalah fenomena dari bahasa pemrogaman java kenapa? bayangkan hanya beberapa tahun saja bahasa pemrogaman python sudah masuk ranking 5besar bahasa pemrogaman yang sering dipakai para progammers heuheuehue tak heran sih karena orientasinya yang OPEN SOURCE membuat komunitasnya tumbuh subur. Diantara kelebihan bahasa pemrogaman obyek dinamis ini adalah :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Dapat berjalan di banyak platform/sistem operati serperti linux/unix,Macos,palm dll&lt;/li&gt;
+  &lt;li&gt;Cepat dan powerfull karena terdiri dari modul modul&lt;/li&gt;
+  &lt;li&gt;Dapat berintegrasi dengan Component Object Model(COM),.NET dan Common Object Request Broker Architecture (CORBA)&lt;/li&gt;
+  &lt;li&gt;Dokumentasi yg lengkap dari dukungan komunitas.&lt;/li&gt;
+  &lt;li&gt;Tentunya OPEN SOURCE heuheuheu bahkan utk kepentingnan komersil&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;yang paling meneyenangkan bagi pengguna operating system Linux seperti saya adalah python dilengkapi fasilitas interpreter seperti shell yang tertanam secara default di &lt;code class=&quot;highlighter-rouge&quot;&gt;/usr/bin/python&lt;/code&gt;. ini memungkinkan  user Linux mencoba python secara interaktif. Mari langsung saja untuk mencobanya tekan ctrl+alt+t (buka console)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-console&quot;&gt; glamvian@glamvian ~ $ python
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;maka akan muncul:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;Python&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;2.7&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;default&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Oct&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2011&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;03&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;08&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; 
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GCC&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;4.6&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;on&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;linux2&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Type&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;help&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;copyright&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;credits&quot;&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;license&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;more&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;information&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;tanda »&amp;gt; adalah perintah prompt utama python .
+sekarang mari mencoba nya&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;  
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;     
+&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;  
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;15&lt;/span&gt;  
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;l&lt;/span&gt;  
+&lt;span class=&quot;mi&quot;&gt;15&lt;/span&gt;  
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;l&lt;/span&gt;  
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;luas: &#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;en&lt;/span&gt;  
+&lt;span class=&quot;n&quot;&gt;luas&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;150&lt;/span&gt;  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;keren gak? coba lagi ageh&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;  
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;  
+&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Nilai a adalah 1&quot;&lt;/span&gt;  
+&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;  
+&lt;span class=&quot;n&quot;&gt;Nilai&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;adalah&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;  
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;fac&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;  
+&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;  
+&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;  
+&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;  
+&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fac&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  
+&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;  
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fac&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  
+&lt;span class=&quot;mi&quot;&gt;40320&lt;/span&gt;  
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fac&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  
+&lt;span class=&quot;mi&quot;&gt;3628800&lt;/span&gt;  
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;tanda … adalah secondary prompt untuk keluar bisa dengan cara ctrl+D.
+Ini contoh untuk cara interaktif aja dan kelemahannya adalah kita tidak bisa menyimpan di media penyimpanan karena mode interaktif ini hanya untuk mencoba beberapa script yang akan kita pakai. kalau mau ngoding benerannya ya harus pake Text Editor misal kalau di linux pake gedit.
+saya kasih contoh tulis ini di gedit atau texteditor yang anda suka&lt;/p&gt;
+
+&lt;p&gt;a=10
+b=15
+c=a*b&lt;/p&gt;
+
+&lt;p&gt;print ‘hasil dari axb: ‘,c
+save degan belajar.py nah panggil deh lewat console(ctrl+alt+t) dengan perintah&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;glamvian@glamvian ~ $ python belajar.py&lt;/code&gt;
+liat hasilnya, selamat mengeksplorisasi bahasa pemrogaman yang fenomena ini dan akan sangat menjanjikan di masa yang akan datang.&lt;/p&gt;</content><category term="Pemrogaman" /><summary>credit: google.com
+
+lagi pingin nerusin bikin desain logo button app lakok malas datang iseng buka koleksi buku  eh tiba tiba menyelinap buku pemrogaman python.Menurutku ini bahasa pemrogaman yang tak kalah fenomena dari bahasa pemrogaman java kenapa? bayangkan hanya beberapa tahun saja bahasa pemrogaman python sudah masuk ranking 5besar bahasa pemrogaman yang sering dipakai para progammers heuheuehue tak heran sih karena orientasinya yang OPEN SOURCE membuat komunitasnya tumbuh subur. Diantara kelebihan bahasa pemrogaman obyek dinamis ini adalah :</summary></entry><entry><title>Bingung pilih Distro Linux?</title><link href="/Bingung-pilih-distro-linux/" rel="alternate" type="text/html" title="Bingung pilih Distro Linux?" /><published>2012-07-23T00:00:00+07:00</published><updated>2012-07-23T00:00:00+07:00</updated><id>/Bingung-pilih-distro-linux?</id><content type="html" xml:base="/Bingung-pilih-distro-linux/">&lt;figure style=&quot;width: 300px&quot; class=&quot;align-center&quot;&gt;
 &lt;img src=&quot;/images/dl.jpeg&quot; /&gt;
 &lt;figcaption&gt;credit: teklordz.net&lt;/figcaption&gt;
 &lt;/figure&gt;
