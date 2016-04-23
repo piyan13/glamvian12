@@ -20,7 +20,7 @@ words_per_minute         : 200
 comments:
   provider               :  "disqus"
   disqus:
-    shortname            : "glamvian" 
+    shortname            : "httpwwwglamviancom" 
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
