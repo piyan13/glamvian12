@@ -8,7 +8,7 @@ author_profile: true
 read_time: true
 comments: true
 share: true
-realated: true
+related: true
 ---
 
 selamat menunaikan ibadah puasa di bulan ramadhan buat yang muslim.

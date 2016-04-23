@@ -7,7 +7,7 @@ author_profile: true
 read_time: true
 comments: true
 share: true
-realated: true
+related: true
 ---
 <figure style="width: 300px" class="align-center">
 <img src="/images/dl.jpeg">
