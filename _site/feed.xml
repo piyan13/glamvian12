@@ -1,4 +1,120 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.0.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2016-04-22T17:36:00+07:00</updated><id>/</id><title>./SO</title><subtitle>personal blog</subtitle><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><entry><title>Interpreter Python</title><link href="/interpreter-python/" rel="alternate" type="text/html" title="Interpreter Python" /><published>2012-07-24T00:00:00+07:00</published><updated>2012-07-24T00:00:00+07:00</updated><id>/interpreter-python</id><content type="html" xml:base="/interpreter-python/">&lt;figure style=&quot;width: 300px&quot; class=&quot;align-center&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.0.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2016-04-23T18:41:48+07:00</updated><id>/</id><title>./SO</title><subtitle>personal blog</subtitle><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><entry><title>Failed to resized display</title><link href="/failed-to-resized-display/" rel="alternate" type="text/html" title="Failed to resized display" /><published>2015-02-17T00:00:00+07:00</published><updated>2015-02-17T00:00:00+07:00</updated><id>/failed-to-resized-display</id><content type="html" xml:base="/failed-to-resized-display/">&lt;figure style=&quot;width: 400px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/drivereroorvlc.png&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;enak enak liat video di vlc tiba tiba gambarnya pada gak karuan seperti foto diatas analisa pertama adalah mungkin karena codecnya setelah saya update ternyata sama saja. Maklum baru ganti peralatan yang baru sekarang makek lenovo thinkpad e145 jadi baru kali ini kenak masalah video sebelumnya makek acer aspire 5315 asik asik aja heuheuheu biar gak makin penasaran chek errornya&lt;/p&gt;
+
+&lt;figure style=&quot;width: 400px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/drivervlc_konsole.png&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;setelah baca baca masalah resized diplay itu error mengarah pada ketidak cocokan driver untuk vga yang dipakek langsung aja cuss ke driver manager dengan alt+f2 
+dengan bukak vlc mode konsole waktu play video munculah error failed to resized display&lt;/p&gt;
+&lt;figure style=&quot;width: 400px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/drivermanager.png&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;untuk speck vga ati yang sesuai dengan laptop yang yang saya pake disarankan memakai driver bernama &lt;code class=&quot;highlighter-rouge&quot;&gt;fglrx&lt;/code&gt;&lt;/p&gt;
+&lt;figure style=&quot;width: 400px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/drivermanager1.png&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;setelah ganti dengan driver no priopetary diatas alhasil videonya jadi sempurna lagi lagi problem solved dan dapat ilmu baru lagi salah satu dari manfaat linux opensouce ya itu heuheuheu&lt;/p&gt;
+
+&lt;figure style=&quot;width: 400px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/solved.png&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;okey sekian tulisan saya kali ini dan saya sudah gak sabar untuk melanjutkan video yang tadi semoga dapat berguna&lt;/p&gt;</content><category term="Linux" /><summary>enak enak liat video di vlc tiba tiba gambarnya pada gak karuan seperti foto diatas analisa pertama adalah mungkin karena codecnya setelah saya update ternyata sama saja. Maklum baru ganti peralatan yang baru sekarang makek lenovo thinkpad e145 jadi baru kali ini kenak masalah video sebelumnya makek acer aspire 5315 asik asik aja heuheuheu biar gak makin penasaran chek errornya</summary></entry><entry><title>dpkg: unrecoverable fatal error</title><link href="/Dpkg-unrecoverable-fatal-error/" rel="alternate" type="text/html" title="dpkg: unrecoverable fatal error" /><published>2015-01-14T00:00:00+07:00</published><updated>2015-01-14T00:00:00+07:00</updated><id>/Dpkg:-unrecoverable-fatal-error</id><content type="html" xml:base="/Dpkg-unrecoverable-fatal-error/">&lt;figure style=&quot;width: 400px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/hello_world_01.jpg&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;hello 2015 heuheuheu waktunya turun gunung beroooo vakum coret blog dari 2012 dimulai dari bercandaan tuhan dengan syntak :&lt;/p&gt;
+
+&lt;figure style=&quot;width: 600px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/eroer.png&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;dpkg:unrecoverable fatal error dan seterusnya kedengerannya serem gak?
+setelah cari sana sini ternyata itu bug yang sudah ada sejak beberapa varian
+turunan keluarga besar debian. 
+itu terjadi karena ada corupt file di &lt;code class=&quot;highlighter-rouge&quot;&gt;/var/lib/dpkg/info/&lt;/code&gt; berulang ulang karena beberapa tidak memiliki final new line.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;os&lt;/span&gt;  
+  
+&lt;span class=&quot;n&quot;&gt;dpkg_path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;/var/lib/dpkg/info/&#39;&lt;/span&gt;  
+&lt;span class=&quot;n&quot;&gt;paths&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;listdir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dpkg_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;path&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;paths&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;  
+    &lt;span class=&quot;n&quot;&gt;path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dpkg_path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;  
+    &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;a+&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  
+    &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;  
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;  
+        &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  
+        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;added newline character to:&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;  
+    &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;close&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;     
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;baris code python diatas adalah jawabannya berooo copy paste code diatas ke 
+knote,nano,vi dll trus save dengan apapun misal kalau aku dengan &lt;code class=&quot;highlighter-rouge&quot;&gt;mbuh.py&lt;/code&gt;
+jangan lupa waktu nge run pake sebagai root misal :~&amp;gt; sudo python mbuh.py&lt;/p&gt;
+
+&lt;figure style=&quot;width: 600px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/eroer1.png&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;beres sudah masalah beroo ayoo lekas update dan upgrade atau install sesuatu yang tadi eroor kayak aku yg gagal install git sekarang sudah lancar….. 
+thanks to pokerbirch for python scripth.. hapy coding everyone&lt;/p&gt;</content><category term="Linux" /><category term="pemrogaman" /><summary>hello 2015 heuheuheu waktunya turun gunung beroooo vakum coret blog dari 2012 dimulai dari bercandaan tuhan dengan syntak :</summary></entry><entry><title>App konversi mata uang for android</title><link href="/App-konversi-mata-uang-for-Android/" rel="alternate" type="text/html" title="App konversi mata uang for android" /><published>2012-07-26T00:00:00+07:00</published><updated>2012-07-26T00:00:00+07:00</updated><id>/App-konversi-mata-uang-for-Android</id><content type="html" xml:base="/App-konversi-mata-uang-for-Android/">&lt;figure style=&quot;width: 200px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/anime.png&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;hari yang telah larut heuheuehue tapi tak mematahkan semangat untuk menulis. okey sesuai judul saya akan share hasil coba coba barangkali bermanfaat buat sekitar. Sebenarnya ini aplikasi pertama  yang saya rangkai di eclipse sebelum &lt;a href=&quot;http://www.glamvian.com/App-TasbihDigital-for-Android/&quot;&gt;aplikasi Tasbih digital&lt;/a&gt; ,aplikasi konversi mata uang ini  terinspirasi dari sebuah buku pemrogaman yang kebetulan membahas tentang android utak atik sana sini akhirnya jadi sesuai imajinasi di otak okey ini screenshootnya chek this out :&lt;/p&gt;
+
+&lt;figure style=&quot;width: 200px&quot; class=&quot;align-left&quot;&gt;
+&lt;img src=&quot;/images/utama.png&quot; /&gt;
+&lt;figcaption&gt;main&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure style=&quot;width: 200px&quot; class=&quot;align-right&quot;&gt;
+&lt;img src=&quot;/images/men.png&quot; /&gt;
+&lt;figcaption&gt;menu&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;figure style=&quot;width: 200px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/setting.png&quot; /&gt;
+&lt;figcaption&gt;setting&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure style=&quot;width: 200px&quot; class=&quot;align-left&quot;&gt;
+&lt;img src=&quot;/images/mata uang.png&quot; /&gt;
+&lt;figcaption&gt;menu mata uang&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure style=&quot;width: 200px&quot; class=&quot;align-right&quot;&gt;
+&lt;img src=&quot;/images/hasil.png&quot; /&gt;
+&lt;figcaption&gt;hasil&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Alur dari aplikasi sangat sederhana pilih konversi dari dollar ke rupiah atau sebaliknya lalu masukkan nilai mata uang dan tekan deh tombol konversi heuheuehue pada menu pilihan mata uang dollar bisa di ganti mata uang euro dan pounds , pada menu setting kita jugak bisa inputkan nilai tukar yang sedang update.&lt;/p&gt;
+
+&lt;p&gt;lagi lagi tester masih di galaxy mini dengan OS (2.3.4)GingerBeard silahkan di download apknya disini &lt;a href=&quot;https://github.com/glamvian/konversi-mata-uang&quot;&gt;konversi mata uang github&lt;/a&gt; kritik dan saran untuk pengembangan sangat saya trima&lt;/p&gt;</content><category term="Android" /><summary>hari yang telah larut heuheuehue tapi tak mematahkan semangat untuk menulis. okey sesuai judul saya akan share hasil coba coba barangkali bermanfaat buat sekitar. Sebenarnya ini aplikasi pertama  yang saya rangkai di eclipse sebelum aplikasi Tasbih digital ,aplikasi konversi mata uang ini  terinspirasi dari sebuah buku pemrogaman yang kebetulan membahas tentang android utak atik sana sini akhirnya jadi sesuai imajinasi di otak okey ini screenshootnya chek this out :</summary></entry><entry><title>Interpreter Python</title><link href="/interpreter-python/" rel="alternate" type="text/html" title="Interpreter Python" /><published>2012-07-24T00:00:00+07:00</published><updated>2012-07-24T00:00:00+07:00</updated><id>/interpreter-python</id><content type="html" xml:base="/interpreter-python/">&lt;figure style=&quot;width: 300px&quot; class=&quot;align-center&quot;&gt;
 &lt;img src=&quot;/images/pytthon.png&quot; /&gt;
 &lt;figcaption&gt;credit: google.com&lt;/figcaption&gt;
 &lt;/figure&gt;
