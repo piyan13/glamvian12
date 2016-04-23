@@ -1,7 +1,7 @@
 ---
 title: "dpkg: unrecoverable fatal error"
 tags:
- Linux pemrogaman
+ Linux Pemrogaman
 layout: single
 author_profile: true
 read_time: true
