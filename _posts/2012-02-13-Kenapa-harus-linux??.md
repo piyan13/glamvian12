@@ -7,7 +7,7 @@ author_profile: true
 read_time: true
 comments: true
 share: true
-realated: true
+related: true
 ---
 hari pertama setelah vakum ngeblog karena insiden salah input tahun 1889.
 oke oke kenapa harus Linux? kita sebagai warga indonesia yang berasaskan pancasila harusnya menjunjung tinggi sila ke 2 dan ke 5 dimana hak hak operating system berlisensi dan software proprietary harus kita hormati.
