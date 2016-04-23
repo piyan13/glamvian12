@@ -11,7 +11,7 @@ title                    : "./SO"
 title_separator          : "{social overdrive}"
 name                     : " Glamvian "
 description              : "personal blog"
-url                      : "https://www.glamvian.com"
+url                      : "http://www.glamvian.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
