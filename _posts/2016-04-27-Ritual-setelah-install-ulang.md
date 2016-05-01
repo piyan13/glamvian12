@@ -18,9 +18,9 @@ related: true
  {% include toc title="Contents" icon="file-text" %}
 
  Setelah denger [ubuntu](www.ubuntu.com) launch versi LTS 
- (long terms support) di tahun ini langsung saja bergegas
- saya [download](http://www.ubuntu.com/download) sudah menjadi kebiasaan dari dulu untuk memakai versi LTS distro satu ini sih ya untuk harian memang sangat stable, tapi minusnya kurang update
- inovasi terbaru dari technology opensourcenya yang makin hari makin cepat pergerakannya, selesai install ubuntu ini beberapa ritual saya untuk menyempurnakan dekstop yang digunakan untuk sehari hari
+ (long terms support) di tahun ini, langsung saya bergegas
+ untuk [download](http://www.ubuntu.com/download) ,sudah menjadi kebiasaan dari dulu untuk memakai versi LTS varian distro yang satu ini ya untuk harian memang sangat stable, tapi minusnya kurang update
+ inovasi terbaru dari technology opensourcenya dimana makin hari makin cepat pergerakannya, selesai install ubuntu ini beberapa ritual saya untuk menyempurnakan dekstop untuk digunakan sehari hari
  
  
 ## Install Driver wireless
@@ -107,3 +107,5 @@ okeylah kalau sudah terinstall happy blogging
  :~$ cd /opt/android-studio/bin
  bin$ ./studio.h
 ```
+
+akhirnya lengkap sudah ritualnya dan laptop siap untuk digunakan aktifitas sehari hari 
