@@ -2,9 +2,6 @@
 title: "Ritual setelah install Linux"
 tags:
  Linux
-header:
- image: glmvn1.jpg
- caption: "photo credit: glmvn"
 layout: single
 author_profile: true
 read_time: true
