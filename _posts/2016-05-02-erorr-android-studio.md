@@ -17,7 +17,7 @@ related: true
 <figcaption>android studio</figcaption>
 </figure> 
 
-Hal yang menarik dari [Android studio 2.0](http://developer.android.com/sdk/index.html) setelah install ternyata kutemukan
+Hal yang menarik dari [Android studio 2.0](http://developer.android.com/sdk/index.html) yang terinstall di linux 64bit adalah kutemukan
 error disana sini, mungkin waktu kemarin masih pakek [linuxmint 17](https://www.linuxmint.com/) android studio dari versi 1.7 langsung ku update ke versi 2.0 jadi tidak ku temukan error yang berarti setelah migrasi ke [ubuntu 16.04](http://www.ubuntu.com/) dan install dari awal android studio 2.0 barulah berjumpa dengan errornya, apa saja errornya? ini dia check this out
 
 ## Unable to run mksdcard
