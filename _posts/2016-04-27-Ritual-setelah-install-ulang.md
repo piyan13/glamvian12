@@ -65,6 +65,8 @@ lanjut deh dengan `git clone` untuk membuat repository local projectnya
 
 ```ruby
 :~$ sudo apt-get purge openjdk-8-jre
+:~$ sudo apt-get remove openjdk-8-jre-headless
+:~$ sudo rm -rfv /usr/lib/jvm/java-8-openjdk-amd64/
 ```
  lalu kita install java versi oraclenya
 
