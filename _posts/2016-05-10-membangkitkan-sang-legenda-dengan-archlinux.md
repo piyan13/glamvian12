@@ -143,7 +143,7 @@ nah setelah itu baru kita konfigurasi user yang baru ditambahkan untuk berada da
 ```ruby
  sh-4.3#EDITOR=nano visudo
 ```
-setelah masuk ke teks editor nano uncomment `%whell ALL=(ALL) ALL` seperti pada gambar dibawah ini 
+setelah masuk ke teks editor nano hapus tanda # `%whell ALL=(ALL) ALL` seperti pada gambar dibawah ini 
 
 <figure style="width: 500px" class="align-center">
 <img src="/images/sudoers.gif">
@@ -165,7 +165,7 @@ saya menggunakan bahasa inggris saja karena sudah terbiasa bor
 ```ruby
  sh-4.3#nano /etc/locale.gen
 ```
-uncentang lokasi dan bahasa yang dipilih setelah itu klik `locale-gen` untuk mengenerate
+hapus tanda # di lokasi dan bahasa yang dipilih setelah itu klik `locale-gen` untuk mengenerate
 
 <figure style="width: 600px" class="align-center">
 <img src="/images/locale.gif">
