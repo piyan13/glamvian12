@@ -9,7 +9,10 @@ comments: true
 share: true
 related: true
 ---  
-
+<figure style="width: 200px" class="align-center">
+<img src="/images/analog.JPG">
+<figcaption>waktu sholat</figcaption>
+</figure> 
 Karena cukup penasaran dengan algoritma perhitungan waktu sholat dan kebutuhan jugak sih karena terkadang pekerjaan yang saya jalani berada pada posisi tidak dapat mendengar bunyi 
 suara adzan bahkan posisi di tempat penduduknya mayoritas non muslim,terbesit keinginan untuk mencari algoritma dari perhitungan sholat dan menemukan beberapa referensi di website [praytime.org](http://praytimes.org/) disana di terangkan bagaimana cara menghitung waktu sholat secara detail yang bersumber dari hadist dan al-quran tidak hanya alur perhitungan manualnya disana jugak sudah ada contoh [source code](http://praytimes.org/wiki/Code) yang di tulis dalam bahasa `javascript` dan di digubah dalam beberapa bahasa pemrogaman terutama `java` setelah saya download langsung saya coba compile di terminal
 {: style="text-align: justify;"}
@@ -59,3 +62,6 @@ setelah saya hapus syntax di line 25 akhirnya bisa melihat output dari source co
 <img src="/images/suksescom.gif">
 <figcaption></figcaption>
 </figure>
+
+tapi justru setelah code ini berhasil mengeluarkan output beberapa pertanyaan langsung menghujam di pikiran saya,lih alih akan membuat tulisan kali selesai malah bisa jadi tulisan kali ini akan bersambung . okey output yang dihasilkan diambil dari tanggal yang tertara di system computer setelah saya teliti lagi ada selisih sekitar 3menit sama waktu sholat di masjid surabaya beberapa hari mencari informasi ternyata banyak masjid di surabaya dan jawatimur masih berpedoman ke radio yang disiarkan di masjid rahmat salah satu masjid bersejarah di surabaya dan akhirnya saya jugak dapat informasi kalau masjid rahmat surabaya berpedoman pada tim hisab dan ruhiyat kementrian agama, [jadwal sholat](http://simbi.kemenag.go.id/sihat/waktu-sholat) mungkin kedepan saya akan lebih mencari tahu lagi kenapa masih bisa selisih lebih dari 3 menit dari jadwal yang ditentukan oleh kementrian agama
+{: style="text-align: justify;"}
