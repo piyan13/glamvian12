@@ -11,9 +11,8 @@ related: true
 ---
 <figure style="width: 700px" class="align-center">
 <img src="/images/kinfo.png">
-<figcaption></figcaption>
+<figcaption>kinfo</figcaption>
 </figure>
-
 Tibalah saatnya untuk upgrade Ram ddr3l thinkpad e145 dari 4GB ke 8GB di iringi penuh drama semenjak pertama kali upgrade ke 4GB dan 8GB adalah upgrade terakhir karena thinkpad ini hanya bisa up to 8GB menurut website resminya tapi menurut kabar beredar dari mas mas di VGEN service center ini thinkpad bisa sampek 16GB tapi rasanya saya tidak sebegitu tertarik untuk coba coba pasalnya upgrade ke 8GB hanya untuk memenuhi rekomendasi system untuk [android studio di operating system linux](https://developer.android.com/studio/index.html)
 
 <figure style="width: 700px" class="align-center">
