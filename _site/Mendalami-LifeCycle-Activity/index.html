@@ -242,6 +242,7 @@
 <ul class="toc__menu" id="markdown-toc">
   <li><a href="#launch-running--destroy" id="markdown-toc-launch-running--destroy">Launch, Running , Destroy</a></li>
   <li><a href="#onsaveinstancestate" id="markdown-toc-onsaveinstancestate">onSaveInstanceState</a></li>
+  <li><a href="#start-stop-restart" id="markdown-toc-start-stop-restart">Start, Stop, Restart</a></li>
 </ul>
 
   </nav>
@@ -313,7 +314,28 @@ membolehkan kita untuk mengumpulkan data bersama walaupun beda type data kedalam
 <figcaption>isuue rotate solve</figcaption>
 </figure>
 
-<p>issue selanjutnya adalah ketika app berjalan user klik start button tiba tiba ada email atau notifikasi lain misal aplikasi chat terus kita liat/buka app chat itu aplikasi stopwatch otomatis tidak terlihat dan mungkin stopwatch akan terus berjalan menghitung tiap detik tapi bagaimana kalau aku pengen ketika app stopwatch tidak terlihat dia otomatis stop alias tdak berjalan?</p>
+<h2 id="start-stop-restart">Start, Stop, Restart</h2>
+<p>issue selanjutnya adalah ketika app berjalan user klik start button tiba tiba ada telpon atau notifikasi lain misal aplikasi chat terus kita liat/buka app chat itu aplikasi stopwatch otomatis tidak terlihat dan mungkin stopwatch akan terus berjalan menghitung tiap detik tapi bagaimana kalau aku pengen ketika app stopwatch tidak terlihat dia otomatis stop alias tidak berjalan? ternyata di Lifecyle ada method onStart(), onStop(),  onRestart() ketiganya sama seperti onCreate() dan onDestroy() sama sama mewarisi dari Activity clas.</p>
+
+<ul>
+  <li>onStart() akan dipanggil bila acitivity kita menjadi visible ke user.</li>
+  <li>onStop() dipanggil ketika activity kita berhenti nampak ke user,ini berarti Activity akan di destroy tapi sebelum method onDestroy() dipanggil method onSaveInstanceState() akan dipanggil sebelum method onStop().</li>
+  <li>onRestart() dipanggil setelah activity kita tak terliat atau invisible.</li>
+</ul>
+
+<figure style="width:300px" class="align-center">
+<img src="/images/lifecycleVisible.png" />
+<figcaption>visible lifetime</figcaption>
+</figure>
+
+<p>okey saatnya override method onStop di coding kita setelah itu buatnya berhenti dengan <code class="highlighter-rouge">mRunning = false</code></p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nd">@override</span>
+<span class="n">proctected</span> <span class="kt">void</span> <span class="nf">onStop</span><span class="o">()</span> <span class="o">{</span>
+ <span class="kd">super</span><span class="o">.</span><span class="na">onStop</span><span class="o">();</span>
+ <span class="n">mRunning</span> <span class="o">=</span> <span class="kc">false</span><span class="o">;</span>
+ <span class="o">}</span>
+</code></pre></div></div>
 
         
       </section>

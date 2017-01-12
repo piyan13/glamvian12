@@ -81,4 +81,24 @@ uml setelah penambahan method onSaveInstanceState()
 <figcaption>isuue rotate solve</figcaption>
 </figure>
 
-issue selanjutnya adalah ketika app berjalan user klik start button tiba tiba ada email atau notifikasi lain misal aplikasi chat terus kita liat/buka app chat itu aplikasi stopwatch otomatis tidak terlihat dan mungkin stopwatch akan terus berjalan menghitung tiap detik tapi bagaimana kalau aku pengen ketika app stopwatch tidak terlihat dia otomatis stop alias tdak berjalan?
+## Start, Stop, Restart
+issue selanjutnya adalah ketika app berjalan user klik start button tiba tiba ada telpon atau notifikasi lain misal aplikasi chat terus kita liat/buka app chat itu aplikasi stopwatch otomatis tidak terlihat dan mungkin stopwatch akan terus berjalan menghitung tiap detik tapi bagaimana kalau aku pengen ketika app stopwatch tidak terlihat dia otomatis stop alias tidak berjalan? ternyata di Lifecyle ada method onStart(), onStop(),  onRestart() ketiganya sama seperti onCreate() dan onDestroy() sama sama mewarisi dari Activity clas.
+
+* onStart() akan dipanggil bila acitivity kita menjadi visible ke user.
+* onStop() dipanggil ketika activity kita berhenti nampak ke user,ini berarti Activity akan di destroy tapi sebelum method onDestroy() dipanggil method onSaveInstanceState() akan dipanggil sebelum method onStop().
+* onRestart() dipanggil setelah activity kita tak terliat atau invisible.
+
+<figure style="width:300px" class="align-center">
+<img src="/images/lifecycleVisible.png">
+<figcaption>visible lifetime</figcaption>
+</figure>
+
+okey saatnya override method onStop di coding kita setelah itu buatnya berhenti dengan `mRunning = false`
+
+```java
+@override
+proctected void onStop() {
+ super.onStop();
+ mRunning = false;
+ }
+ ```
