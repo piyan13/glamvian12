@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-07T11:30:23+00:00</updated><id>http://localhost:4000/</id><title type="html">./SO</title><subtitle>personal blog</subtitle><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><entry><title type="html">Bedah MVP pattern di Android</title><link href="http://localhost:4000/Bedah-Arsitektur-MVP/" rel="alternate" type="text/html" title="Bedah MVP pattern di Android" /><published>2018-01-20T00:00:00+00:00</published><updated>2018-01-20T00:00:00+00:00</updated><id>http://localhost:4000/Bedah-Arsitektur-MVP</id><content type="html" xml:base="http://localhost:4000/Bedah-Arsitektur-MVP/">&lt;figure style=&quot;width: 400px&quot; class=&quot;align-center&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-09T11:40:20+00:00</updated><id>http://localhost:4000/</id><title type="html">./SO</title><subtitle>personal blog</subtitle><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><entry><title type="html">Bedah MVP pattern di Android</title><link href="http://localhost:4000/Bedah-Arsitektur-MVP/" rel="alternate" type="text/html" title="Bedah MVP pattern di Android" /><published>2018-01-20T00:00:00+00:00</published><updated>2018-01-20T00:00:00+00:00</updated><id>http://localhost:4000/Bedah-Arsitektur-MVP</id><content type="html" xml:base="http://localhost:4000/Bedah-Arsitektur-MVP/">&lt;figure style=&quot;width: 400px&quot; class=&quot;align-center&quot;&gt;
 &lt;img src=&quot;/images/mvp.png&quot; /&gt;
 &lt;figcaption&gt;credit: androidpub&lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -152,7 +152,19 @@ akhirnya kepikiran untuk install thinkpad archlinux muncul ketakutan konfigurasi
 &lt;figcaption&gt;app RecyclerView&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;Memang betul dalam prakteknya konsep ViewGroup RecyclerView sulit tapi setidaknya dengan pemaparan di udacity hasilnya seperti gambar diatas saya jadi sedikit banyak terbantu karena fungsinya sangat penting dari sekedar ListView jadi makin tak sabar untuk explore lebih jau lagi dan lagi&lt;/p&gt;</content><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><category term="Android" /><summary type="html">RecyclerView shunshine udacity Contents Mei tahun 2017 begitu membara cukup terseok seok hanya untuk sekedar istiqomah dan waktunya untuk mengupas habis beberapa ketertinggalan diving in biar gak makin tertinggal okey RecyclerView di perkenalkan pada saat android L adalah sebuah ViewGroup baru yang di persiapkan untuk render view adapter menurut mentor di udacity RecyclerView menjadi inti dari banyak aplikasi dengan alesan untuk hal hal yang compleks penangannya daripada ListView isu utama dari RecylcerView adalah mengenai garbage collection memory yang terpakai saat menampilkan data dengan banyak nan kompleks</summary></entry><entry><title type="html">Error Android Virtual Device kubuntu 64 bit</title><link href="http://localhost:4000/Error-Android-Virtual-Device-Kubuntu-64bit/" rel="alternate" type="text/html" title="Error Android Virtual Device kubuntu 64 bit" /><published>2016-12-04T00:00:00+00:00</published><updated>2016-12-04T00:00:00+00:00</updated><id>http://localhost:4000/Error-Android-Virtual-Device-Kubuntu-64bit</id><content type="html" xml:base="http://localhost:4000/Error-Android-Virtual-Device-Kubuntu-64bit/">&lt;figure style=&quot;width: 700px&quot; class=&quot;align-center&quot;&gt;
+&lt;p&gt;Memang betul dalam prakteknya konsep ViewGroup RecyclerView sulit tapi setidaknya dengan pemaparan di udacity hasilnya seperti gambar diatas saya jadi sedikit banyak terbantu karena fungsinya sangat penting dari sekedar ListView jadi makin tak sabar untuk explore lebih jau lagi dan lagi&lt;/p&gt;</content><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><category term="Android" /><summary type="html">RecyclerView shunshine udacity Contents Mei tahun 2017 begitu membara cukup terseok seok hanya untuk sekedar istiqomah dan waktunya untuk mengupas habis beberapa ketertinggalan diving in biar gak makin tertinggal okey RecyclerView di perkenalkan pada saat android L adalah sebuah ViewGroup baru yang di persiapkan untuk render view adapter menurut mentor di udacity RecyclerView menjadi inti dari banyak aplikasi dengan alesan untuk hal hal yang compleks penangannya daripada ListView isu utama dari RecylcerView adalah mengenai garbage collection memory yang terpakai saat menampilkan data dengan banyak nan kompleks</summary></entry><entry><title type="html">Mendalami Activity Lifecyle</title><link href="http://localhost:4000/Mendalami-LifeCycle-Activity/" rel="alternate" type="text/html" title="Mendalami Activity Lifecyle" /><published>2017-01-13T00:00:00+00:00</published><updated>2017-01-13T00:00:00+00:00</updated><id>http://localhost:4000/Mendalami-LifeCycle-Activity</id><content type="html" xml:base="http://localhost:4000/Mendalami-LifeCycle-Activity/">&lt;p style=&quot;text-align: justify;&quot;&gt;Mengulang membaca buku materi tentang Lifecyle Activity semakin diulang semaki seru tentu saja merawat ingatan biar fondasi android tak terlupakan kali ini dengan App stopwatch simpel hanya dengan single  class Activity dan single layout yaitu &lt;code class=&quot;highlighter-rouge&quot;&gt;stopWatchActivity&lt;/code&gt; dan &lt;code class=&quot;highlighter-rouge&quot;&gt;activity_stop_watch.xml&lt;/code&gt;.&lt;/p&gt;
+
+&lt;figure style=&quot;width:400px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/stopwatch.gif&quot; /&gt;
+&lt;figcaption&gt;penampakan app&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Sama seperti stopwatch pada umumnya fungsinya untuk menghitung waktu perdetik ada 3 button disana start, stop, dan reset dengan uml seperti dibawah ini.&lt;/p&gt;
+
+&lt;figure style=&quot;width:400px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/StopWatchActiviy.png&quot; /&gt;
+&lt;figcaption&gt;uml class StopWatchActivity&lt;/figcaption&gt;
+&lt;/figure&gt;</content><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><category term="Android" /><summary type="html">Mengulang membaca buku materi tentang Lifecyle Activity semakin diulang semaki seru tentu saja merawat ingatan biar fondasi android tak terlupakan kali ini dengan App stopwatch simpel hanya dengan single class Activity dan single layout yaitu stopWatchActivity dan activity_stop_watch.xml.</summary></entry><entry><title type="html">Error Android Virtual Device kubuntu 64 bit</title><link href="http://localhost:4000/Error-Android-Virtual-Device-Kubuntu-64bit/" rel="alternate" type="text/html" title="Error Android Virtual Device kubuntu 64 bit" /><published>2016-12-04T00:00:00+00:00</published><updated>2016-12-04T00:00:00+00:00</updated><id>http://localhost:4000/Error-Android-Virtual-Device-Kubuntu-64bit</id><content type="html" xml:base="http://localhost:4000/Error-Android-Virtual-Device-Kubuntu-64bit/">&lt;figure style=&quot;width: 700px&quot; class=&quot;align-center&quot;&gt;
 &lt;img src=&quot;/images/kinfo.png&quot; /&gt;
 &lt;figcaption&gt;kinfo&lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -596,32 +608,4 @@ akhirnya teratasi sudah, semua ERROR-nya mungkin kamu kelebihan error dari apa y
  &lt;span class=&quot;n&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;studio&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;h&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;akhirnya lengkap sudah ritualnya dan laptop siap untuk digunakan aktifitas sehari hari&lt;/p&gt;</content><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><category term="Linux" /><summary type="html">credit: google</summary></entry><entry><title type="html">Failed to resized display</title><link href="http://localhost:4000/failed-to-resized-display/" rel="alternate" type="text/html" title="Failed to resized display" /><published>2015-02-17T00:00:00+00:00</published><updated>2015-02-17T00:00:00+00:00</updated><id>http://localhost:4000/failed-to-resized-display</id><content type="html" xml:base="http://localhost:4000/failed-to-resized-display/">&lt;figure style=&quot;width: 400px&quot; class=&quot;align-center&quot;&gt;
-&lt;img src=&quot;/images/drivereroorvlc.png&quot; /&gt;
-&lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;enak enak liat video di vlc tiba tiba gambarnya pada gak karuan seperti foto diatas analisa pertama adalah mungkin karena codecnya setelah saya update ternyata sama saja. Maklum baru ganti peralatan yang baru sekarang makek lenovo thinkpad e145 jadi baru kali ini kenak masalah video sebelumnya makek acer aspire 5315 asik asik aja heuheuheu biar gak makin penasaran chek errornya&lt;/p&gt;
-
-&lt;figure style=&quot;width: 400px&quot; class=&quot;align-center&quot;&gt;
-&lt;img src=&quot;/images/drivervlc_konsole.png&quot; /&gt;
-&lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;setelah baca baca masalah resized diplay itu error mengarah pada ketidak cocokan driver untuk vga yang dipakek langsung aja cuss ke driver manager dengan alt+f2 
-dengan bukak vlc mode konsole waktu play video munculah error failed to resized display&lt;/p&gt;
-&lt;figure style=&quot;width: 400px&quot; class=&quot;align-center&quot;&gt;
-&lt;img src=&quot;/images/drivermanager.png&quot; /&gt;
-&lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;untuk speck vga ati yang sesuai dengan laptop yang yang saya pake disarankan memakai driver bernama &lt;code class=&quot;highlighter-rouge&quot;&gt;fglrx&lt;/code&gt;&lt;/p&gt;
-&lt;figure style=&quot;width: 400px&quot; class=&quot;align-center&quot;&gt;
-&lt;img src=&quot;/images/drivermanager1.png&quot; /&gt;
-&lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;setelah ganti dengan driver no priopetary diatas alhasil videonya jadi sempurna lagi lagi problem solved dan dapat ilmu baru lagi salah satu dari manfaat linux opensouce ya itu heuheuheu&lt;/p&gt;
-
-&lt;figure style=&quot;width: 400px&quot; class=&quot;align-center&quot;&gt;
-&lt;img src=&quot;/images/solved.png&quot; /&gt;
-&lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;okey sekian tulisan saya kali ini dan saya sudah gak sabar untuk melanjutkan video yang tadi semoga dapat berguna&lt;/p&gt;</content><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><category term="Linux" /><summary type="html">enak enak liat video di vlc tiba tiba gambarnya pada gak karuan seperti foto diatas analisa pertama adalah mungkin karena codecnya setelah saya update ternyata sama saja. Maklum baru ganti peralatan yang baru sekarang makek lenovo thinkpad e145 jadi baru kali ini kenak masalah video sebelumnya makek acer aspire 5315 asik asik aja heuheuheu biar gak makin penasaran chek errornya</summary></entry></feed>
+&lt;p&gt;akhirnya lengkap sudah ritualnya dan laptop siap untuk digunakan aktifitas sehari hari&lt;/p&gt;</content><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><category term="Linux" /><summary type="html">credit: google</summary></entry></feed>
