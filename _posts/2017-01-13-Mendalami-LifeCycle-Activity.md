@@ -44,3 +44,29 @@ Method onCreate() akan dipanggil setelah Activity di launch. dan method onDestro
 <img src="/images/inheritstp.png">
 <figcaption>turunan class activity</figcaption>
 </figure>
+
+karena issue rotati terjadi karena destroy maka sebelum destroy terjadi saya mau simpan state yang sedang berjalan dengan method onSaveInstanceState() method ini bisa dipanggil sebelum method onDestroy() berjalan. method onSaveInstanceState() mempunyai satu parameter yaitu Bundle dan Bundle membolehkan kita untuk mengumpulkan data bersama walaupun beda type data kedalam single object.
+
+method onCreate akan melewati Bundle sebagai parameter. ini berarti jika saya menambah value mRunning dan mSecond ke Bundle, method onCreate() akan mengambil mereka ketika Activity dimuat ulang. aturan memakai method Bundle :
+
+`bundle.put*("name", value)`
+
+dimana `bundle` adalan nama Bundle, `*` untuk type value yang ingin disimpan, seperti ini jadinya
+
+<figure style="width:400px" class="align-center">
+<img src="/images/bundleput.png">
+<figcaption>bundle.put</figcaption>
+</figure>
+
+akhirnya saya simpan variabel values di Bundle dan dapat menggunakan mereka berdua method di onCreate(). setelah disimpan ketika nantinya activity di destroy dan di muat ulang onCreate() jugak yang telah kita tahu memliki parameter Bundle jugak tapi dalam posisi kali ini parameter menjadi bernilai null namun bisa dibuat pengecualian jika dan simpanan di Bundle kita bisa get value yang sudah disimpan ke Activity seperti dengan method `bundle.get*("name");` 
+<figure style="width:500px" class="align-center">
+<img src="/images/bundleget.png">
+<figcaption>bundle.get</figcaption>
+</figure>
+
+alhamdulillah pecah misterinya 
+<figure style="width:500px" class="align-center">
+<img src="/images/rotatestop.gif">
+<figcaption>isuue rotate solve</figcaption>
+</figure>
+
