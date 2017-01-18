@@ -37,7 +37,7 @@
 
 
 
-  <meta property="og:description" content="Mengulang membaca buku materi tentang Lifecyle Activity semakin diulang semaki seru tentu saja merawat ingatan biar fondasi android tak terlupakan kali ini dengan App stopwatch simpel hanya dengan single  class Activity dan single layout yaitu stopWatchActivity dan activity_stop_watch.xml.">
+  <meta property="og:description" content="Mengulang membaca buku materi tentang Lifecyle Activity semakin diulang semaki seru tentu saja merawat ingatan biar fondasi android tak terlupakan kali ini dengan App stopwatch simpel hanya dengan single  class Activity dan single layout yaitu stopWatchActivity dan activity_stop_watch.xml.     Contents  ">
 
 
 
@@ -215,7 +215,7 @@
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     <meta itemprop="headline" content="Mendalami Activity Lifecyle">
-    <meta itemprop="description" content="Mengulang membaca buku materi tentang Lifecyle Activity semakin diulang semaki seru tentu saja merawat ingatan biar fondasi android tak terlupakan kali ini dengan App stopwatch simpel hanya dengan single  class Activity dan single layout yaitu stopWatchActivity dan activity_stop_watch.xml.">
+    <meta itemprop="description" content="Mengulang membaca buku materi tentang Lifecyle Activity semakin diulang semaki seru tentu saja merawat ingatan biar fondasi android tak terlupakan kali ini dengan App stopwatch simpel hanya dengan single  class Activity dan single layout yaitu stopWatchActivity dan activity_stop_watch.xml.     Contents  ">
     <meta itemprop="datePublished" content="January 13, 2017">
     
 
@@ -236,6 +236,16 @@
 
       <section class="page__content" itemprop="text">
         <p style="text-align: justify;">Mengulang membaca buku materi tentang Lifecyle Activity semakin diulang semaki seru tentu saja merawat ingatan biar fondasi android tak terlupakan kali ini dengan App stopwatch simpel hanya dengan single  class Activity dan single layout yaitu <code class="highlighter-rouge">stopWatchActivity</code> dan <code class="highlighter-rouge">activity_stop_watch.xml</code>.</p>
+<aside class="sidebar__right">
+<nav class="toc">
+    <header><h4 class="nav__title"><i class="fa fa-file-text"></i> Contents</h4></header>
+<ul class="toc__menu" id="markdown-toc">
+  <li><a href="#launch-running--destroy" id="markdown-toc-launch-running--destroy">Launch, Running , Destroy</a></li>
+  <li><a href="#onsaveinstancestate" id="markdown-toc-onsaveinstancestate">onSaveInstanceState</a></li>
+</ul>
+
+  </nav>
+</aside>
 
 <figure style="width:400px" class="align-center">
 <img src="/images/stopwatch.gif" />
@@ -257,6 +267,7 @@
 
 <p>apa yang terjadi adalah rotasi layar android dan ukuran layar berubah, dan itu destroy Activity, termasuk semua variabel yang digunakan method runTimer(). setelah itu method onCreate() berjalan lagi dan method runTimer() dipanggil karena Activity di re-create, variabel mSecond dan mRunning bernilai default.</p>
 
+<h2 id="launch-running--destroy">Launch, Running , Destroy</h2>
 <p>Main state dari activity adalah ketika dia running atau aktif. activity berjalan di foreground dari screen dan user berinteraksi dengannya, activity running setelah ter launch dan berakhir setelah di destroy. ketika activity berubah dari launched dan akan di destroy dia mentrigger method kunci Lifecyle activity yaitu onCreate() dan onDestroy(). itu adalah method Lifecyle yang kita inherit di Activity dan bisa kita override.</p>
 <figure style="width:200px" class="align-center">
 <img src="/images/activitylaunchstp.png" />
@@ -269,8 +280,10 @@
 <figcaption>turunan class activity</figcaption>
 </figure>
 
-<p>karena issue rotati terjadi karena destroy maka sebelum destroy terjadi saya mau simpan state yang sedang berjalan dengan method onSaveInstanceState() method ini bisa dipanggil sebelum method onDestroy() berjalan. method onSaveInstanceState() mempunyai satu parameter yaitu Bundle dan Bundle membolehkan kita untuk mengumpulkan data bersama walaupun beda type data kedalam single object.</p>
+<p>karena issue rotasi terjadi karena destroy maka sebelum destroy terjadi saya mau simpan state yang sedang berjalan dengan method onSaveInstanceState() method ini bisa dipanggil sebelum method onDestroy() berjalan. method onSaveInstanceState() mempunyai satu parameter yaitu Bundle dan Bundle
+membolehkan kita untuk mengumpulkan data bersama walaupun beda type data kedalam single object.</p>
 
+<h2 id="onsaveinstancestate">onSaveInstanceState</h2>
 <p>method onCreate akan melewati Bundle sebagai parameter. ini berarti jika saya menambah value mRunning dan mSecond ke Bundle, method onCreate() akan mengambil mereka ketika Activity dimuat ulang. aturan memakai method Bundle :</p>
 
 <p><code class="highlighter-rouge">bundle.put*("name", value)</code></p>
@@ -294,6 +307,13 @@
 <figcaption>isuue rotate solve</figcaption>
 </figure>
 
+<p>uml setelah penambahan method onSaveInstanceState()</p>
+<figure style="width:300px" class="align-center">
+<img src="/images/stopwatchactivity2.png" />
+<figcaption>isuue rotate solve</figcaption>
+</figure>
+
+<p>issue selanjutnya adalah ketika app berjalan user klik start button tiba tiba ada email atau notifikasi lain misal aplikasi chat terus kita liat/buka app chat itu aplikasi stopwatch otomatis tidak terlihat dan mungkin stopwatch akan terus berjalan menghitung tiap detik tapi bagaimana kalau aku pengen ketika app stopwatch tidak terlihat dia otomatis stop alias tdak berjalan?</p>
 
         
       </section>

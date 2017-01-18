@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-09T14:35:15+00:00</updated><id>http://localhost:4000/</id><title type="html">./SO</title><subtitle>personal blog</subtitle><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><entry><title type="html">Bedah MVP pattern di Android</title><link href="http://localhost:4000/Bedah-Arsitektur-MVP/" rel="alternate" type="text/html" title="Bedah MVP pattern di Android" /><published>2018-01-20T00:00:00+00:00</published><updated>2018-01-20T00:00:00+00:00</updated><id>http://localhost:4000/Bedah-Arsitektur-MVP</id><content type="html" xml:base="http://localhost:4000/Bedah-Arsitektur-MVP/">&lt;figure style=&quot;width: 400px&quot; class=&quot;align-center&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-09T16:08:38+00:00</updated><id>http://localhost:4000/</id><title type="html">./SO</title><subtitle>personal blog</subtitle><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><entry><title type="html">Bedah MVP pattern di Android</title><link href="http://localhost:4000/Bedah-Arsitektur-MVP/" rel="alternate" type="text/html" title="Bedah MVP pattern di Android" /><published>2018-01-20T00:00:00+00:00</published><updated>2018-01-20T00:00:00+00:00</updated><id>http://localhost:4000/Bedah-Arsitektur-MVP</id><content type="html" xml:base="http://localhost:4000/Bedah-Arsitektur-MVP/">&lt;figure style=&quot;width: 400px&quot; class=&quot;align-center&quot;&gt;
 &lt;img src=&quot;/images/mvp.png&quot; /&gt;
 &lt;figcaption&gt;credit: androidpub&lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -153,6 +153,16 @@ akhirnya kepikiran untuk install thinkpad archlinux muncul ketakutan konfigurasi
 &lt;/figure&gt;
 
 &lt;p&gt;Memang betul dalam prakteknya konsep ViewGroup RecyclerView sulit tapi setidaknya dengan pemaparan di udacity hasilnya seperti gambar diatas saya jadi sedikit banyak terbantu karena fungsinya sangat penting dari sekedar ListView jadi makin tak sabar untuk explore lebih jau lagi dan lagi&lt;/p&gt;</content><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><category term="Android" /><summary type="html">RecyclerView shunshine udacity Contents Mei tahun 2017 begitu membara cukup terseok seok hanya untuk sekedar istiqomah dan waktunya untuk mengupas habis beberapa ketertinggalan diving in biar gak makin tertinggal okey RecyclerView di perkenalkan pada saat android L adalah sebuah ViewGroup baru yang di persiapkan untuk render view adapter menurut mentor di udacity RecyclerView menjadi inti dari banyak aplikasi dengan alesan untuk hal hal yang compleks penangannya daripada ListView isu utama dari RecylcerView adalah mengenai garbage collection memory yang terpakai saat menampilkan data dengan banyak nan kompleks</summary></entry><entry><title type="html">Mendalami Activity Lifecyle</title><link href="http://localhost:4000/Mendalami-LifeCycle-Activity/" rel="alternate" type="text/html" title="Mendalami Activity Lifecyle" /><published>2017-01-13T00:00:00+00:00</published><updated>2017-01-13T00:00:00+00:00</updated><id>http://localhost:4000/Mendalami-LifeCycle-Activity</id><content type="html" xml:base="http://localhost:4000/Mendalami-LifeCycle-Activity/">&lt;p style=&quot;text-align: justify;&quot;&gt;Mengulang membaca buku materi tentang Lifecyle Activity semakin diulang semaki seru tentu saja merawat ingatan biar fondasi android tak terlupakan kali ini dengan App stopwatch simpel hanya dengan single  class Activity dan single layout yaitu &lt;code class=&quot;highlighter-rouge&quot;&gt;stopWatchActivity&lt;/code&gt; dan &lt;code class=&quot;highlighter-rouge&quot;&gt;activity_stop_watch.xml&lt;/code&gt;.&lt;/p&gt;
+&lt;aside class=&quot;sidebar__right&quot;&gt;
+&lt;nav class=&quot;toc&quot;&gt;
+    &lt;header&gt;&lt;h4 class=&quot;nav__title&quot;&gt;&lt;i class=&quot;fa fa-file-text&quot;&gt;&lt;/i&gt; Contents&lt;/h4&gt;&lt;/header&gt;
+&lt;ul class=&quot;toc__menu&quot; id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#launch-running--destroy&quot; id=&quot;markdown-toc-launch-running--destroy&quot;&gt;Launch, Running , Destroy&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#onsaveinstancestate&quot; id=&quot;markdown-toc-onsaveinstancestate&quot;&gt;onSaveInstanceState&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/nav&gt;
+&lt;/aside&gt;
 
 &lt;figure style=&quot;width:400px&quot; class=&quot;align-center&quot;&gt;
 &lt;img src=&quot;/images/stopwatch.gif&quot; /&gt;
@@ -174,6 +184,7 @@ akhirnya kepikiran untuk install thinkpad archlinux muncul ketakutan konfigurasi
 
 &lt;p&gt;apa yang terjadi adalah rotasi layar android dan ukuran layar berubah, dan itu destroy Activity, termasuk semua variabel yang digunakan method runTimer(). setelah itu method onCreate() berjalan lagi dan method runTimer() dipanggil karena Activity di re-create, variabel mSecond dan mRunning bernilai default.&lt;/p&gt;
 
+&lt;h2 id=&quot;launch-running--destroy&quot;&gt;Launch, Running , Destroy&lt;/h2&gt;
 &lt;p&gt;Main state dari activity adalah ketika dia running atau aktif. activity berjalan di foreground dari screen dan user berinteraksi dengannya, activity running setelah ter launch dan berakhir setelah di destroy. ketika activity berubah dari launched dan akan di destroy dia mentrigger method kunci Lifecyle activity yaitu onCreate() dan onDestroy(). itu adalah method Lifecyle yang kita inherit di Activity dan bisa kita override.&lt;/p&gt;
 &lt;figure style=&quot;width:200px&quot; class=&quot;align-center&quot;&gt;
 &lt;img src=&quot;/images/activitylaunchstp.png&quot; /&gt;
@@ -186,8 +197,10 @@ akhirnya kepikiran untuk install thinkpad archlinux muncul ketakutan konfigurasi
 &lt;figcaption&gt;turunan class activity&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;karena issue rotati terjadi karena destroy maka sebelum destroy terjadi saya mau simpan state yang sedang berjalan dengan method onSaveInstanceState() method ini bisa dipanggil sebelum method onDestroy() berjalan. method onSaveInstanceState() mempunyai satu parameter yaitu Bundle dan Bundle membolehkan kita untuk mengumpulkan data bersama walaupun beda type data kedalam single object.&lt;/p&gt;
+&lt;p&gt;karena issue rotasi terjadi karena destroy maka sebelum destroy terjadi saya mau simpan state yang sedang berjalan dengan method onSaveInstanceState() method ini bisa dipanggil sebelum method onDestroy() berjalan. method onSaveInstanceState() mempunyai satu parameter yaitu Bundle dan Bundle
+membolehkan kita untuk mengumpulkan data bersama walaupun beda type data kedalam single object.&lt;/p&gt;
 
+&lt;h2 id=&quot;onsaveinstancestate&quot;&gt;onSaveInstanceState&lt;/h2&gt;
 &lt;p&gt;method onCreate akan melewati Bundle sebagai parameter. ini berarti jika saya menambah value mRunning dan mSecond ke Bundle, method onCreate() akan mengambil mereka ketika Activity dimuat ulang. aturan memakai method Bundle :&lt;/p&gt;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bundle.put*(&quot;name&quot;, value)&lt;/code&gt;&lt;/p&gt;
@@ -209,7 +222,15 @@ akhirnya kepikiran untuk install thinkpad archlinux muncul ketakutan konfigurasi
 &lt;figure style=&quot;width:500px&quot; class=&quot;align-center&quot;&gt;
 &lt;img src=&quot;/images/rotatestop.gif&quot; /&gt;
 &lt;figcaption&gt;isuue rotate solve&lt;/figcaption&gt;
-&lt;/figure&gt;</content><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><category term="Android" /><summary type="html">Mengulang membaca buku materi tentang Lifecyle Activity semakin diulang semaki seru tentu saja merawat ingatan biar fondasi android tak terlupakan kali ini dengan App stopwatch simpel hanya dengan single class Activity dan single layout yaitu stopWatchActivity dan activity_stop_watch.xml.</summary></entry><entry><title type="html">Error Android Virtual Device kubuntu 64 bit</title><link href="http://localhost:4000/Error-Android-Virtual-Device-Kubuntu-64bit/" rel="alternate" type="text/html" title="Error Android Virtual Device kubuntu 64 bit" /><published>2016-12-04T00:00:00+00:00</published><updated>2016-12-04T00:00:00+00:00</updated><id>http://localhost:4000/Error-Android-Virtual-Device-Kubuntu-64bit</id><content type="html" xml:base="http://localhost:4000/Error-Android-Virtual-Device-Kubuntu-64bit/">&lt;figure style=&quot;width: 700px&quot; class=&quot;align-center&quot;&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;uml setelah penambahan method onSaveInstanceState()&lt;/p&gt;
+&lt;figure style=&quot;width:300px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/stopwatchactivity2.png&quot; /&gt;
+&lt;figcaption&gt;isuue rotate solve&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;issue selanjutnya adalah ketika app berjalan user klik start button tiba tiba ada email atau notifikasi lain misal aplikasi chat terus kita liat/buka app chat itu aplikasi stopwatch otomatis tidak terlihat dan mungkin stopwatch akan terus berjalan menghitung tiap detik tapi bagaimana kalau aku pengen ketika app stopwatch tidak terlihat dia otomatis stop alias tdak berjalan?&lt;/p&gt;</content><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><category term="Android" /><summary type="html">Mengulang membaca buku materi tentang Lifecyle Activity semakin diulang semaki seru tentu saja merawat ingatan biar fondasi android tak terlupakan kali ini dengan App stopwatch simpel hanya dengan single class Activity dan single layout yaitu stopWatchActivity dan activity_stop_watch.xml. Contents</summary></entry><entry><title type="html">Error Android Virtual Device kubuntu 64 bit</title><link href="http://localhost:4000/Error-Android-Virtual-Device-Kubuntu-64bit/" rel="alternate" type="text/html" title="Error Android Virtual Device kubuntu 64 bit" /><published>2016-12-04T00:00:00+00:00</published><updated>2016-12-04T00:00:00+00:00</updated><id>http://localhost:4000/Error-Android-Virtual-Device-Kubuntu-64bit</id><content type="html" xml:base="http://localhost:4000/Error-Android-Virtual-Device-Kubuntu-64bit/">&lt;figure style=&quot;width: 700px&quot; class=&quot;align-center&quot;&gt;
 &lt;img src=&quot;/images/kinfo.png&quot; /&gt;
 &lt;figcaption&gt;kinfo&lt;/figcaption&gt;
 &lt;/figure&gt;

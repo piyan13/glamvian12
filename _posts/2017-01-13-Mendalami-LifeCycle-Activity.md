@@ -12,6 +12,7 @@ related: true
 
 Mengulang membaca buku materi tentang Lifecyle Activity semakin diulang semaki seru tentu saja merawat ingatan biar fondasi android tak terlupakan kali ini dengan App stopwatch simpel hanya dengan single  class Activity dan single layout yaitu `stopWatchActivity` dan `activity_stop_watch.xml`.
 {: style="text-align: justify;"}
+{% include toc title="Contents" icon="file-text" %}
 
 <figure style="width:400px" class="align-center">
 <img src="/images/stopwatch.gif">
@@ -33,11 +34,13 @@ issue pertama muncul ketika app berjalan setelah kita touch start button trus de
 
 apa yang terjadi adalah rotasi layar android dan ukuran layar berubah, dan itu destroy Activity, termasuk semua variabel yang digunakan method runTimer(). setelah itu method onCreate() berjalan lagi dan method runTimer() dipanggil karena Activity di re-create, variabel mSecond dan mRunning bernilai default.
 
+## Launch, Running , Destroy
 Main state dari activity adalah ketika dia running atau aktif. activity berjalan di foreground dari screen dan user berinteraksi dengannya, activity running setelah ter launch dan berakhir setelah di destroy. ketika activity berubah dari launched dan akan di destroy dia mentrigger method kunci Lifecyle activity yaitu onCreate() dan onDestroy(). itu adalah method Lifecyle yang kita inherit di Activity dan bisa kita override.
 <figure style="width:200px" class="align-center">
 <img src="/images/activitylaunchstp.png">
 <figcaption>alur activity born to death</figcaption>
 </figure>
+
 
 Method onCreate() akan dipanggil setelah Activity di launch. dan method onDestroy() adalah method terakhir yang di panggil sebelum activity di destroy
 <figure style="width:300px" class="align-center">
@@ -45,8 +48,10 @@ Method onCreate() akan dipanggil setelah Activity di launch. dan method onDestro
 <figcaption>turunan class activity</figcaption>
 </figure>
 
-karena issue rotati terjadi karena destroy maka sebelum destroy terjadi saya mau simpan state yang sedang berjalan dengan method onSaveInstanceState() method ini bisa dipanggil sebelum method onDestroy() berjalan. method onSaveInstanceState() mempunyai satu parameter yaitu Bundle dan Bundle membolehkan kita untuk mengumpulkan data bersama walaupun beda type data kedalam single object.
+karena issue rotasi terjadi karena destroy maka sebelum destroy terjadi saya mau simpan state yang sedang berjalan dengan method onSaveInstanceState() method ini bisa dipanggil sebelum method onDestroy() berjalan. method onSaveInstanceState() mempunyai satu parameter yaitu Bundle dan Bundle
+membolehkan kita untuk mengumpulkan data bersama walaupun beda type data kedalam single object.
 
+## onSaveInstanceState
 method onCreate akan melewati Bundle sebagai parameter. ini berarti jika saya menambah value mRunning dan mSecond ke Bundle, method onCreate() akan mengambil mereka ketika Activity dimuat ulang. aturan memakai method Bundle :
 
 `bundle.put*("name", value)`
@@ -70,3 +75,10 @@ alhamdulillah pecah misterinya
 <figcaption>isuue rotate solve</figcaption>
 </figure>
 
+uml setelah penambahan method onSaveInstanceState()
+<figure style="width:300px" class="align-center">
+<img src="/images/stopwatchactivity2.png">
+<figcaption>isuue rotate solve</figcaption>
+</figure>
+
+issue selanjutnya adalah ketika app berjalan user klik start button tiba tiba ada email atau notifikasi lain misal aplikasi chat terus kita liat/buka app chat itu aplikasi stopwatch otomatis tidak terlihat dan mungkin stopwatch akan terus berjalan menghitung tiap detik tapi bagaimana kalau aku pengen ketika app stopwatch tidak terlihat dia otomatis stop alias tdak berjalan?
