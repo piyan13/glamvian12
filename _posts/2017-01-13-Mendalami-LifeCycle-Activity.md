@@ -102,3 +102,42 @@ proctected void onStop() {
  mRunning = false;
  }
  ```
+sekarang stopwatch berhenti ketika acitivity tidak lagi terlihat . lalu yang saya perlu lakukan adalah meminta stopwatch start lagi ketika activity kembali terlihat. pertama tama saya menambah variabel boolean mWasRunning untuk di digunakan method onSaveInstanceState(), dan onRestart(). 
+
+```java
+    private int mSecond = 0;
+    private boolean mRunning;
+    private boolean mWasRunning;
+```
+lalu menambahkannya di method onSaveInstanceState()
+
+```java
+ @Override
+    public void onSaveInstanceState(Bundle outState) {
+        outState.putInt("second",mSecond);
+        outState.putBoolean("running",mRunning);
+        outState.putBoolean("wasRunning",mWasRunning);
+        super.onSaveInstanceState(outState);
+    }
+```
+waktunya override method onStop()
+
+```java
+@Override
+    protected void onStop() {
+        super.onStop();
+        mWasRunning = mRunning;
+        mRunning = false;
+    }
+```
+
+```java
+ @Override
+    protected void onStart() {
+        super.onStart();
+        if (mWasRunning){
+            mRunning = true;
+        }
+    }
+```    
+

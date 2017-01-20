@@ -228,7 +228,7 @@
             <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
 
 
-  2 minutes read
+  3 minutes read
 </p>
           
         </header>
@@ -336,6 +336,41 @@ membolehkan kita untuk mengumpulkan data bersama walaupun beda type data kedalam
  <span class="n">mRunning</span> <span class="o">=</span> <span class="kc">false</span><span class="o">;</span>
  <span class="o">}</span>
 </code></pre></div></div>
+<p>sekarang stopwatch berhenti ketika acitivity tidak lagi terlihat . lalu yang saya perlu lakukan adalah meminta stopwatch start lagi ketika activity kembali terlihat. pertama tama saya menambah variabel boolean mWasRunning untuk di digunakan method onSaveInstanceState(), dan onRestart().</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="kd">private</span> <span class="kt">int</span> <span class="n">mSecond</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+    <span class="kd">private</span> <span class="kt">boolean</span> <span class="n">mRunning</span><span class="o">;</span>
+    <span class="kd">private</span> <span class="kt">boolean</span> <span class="n">mWasRunning</span><span class="o">;</span>
+</code></pre></div></div>
+<p>lalu menambahkannya di method onSaveInstanceState()</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nd">@Override</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">onSaveInstanceState</span><span class="o">(</span><span class="n">Bundle</span> <span class="n">outState</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">outState</span><span class="o">.</span><span class="na">putInt</span><span class="o">(</span><span class="s">"second"</span><span class="o">,</span><span class="n">mSecond</span><span class="o">);</span>
+        <span class="n">outState</span><span class="o">.</span><span class="na">putBoolean</span><span class="o">(</span><span class="s">"running"</span><span class="o">,</span><span class="n">mRunning</span><span class="o">);</span>
+        <span class="n">outState</span><span class="o">.</span><span class="na">putBoolean</span><span class="o">(</span><span class="s">"wasRunning"</span><span class="o">,</span><span class="n">mWasRunning</span><span class="o">);</span>
+        <span class="kd">super</span><span class="o">.</span><span class="na">onSaveInstanceState</span><span class="o">(</span><span class="n">outState</span><span class="o">);</span>
+    <span class="o">}</span>
+</code></pre></div></div>
+<p>waktunya override method onStop()</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nd">@Override</span>
+    <span class="kd">protected</span> <span class="kt">void</span> <span class="nf">onStop</span><span class="o">()</span> <span class="o">{</span>
+        <span class="kd">super</span><span class="o">.</span><span class="na">onStop</span><span class="o">();</span>
+        <span class="n">mWasRunning</span> <span class="o">=</span> <span class="n">mRunning</span><span class="o">;</span>
+        <span class="n">mRunning</span> <span class="o">=</span> <span class="kc">false</span><span class="o">;</span>
+    <span class="o">}</span>
+</code></pre></div></div>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nd">@Override</span>
+    <span class="kd">protected</span> <span class="kt">void</span> <span class="nf">onStart</span><span class="o">()</span> <span class="o">{</span>
+        <span class="kd">super</span><span class="o">.</span><span class="na">onStart</span><span class="o">();</span>
+        <span class="k">if</span> <span class="o">(</span><span class="n">mWasRunning</span><span class="o">){</span>
+            <span class="n">mRunning</span> <span class="o">=</span> <span class="kc">true</span><span class="o">;</span>
+        <span class="o">}</span>
+    <span class="o">}</span>
+</code></pre></div></div>
+
 
         
       </section>
