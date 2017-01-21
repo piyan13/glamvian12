@@ -139,5 +139,11 @@ waktunya override method onStop()
             mRunning = true;
         }
     }
-```    
+```
+
+<figure style="width:300px" class="align-center">
+<img src="/images/visiblestp.gif">
+<figcaption>stop visible</figcaption>
+</figure>
+
 
