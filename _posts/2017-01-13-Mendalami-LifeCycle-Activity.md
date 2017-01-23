@@ -146,4 +146,13 @@ waktunya override method onStop()
 <figcaption>stop visible</figcaption>
 </figure>
 
+skenarionya adalah pertama app stopwatch berjalan variabel mRunning = true ; di pertengahan saya pindah ke app todo task menjadikan app stopwatch invisible dalam posisi ini variabel mRunning menjadi false karena method onStop() dan variabel mWasRunning menjadi berniali true. selanjutnya saya kembalikan ke app stopwatch method onStart menerima variabel mWasRunning dan activity mengambil simpana data dari method onSaveInstanceState() akhinya kembali berjalan.
+<figure style="width:300px" class="align-center">
+<img src="/images/stpwasrun.png">
+<figcaption>uml setelah mWasRunning</figcaption>
+</figure>
+ada pertanyaan kenapa tidak memaki method onRestart()? method itu digunakan bila kita hanya ingin code berjalan ketika app dari visible yang mana sebelumnya invisible. dia tidak berjalan ketika activity visible untuk pertamakalinya. dalam kasus stopwatch ini kan saya ingin app tetap berjalan ketika app di rotasi jugak. trus perbedaane apa onRestart dan onStart? okey saat kita merubah rotasi device acitivity ter destroy dan membuat satu lagi yang baru. jika kita masukan code di method onRestart, dia tidak akan berjalan ketika activity re-created. kalau method onStart() terpanggil saat terjadi rotasi dan terjadi invisible ke visible. 
+
+
+
 
