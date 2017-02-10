@@ -37,7 +37,7 @@
 
 
 
-  <meta property="og:description" content="studi kasus kali ini adalah tentang Fragment dan membuat app workout, app workout app sederhana yang di desain untuk terlihat bagus baik untuk layar standard phone atau layar besar seperti tablet. tentunya dengan menyiapkan 2 layout yang berbeda tapi layout saja tidak cukup untuk device yang berbeda butuh 2code java jugak agar tampilan bisa menyesuaikan device (yaitu phone atau tablet), untuk app workout saya butuh sediakan satu activity untuk tablet dan dua activity untuk phone.">
+  <meta property="og:description" content="     Contents  studi kasus kali ini adalah tentang Fragment dan membuat app workout, app workout app sederhana yang di desain untuk terlihat bagus baik untuk layar standard phone atau layar besar seperti tablet. tentunya dengan menyiapkan 2 layout yang berbeda tapi layout saja tidak cukup untuk device yang berbeda butuh 2code java jugak agar tampilan bisa menyesuaikan device (yaitu phone atau tablet), untuk app workout saya butuh sediakan satu activity untuk tablet dan dua activity untuk phone.">
 
 
 
@@ -215,7 +215,7 @@
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     <meta itemprop="headline" content="Fragment ?">
-    <meta itemprop="description" content="studi kasus kali ini adalah tentang Fragment dan membuat app workout, app workout app sederhana yang di desain untuk terlihat bagus baik untuk layar standard phone atau layar besar seperti tablet. tentunya dengan menyiapkan 2 layout yang berbeda tapi layout saja tidak cukup untuk device yang berbeda butuh 2code java jugak agar tampilan bisa menyesuaikan device (yaitu phone atau tablet), untuk app workout saya butuh sediakan satu activity untuk tablet dan dua activity untuk phone.">
+    <meta itemprop="description" content="     Contents  studi kasus kali ini adalah tentang Fragment dan membuat app workout, app workout app sederhana yang di desain untuk terlihat bagus baik untuk layar standard phone atau layar besar seperti tablet. tentunya dengan menyiapkan 2 layout yang berbeda tapi layout saja tidak cukup untuk device yang berbeda butuh 2code java jugak agar tampilan bisa menyesuaikan device (yaitu phone atau tablet), untuk app workout saya butuh sediakan satu activity untuk tablet dan dua activity untuk phone.">
     <meta itemprop="datePublished" content="February 07, 2017">
     
 
@@ -228,16 +228,36 @@
             <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
 
 
-  less than 1 minute read
+  1 minute read
 </p>
           
         </header>
       
 
       <section class="page__content" itemprop="text">
-        <p style="text-align: justify;">studi kasus kali ini adalah tentang Fragment dan membuat app workout, app workout app sederhana yang di desain untuk terlihat bagus baik untuk layar standard phone atau layar besar seperti tablet. tentunya dengan menyiapkan 2 layout yang berbeda tapi layout saja tidak cukup untuk device yang berbeda butuh 2code java jugak agar tampilan bisa menyesuaikan device (yaitu phone atau tablet), untuk app workout saya butuh sediakan satu activity untuk tablet dan dua activity untuk phone.</p>
+        <aside class="sidebar__right">
+<nav class="toc">
+    <header><h4 class="nav__title"><i class="fa fa-file-text"></i> Contents</h4></header>
+<ul class="toc__menu" id="markdown-toc">
+  <li><a href="#kegunaan-fragment" id="markdown-toc-kegunaan-fragment">Kegunaan Fragment</a></li>
+  <li><a href="#layout-fragment" id="markdown-toc-layout-fragment">Layout Fragment</a>    <ul>
+      <li><a href="#struktur-app-workout" id="markdown-toc-struktur-app-workout">struktur app workout</a></li>
+    </ul>
+  </li>
+</ul>
 
-<p>ohya untuk workout sendiri adalah yang menampilakan list workout dan detail workout, jadi ketika user touch salah satu list workout maka akan muncul keterangan detail dari workout tersebut.untuk phone akan membutuhkan 2Activity tapi tidak dengan tablet yang menjadi masalah adalah ketika rancangan itu di implementasikan bakal ada code yang diduplikat karena untuk detail phone berada di activity kedua tapi kalau run di tablet code detail jugak harus berada di mainactivity. di situlah keunggulan dan manfaat Fragment diperlukan</p>
+  </nav>
+</aside>
+<p style="text-align: justify;">studi kasus kali ini adalah tentang Fragment dan membuat app workout, app workout app sederhana yang di desain untuk terlihat bagus baik untuk layar standard phone atau layar besar seperti tablet. tentunya dengan menyiapkan 2 layout yang berbeda tapi layout saja tidak cukup untuk device yang berbeda butuh 2code java jugak agar tampilan bisa menyesuaikan device (yaitu phone atau tablet), untuk app workout saya butuh sediakan satu activity untuk tablet dan dua activity untuk phone.</p>
+
+<h2 id="kegunaan-fragment">Kegunaan Fragment</h2>
+<p style="text-align: justify;">ohya untuk workout sendiri adalah yang menampilakan list workout dan detail workout, jadi ketika user touch salah satu list workout maka akan muncul keterangan detail dari workout tersebut.untuk phone akan membutuhkan 2Activity tapi tidak dengan tablet yang menjadi masalah adalah ketika rancangan itu di implementasikan bakal ada code yang diduplikat karena untuk detail phone berada di activity kedua tapi kalau run di tablet code detail jugak harus berada di mainactivity. di situlah keunggulan dan manfaat Fragment diperlukan karena dia bisa reuse code diantara screen. nah untuk app workout kita cukup membuat Fragment list dan Fragment detail untuk menampilkan detail dari workout.</p>
+
+<h2 id="layout-fragment">Layout Fragment</h2>
+<p style="text-align: justify;">Fragment memiliki dan terhubung layout seperti activity dengan java code kita bisa control apapun di dalam interface didalam app workout memungkinkan saya untuk membuat tampilan bertingkah tergantung dari ukuran layar untuk phone atau tablet.</p>
+
+<h3 id="struktur-app-workout">struktur app workout</h3>
+<p style="text-align: justify;">ketika app workout mempunyai single activity yaitu MainActivity dengan layout activity_layout.xml kemudian Activity mepunyai dua Fragment, Fragment yang pertama adalah WorkoutListFragment untuk menampilkan list dari workout dengan layout fragment_workout_list.xml yang kedua adalah WorkoutDetailFragment yang menampilkan detail dari workout dengan layout fragment_workout_detail.xml dak kedua Fragment tersebut mengambil data dari Workout.java yaitu class yang berisi data array dari workout.</p>
 
         
       </section>
