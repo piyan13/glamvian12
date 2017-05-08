@@ -84,4 +84,3 @@ save degan belajar.py nah panggil deh lewat console(ctrl+alt+t) dengan perintah
 `glamvian@glamvian ~ $ python belajar.py`
 liat hasilnya, selamat mengeksplorisasi bahasa pemrogaman yang fenomena ini dan akan sangat menjanjikan di masa yang akan datang.
 
-
