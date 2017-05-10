@@ -1,4 +1,486 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.0.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2016-04-23T18:41:48+07:00</updated><id>/</id><title>./SO</title><subtitle>personal blog</subtitle><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><entry><title>Failed to resized display</title><link href="/failed-to-resized-display/" rel="alternate" type="text/html" title="Failed to resized display" /><published>2015-02-17T00:00:00+07:00</published><updated>2015-02-17T00:00:00+07:00</updated><id>/failed-to-resized-display</id><content type="html" xml:base="/failed-to-resized-display/">&lt;figure style=&quot;width: 400px&quot; class=&quot;align-center&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-05-10T16:38:49+00:00</updated><id>http://localhost:4000/</id><title type="html">./SO</title><subtitle>personal blog</subtitle><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><entry><title type="html">Lebih dalam tentang RecyclerView</title><link href="http://localhost:4000/Lebih-dalam-tentang-RecyclerView/" rel="alternate" type="text/html" title="Lebih dalam tentang RecyclerView" /><published>2017-05-08T00:00:00+00:00</published><updated>2017-05-08T00:00:00+00:00</updated><id>http://localhost:4000/Lebih-dalam-tentang-RecyclerView</id><content type="html" xml:base="http://localhost:4000/Lebih-dalam-tentang-RecyclerView/">&lt;figure style=&quot;width: 700px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/udaRecycle.gif&quot; /&gt;
+&lt;figcaption&gt;RecyclerView shunshine udacity&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;Mei tahun 2017 begitu membara cukup terseok seok hanya untuk sekedar istiqomah dan waktunya untuk mengupas habis beberapa ketertinggalan diving in biar gak makin tertinggal okey RecyclerView di perkenalkan pada saat android L adalah sebuah ViewGroup baru yang di persiapkan untuk render view adapter menurut mentor di udacity RecyclerView menjadi inti dari banyak aplikasi dengan alesan untuk hal hal yang compleks penangannya daripada ListView isu utama dari RecylcerView adalah mengenai garbage collection memory yang terpakai saat menampilkan data dengan banyak nan kompleks&lt;/p&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;Modular hampir di setiap bagian dari RecyclerView dan untuk mendalaminya saya harus merasa nyaman dengan element elementnya kayak &lt;code class=&quot;highlighter-rouge&quot;&gt;RecyclerView.Adapter&lt;/code&gt; , &lt;code class=&quot;highlighter-rouge&quot;&gt;LayoutManager&lt;/code&gt; , &lt;code class=&quot;highlighter-rouge&quot;&gt;ItemAnimator&lt;/code&gt;  dll berangkat dari sana mencoba untuk menelaah satu persatu&lt;/p&gt;
+&lt;h2 id=&quot;adapter&quot;&gt;Adapter&lt;/h2&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;RecyclerView mempunyai Adapter sebuah subclass RecyclerView.Adapter digunakan untuk mengikat data dari beberapa sumber data ke View, Adapter mengirimkan View ke RecyclerView melalui object ViewHolder, ViewHolder sendiri berisikan refrence root object view untuk item digunakan untuk meng cache object view di layout supaya mempermudah pada saat memperbarui view dengan data yang baru dalam app contoh yang saya pelajari dari udacity class adapter saya namakan GreenAdapter.java&lt;/p&gt;</content><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><category term="Android" /><summary type="html">RecyclerView shunshine udacity</summary></entry><entry><title type="html">Error Android Virtual Device kubuntu 64 bit</title><link href="http://localhost:4000/Error-Android-Virtual-Device-Kubuntu-64bit/" rel="alternate" type="text/html" title="Error Android Virtual Device kubuntu 64 bit" /><published>2016-12-04T00:00:00+00:00</published><updated>2016-12-04T00:00:00+00:00</updated><id>http://localhost:4000/Error-Android-Virtual-Device-Kubuntu-64bit</id><content type="html" xml:base="http://localhost:4000/Error-Android-Virtual-Device-Kubuntu-64bit/">&lt;figure style=&quot;width: 700px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/kinfo.png&quot; /&gt;
+&lt;figcaption&gt;kinfo&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Tibalah saatnya untuk upgrade Ram ddr3l thinkpad e145 dari 4GB ke 8GB di iringi penuh drama semenjak pertama kali upgrade ke 4GB dan 8GB adalah upgrade terakhir karena thinkpad ini hanya bisa up to 8GB menurut website resminya tapi menurut kabar beredar dari mas mas di VGEN service center ini thinkpad bisa sampek 16GB tapi rasanya saya tidak sebegitu tertarik untuk coba coba pasalnya upgrade ke 8GB hanya untuk memenuhi rekomendasi system untuk &lt;a href=&quot;https://developer.android.com/studio/index.html&quot;&gt;android studio di operating system linux&lt;/a&gt;&lt;/p&gt;
+
+&lt;figure style=&quot;width: 700px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/rekomAndro.png&quot; /&gt;
+&lt;figcaption&gt;system requirement&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;setelah upgrade dan langsung saya coba untuk menjalankan android studio dan run code untuk dijalankan di android virtual device untuk mengetahui bagaimana performa thinkpad saat setelah upgrade ram 8GB akhirnya ketemu error &lt;code class=&quot;highlighter-rouge&quot;&gt;EmptyThrowable: Failed to create the SD card&lt;/code&gt;.&lt;/p&gt;
+
+&lt;figure style=&quot;width: 800px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/empty.png&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;saya baru inget kalau kubuntu ini baru saya install ulang gara gara percobaan install guitarix beta akhirnya banyak error dedepency yang mengakibatkan harus install ulang (ini cara terjitu hemat waktu agar gak ribet aja heuheuheu) dan jawaban dari error di atas adalah &lt;a href=&quot;http://www.glamvian.com/erorr-android-studio/&quot;&gt;di postingan saya bulan bulan lalu&lt;/a&gt;
+okey problem &lt;code class=&quot;highlighter-rouge&quot;&gt;EmptyThrowable: Failed to create the SD card&lt;/code&gt; terselesaikan.&lt;/p&gt;
+
+&lt;figure style=&quot;width: 500px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/erorRunEmulator.jpg&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;saat run emulator muncul error baru libGL error setelah baca baca di bug reportnya google jawabanya adalah libstdc++6 yang barusan di install belom terload di sdk kita&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/Android/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Sdk&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tools&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lib64&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;libstdc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;
+ &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mv&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;libstdc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;so&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;libstdc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;so&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;bak&lt;/span&gt;
+ &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ln&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/usr/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lib64&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;libstdc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;so&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/Android/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Sdk&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tools&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lib64&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;libstdc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;figure style=&quot;width: 200px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/solved.jpg&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;akhirnya emulator bisa mengudara dan setelah compile dan run code app terinstall sempurna di emulator dan berjalan sangat smooth pengaruh ram 8GB alhamdulilah jadi tambah semangat bekarya ya&lt;/p&gt;
+
+&lt;figure style=&quot;width: 500px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/emudone.gif&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;</content><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><category term="Linux" /><summary type="html">kinfo Tibalah saatnya untuk upgrade Ram ddr3l thinkpad e145 dari 4GB ke 8GB di iringi penuh drama semenjak pertama kali upgrade ke 4GB dan 8GB adalah upgrade terakhir karena thinkpad ini hanya bisa up to 8GB menurut website resminya tapi menurut kabar beredar dari mas mas di VGEN service center ini thinkpad bisa sampek 16GB tapi rasanya saya tidak sebegitu tertarik untuk coba coba pasalnya upgrade ke 8GB hanya untuk memenuhi rekomendasi system untuk android studio di operating system linux</summary></entry><entry><title type="html">Membongkar source code PrayTime</title><link href="http://localhost:4000/membongkar-source-code-PrayTime/" rel="alternate" type="text/html" title="Membongkar source code PrayTime" /><published>2016-10-12T00:00:00+00:00</published><updated>2016-10-12T00:00:00+00:00</updated><id>http://localhost:4000/membongkar-source-code-PrayTime</id><content type="html" xml:base="http://localhost:4000/membongkar-source-code-PrayTime/">&lt;figure style=&quot;width: 200px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/analog.JPG&quot; /&gt;
+&lt;figcaption&gt;waktu sholat&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Karena cukup penasaran dengan algoritma perhitungan waktu sholat dan kebutuhan jugak sih karena terkadang pekerjaan yang saya jalani berada pada posisi tidak dapat mendengar bunyi 
+suara adzan bahkan posisi di tempat penduduknya mayoritas non muslim,terbesit keinginan untuk mencari algoritma dari perhitungan sholat dan menemukan beberapa referensi di website &lt;a href=&quot;http://praytimes.org/&quot;&gt;praytime.org&lt;/a&gt; disana di terangkan bagaimana cara menghitung waktu sholat secara detail yang bersumber dari hadist dan al-quran tidak hanya alur perhitungan manualnya disana jugak sudah ada contoh &lt;a href=&quot;http://praytimes.org/wiki/Code&quot;&gt;source code&lt;/a&gt; yang di tulis dalam bahasa &lt;code class=&quot;highlighter-rouge&quot;&gt;javascript&lt;/code&gt; dan di digubah dalam beberapa bahasa pemrogaman terutama &lt;code class=&quot;highlighter-rouge&quot;&gt;java&lt;/code&gt; setelah saya download langsung saya coba compile di terminal&lt;/p&gt;
+
+&lt;figure style=&quot;width: 500px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/erorDeprecate.gif&quot; /&gt;
+&lt;figcaption&gt;deprecated API&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;langsung menemukan Deprecated API (Application Progamming Interface) pada class DATE&lt;/p&gt;
+&lt;figure style=&quot;width: 600px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/ana1.png&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure style=&quot;width: 700px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/ana2.png&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;kalau diliat dari dokumentasi &lt;a href=&quot;https://docs.oracle.com/javase/7/docs/api/java/util/Date.html&quot;&gt;javadoc&lt;/a&gt; sejak jdk 1.1 telah digantikan oleh Calendar.set di laptop saya telah menggunakan jdk 1.8 setelah menganalisa dengan seksama ternyata yang menggunakan class Date adalah method kedua alias opsional jadi saya &lt;code class=&quot;highlighter-rouge&quot;&gt;comments&lt;/code&gt; saja untuk sementara karena beberapa kali saya coba untuk merubah ke calendar.set belum bisa teratasi heuheuheu&lt;/p&gt;
+&lt;figure style=&quot;width: 700px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/coment.png&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure style=&quot;width: 500px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/erorpackage.gif&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;okey compiler sudah tidak ngriwik lagi tapi setelah di execute bytecode-nya muncul pesan &lt;code class=&quot;highlighter-rouge&quot;&gt;Error:could not find or load main class PrayTime&lt;/code&gt;
+kenapa tidak bisa load main class? ternyata saya menemukan syntax new package pemanggilan package newpackage di line 25 yang gak jelas maksutnya masih misteri&lt;/p&gt;
+
+&lt;figure style=&quot;width: 700px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/failpackage.png&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;setelah saya hapus syntax di line 25 akhirnya bisa melihat output dari source code PrayTime&lt;/p&gt;
+
+&lt;figure style=&quot;width: 500px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/suksescom.gif&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;tapi justru setelah code ini berhasil mengeluarkan output beberapa pertanyaan langsung menghujam di pikiran saya,alih alih akan membuat tulisan kali selesai malah bisa jadi tulisan kali ini akan bersambung . okey output yang dihasilkan diambil dari tanggal yang tertera di system computer setelah saya teliti lagi ada selisih sekitar 3menit sama waktu sholat di masjid surabaya beberapa hari mencari informasi ternyata banyak masjid di surabaya dan jawatimur masih berpedoman ke radio yang disiarkan di masjid rahmat salah satu masjid bersejarah di surabaya dan akhirnya saya jugak dapat informasi kalau masjid rahmat surabaya berpedoman pada tim hisab dan ruhiyat kementrian agama, &lt;a href=&quot;http://simbi.kemenag.go.id/sihat/waktu-sholat&quot;&gt;jadwal sholat&lt;/a&gt; mungkin kedepan saya akan lebih mencari tahu lagi kenapa masih bisa selisih lebih dari 3 menit dari jadwal yang ditentukan oleh kementrian agama&lt;/p&gt;</content><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><category term="Java" /><summary type="html">waktu sholat Karena cukup penasaran dengan algoritma perhitungan waktu sholat dan kebutuhan jugak sih karena terkadang pekerjaan yang saya jalani berada pada posisi tidak dapat mendengar bunyi suara adzan bahkan posisi di tempat penduduknya mayoritas non muslim,terbesit keinginan untuk mencari algoritma dari perhitungan sholat dan menemukan beberapa referensi di website praytime.org disana di terangkan bagaimana cara menghitung waktu sholat secara detail yang bersumber dari hadist dan al-quran tidak hanya alur perhitungan manualnya disana jugak sudah ada contoh source code yang di tulis dalam bahasa javascript dan di digubah dalam beberapa bahasa pemrogaman terutama java setelah saya download langsung saya coba compile di terminal</summary></entry><entry><title type="html">Membangkitkan sang legenda dengan Arch linux</title><link href="http://localhost:4000/membangkitkan-sang-legenda-dengan-archlinux/" rel="alternate" type="text/html" title="Membangkitkan sang legenda dengan Arch linux" /><published>2016-05-10T00:00:00+00:00</published><updated>2016-05-10T00:00:00+00:00</updated><id>http://localhost:4000/membangkitkan-sang-legenda-dengan-archlinux</id><content type="html" xml:base="http://localhost:4000/membangkitkan-sang-legenda-dengan-archlinux/">&lt;figure style=&quot;width: 200px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/aspire.png&quot; /&gt;
+&lt;figcaption&gt;legenda acer aspire 5315&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Acer aspire 5315 adalah alat tempur yang melegenda bagi saya dengan sejarah yang cukup panjang menemani belajar dikala susah maupun senang saat di perguruan tinggi ,terhitung dari tahun 2008an hingga awal 2014 sang legenda resmi menjadi hiasan di meja gudang penuh amunisi dikarenakan salah diagnosa penyakitnya. Alhamdulilah awal bulan mei bisa ketemu ahli perangkat keras dokter spesialis muhammad ngok sekarang bukak klinik di ketintang barat memberi wacana kalau mesin aspire 5315 saya normal hanya saja lcdnya yg bermasalah jadi kepikiran untuk mempersiapkannya untuk menambah amunisi developing saya. alkisah dari dulu laptop ini sangat pemilih dalam hal operating system hanya bisa berjalan sempurna di keluarga debian seperti ubuntu dan linuxmint ada saja kendala kalau di install selain turunan debian mulai kernel panic hingga freezy itu berlaku untuk varian distro linux lama dan baru akhirnya nekat install distro arch linux karena paketnya kita build terpisah sesuai kebutuhan, seperti apa perjalanannya mari kita ulas satu persatu&lt;/p&gt;
+
+&lt;aside class=&quot;sidebar__right&quot;&gt;
+&lt;nav class=&quot;toc&quot;&gt;
+    &lt;header&gt;&lt;h4 class=&quot;nav__title&quot;&gt;&lt;i class=&quot;fa fa-file-text&quot;&gt;&lt;/i&gt; Contents&lt;/h4&gt;&lt;/header&gt;
+&lt;ul class=&quot;toc__menu&quot; id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#mode-partisi&quot; id=&quot;markdown-toc-mode-partisi&quot;&gt;Mode Partisi&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#format-filesystem-dan-swap&quot; id=&quot;markdown-toc-format-filesystem-dan-swap&quot;&gt;Format filesystem dan Swap&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#waktunya-download-dan-install-package-base&quot; id=&quot;markdown-toc-waktunya-download-dan-install-package-base&quot;&gt;Waktunya download dan install package base&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#membuat-password-root-dan-user&quot; id=&quot;markdown-toc-membuat-password-root-dan-user&quot;&gt;Membuat password root dan user&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#konfigurasi-lokasi-bahasa-dan-zona-waktu&quot; id=&quot;markdown-toc-konfigurasi-lokasi-bahasa-dan-zona-waktu&quot;&gt;konfigurasi lokasi bahasa dan zona waktu&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#install-bootloader-dan-beres-beres&quot; id=&quot;markdown-toc-install-bootloader-dan-beres-beres&quot;&gt;Install Bootloader dan beres beres&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/nav&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;salah satu hal yang menarik dari menginstall operating system linux adalah
+sisi dokumentasinya yang sangat lengkap keuntungan opensource dengan komunitas terbesar jadi bahan untuk bacaan atau referensi di kala terjadi error gak usah panic tinggal check di forumnya atau wikipedianya karena error itulah pelajaran baru akan dimulai pintu pengetahuan sudah menjelang di pelupuk mata kali ini referensi lengkapnya ada di &lt;a href=&quot;https://wiki.archlinux.org/&quot; style=&quot;text-align: justify;&quot;&gt;arch wiki&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;mode-partisi&quot;&gt;Mode Partisi&lt;/h2&gt;
+
+&lt;figure style=&quot;width: 500px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/booting.gif&quot; /&gt;
+&lt;figcaption&gt;booting liveusb&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;Note:&lt;/strong&gt; untuk persiapan booting mode liveusb dan mentahan .iso arch bisa kunjungi &lt;a href=&quot;https://www.archlinux.org/download/&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;setelah booting dengan liveusb barulah install mode command line dimulai dengan
+partisi menggunakan applikasi &lt;code class=&quot;highlighter-rouge&quot;&gt;cfdisk&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@archiso&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# cfdisk&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;figure style=&quot;width: 400px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/cfdisk.png&quot; /&gt;
+&lt;figcaption&gt;credit google&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;saya cuman butuh 2 partisi yaitu partisi linux filesystem dan swap tinggal sesuain sama kebutuhan saja, kalau hardisknya sudah ada partisinya dan ragu bagian mana yang akan digunakan format atau delete bisa menggunakan &lt;code class=&quot;highlighter-rouge&quot;&gt;cfdisk -l&lt;/code&gt; untuk melihat ada berapa partisi di hardisk&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@archiso&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# fdisk -l&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;format-filesystem-dan-swap&quot;&gt;Format filesystem dan Swap&lt;/h2&gt;
+
+&lt;p&gt;partisi telah siap dan saatnya untuk format filesystem saya memimilih ext4 lalu  mount partisi root pada directory /mnt&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@archiso&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# mkfs.ext4 /dev/sda1&lt;/span&gt;
+ &lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@archiso&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# mount /dev/sda1 /mnt&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;Note:&lt;/strong&gt; ada beberapa type dari filesystem untuk referensi lebih lanjut bisa baca baca &lt;a href=&quot;https://wiki.archlinux.org/index.php/file_systems&quot;&gt;arch wiki file systems&lt;/a&gt;
+atau bisa jugak ingin mengetahui perbedaan ext2 ext3 dan ext4 bisa kunjungi artikel ini &lt;a href=&quot;http://www.thegeekstuff.com/2011/05/ext2-ext3-ext4/&quot;&gt;theegeekstuff&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;filesystem telah siap tinggal kita format partisi swap , apa itu swap ? silahkan ke &lt;a href=&quot;https://wiki.archlinux.org/index.php/Swap&quot;&gt;arch wiki swap&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@archiso&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# mkswap /dev/sda2&lt;/span&gt;
+ &lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@archiso&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# swapon /dev/sda2&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p class=&quot;notice--warning&quot;&gt;&lt;strong&gt;peringatan:&lt;/strong&gt; pastikan mengingat /dev/sda dari filesystem dan swap yang sudah di alokasikan di mode partisi jangan sampai ketuker antara swap dan filesystem&lt;/p&gt;
+
+&lt;h2 id=&quot;waktunya-download-dan-install-package-base&quot;&gt;Waktunya download dan install package base&lt;/h2&gt;
+
+&lt;figure style=&quot;width: 600px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/pacstrap.gif&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@archiso&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# pacstrap -i /mnt base&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;Note:&lt;/strong&gt; untuk terlebih dahulu memastikan ada koneksi internet karena saya memakai jaringan wifi jadi konektivitasnya di jembatani oleh &lt;code class=&quot;highlighter-rouge&quot;&gt;wpa_supplicant&lt;/code&gt; dengan &lt;code class=&quot;highlighter-rouge&quot;&gt;wifi-menu&lt;/code&gt; silahkan check &lt;a href=&quot;https://wiki.archlinux.org/index.php/Wireless_network_configuration#Getting_some_useful_information&quot;&gt;arch wiki internet&lt;/a&gt;&lt;/p&gt;
+
+&lt;p class=&quot;notice--danger&quot;&gt;&lt;strong&gt;Tips:&lt;/strong&gt; jangan lupa untuk menginstall app dan library konektivias internet untuk selanjutnya digunakan pada saat setelah installasi selesai misal &lt;code class=&quot;highlighter-rouge&quot;&gt;iw&lt;/code&gt;,&lt;code class=&quot;highlighter-rouge&quot;&gt;dialog&lt;/code&gt;,&lt;code class=&quot;highlighter-rouge&quot;&gt;wpa_supplicant&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;setelah terinstall dengan sempurna paket base di /mnt selanjutnya adalah configurasi fstab tugasnya file ini bisa dibaca di &lt;a href=&quot;https://wiki.archlinux.org/index.php/Fstab&quot;&gt;arch wiki fstab&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@archiso&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# genfstab -U /mnt &amp;gt;&amp;gt; /mnt/etc/fstab&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;figure style=&quot;width: 600px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/fstab.gif&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;membuat-password-root-dan-user&quot;&gt;Membuat password root dan user&lt;/h2&gt;
+
+&lt;p&gt;akun root atau superuser digunakan system adminitration misal untuk melakukan kegiatan install dan akses folder folder yang ada di system, maka selain kegiatan sifatnya biasa di sarankan untuk membuat akun lagi selain root . karena arch mode liveusb menggunakan auto login maka untuk kepentingan keamanan maka kita harus memasukkan password root&lt;/p&gt;
+
+&lt;figure style=&quot;width: 400px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/chroot.gif&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@archiso&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# arch-chroot /mnt /bin/bash&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;setelah masuk ke mode root langsung deh &lt;code class=&quot;highlighter-rouge&quot;&gt;passwd&lt;/code&gt;&lt;/p&gt;
+
+&lt;figure style=&quot;width: 400px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/passwd.gif&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;oke beres password superuser root saatnya membuat user lain untuk tugas tugas sederhana dan untuk keamanan jugak, sebelum itu install dulu paket sudo fungsinya untuk memberikan beberapa ijin akses ke system akun user&lt;/p&gt;
+
+&lt;figure style=&quot;width: 600px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/sudopac.gif&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;n&quot;&gt;sh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#pacman -S sudo bash-completion&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;setelah terinstall baru kita menambah user dan memberikannya password&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;n&quot;&gt;sh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# useradd -m -g users -G wheel,storage,power -s /bin/bash &amp;lt;namauser&amp;gt;&lt;/span&gt;
+ &lt;span class=&quot;n&quot;&gt;passwd&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;namauser&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;figure style=&quot;width: 600px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/useradd.gif&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;nah setelah itu baru kita konfigurasi user yang baru ditambahkan untuk berada dalam grup wheel agar bisa menjalankan tugas tugas yang membutuhkan akses ke system dengan sudo&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;n&quot;&gt;sh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#EDITOR=nano visudo&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;setelah masuk ke teks editor nano hapus tanda # &lt;code class=&quot;highlighter-rouge&quot;&gt;%whell ALL=(ALL) ALL&lt;/code&gt; seperti pada gambar dibawah ini&lt;/p&gt;
+
+&lt;figure style=&quot;width: 500px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/sudoers.gif&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;beres dah masalah useradd langsung memasukkan nama hostname komputer berguna saat koneksi antar komputer&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;n&quot;&gt;sh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# echo nama komputer &amp;gt; /etc/hostname&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p class=&quot;notice--danger&quot;&gt;&lt;strong&gt;peringatan:&lt;/strong&gt; Hayo looh ingat ingat lagi password root dan user jangan sampe kelupaan&lt;/p&gt;
+
+&lt;h2 id=&quot;konfigurasi-lokasi-bahasa-dan-zona-waktu&quot;&gt;konfigurasi lokasi bahasa dan zona waktu&lt;/h2&gt;
+
+&lt;p&gt;saya menggunakan bahasa inggris saja karena sudah terbiasa bor&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;n&quot;&gt;sh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#nano /etc/locale.gen&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;hapus tanda # di lokasi dan bahasa yang dipilih setelah itu klik &lt;code class=&quot;highlighter-rouge&quot;&gt;locale-gen&lt;/code&gt; untuk mengenerate&lt;/p&gt;
+
+&lt;figure style=&quot;width: 600px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/locale.gif&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;selanjutanya menentukan zona waktu&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;n&quot;&gt;sh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#ls /usr/share/zoneinfo/&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;maka akan muncul gambar dibawah ini karena saya menggunakan jakarta dia berada di directory Asia&lt;/p&gt;
+&lt;figure style=&quot;width: 600px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/zoneinfo.png&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;n&quot;&gt;sh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#ln -s /usr/share/zoneinfo/Asia/Jakarta&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;okey beres zona waktu , bahasa dan lokasi sudah terkonfigurasi dengan benar&lt;/p&gt;
+
+&lt;h2 id=&quot;install-bootloader-dan-beres-beres&quot;&gt;Install Bootloader dan beres beres&lt;/h2&gt;
+
+&lt;p&gt;kegiatan kali ini diawali dengan bash script mkinitcpio yang digunakan untuk membuat initial ramdisk environment &lt;a href=&quot;https://wiki.archlinux.org/index.php/Mkinitcpio&quot;&gt;arch wiki mkinitcpio&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;n&quot;&gt;sh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#mkinitcpio -p linux&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;setelah itu download dan install grub&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;n&quot;&gt;sh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#pacman -S grub_bios&lt;/span&gt;
+ &lt;span class=&quot;n&quot;&gt;sh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#grub install /dev/sda&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;figure style=&quot;width: 600px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/grubpac.gif&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;konfigurasi boot di grub&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;n&quot;&gt;sh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#grub-mkconfig -o /boot/grub/grub.cfg&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;fiuuuuuh akhirnya saat saat terakhir telah tiba dalam daya dan upaya membangkitkan sang legenda 5315 tinggal unmount dan reboot jurus pamungkasnya
+check this out bor&lt;/p&gt;
+
+&lt;figure style=&quot;width: 600px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/fiuh.gif&quot; /&gt;
+&lt;figcaption&gt;finally&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Alhamdulilah sang legenda kini menampaki ruang baru dan menjadi alat tempur andalan saya lagi ini bener bener masih permulaan, ya awal yang baru sejarah baru buat aspire karena ternyata tidak hanya distro debian tapi arch jugak bisa keep badass lah pokoke&lt;/p&gt;</content><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><category term="Linux" /><summary type="html">legenda acer aspire 5315 Acer aspire 5315 adalah alat tempur yang melegenda bagi saya dengan sejarah yang cukup panjang menemani belajar dikala susah maupun senang saat di perguruan tinggi ,terhitung dari tahun 2008an hingga awal 2014 sang legenda resmi menjadi hiasan di meja gudang penuh amunisi dikarenakan salah diagnosa penyakitnya. Alhamdulilah awal bulan mei bisa ketemu ahli perangkat keras dokter spesialis muhammad ngok sekarang bukak klinik di ketintang barat memberi wacana kalau mesin aspire 5315 saya normal hanya saja lcdnya yg bermasalah jadi kepikiran untuk mempersiapkannya untuk menambah amunisi developing saya. alkisah dari dulu laptop ini sangat pemilih dalam hal operating system hanya bisa berjalan sempurna di keluarga debian seperti ubuntu dan linuxmint ada saja kendala kalau di install selain turunan debian mulai kernel panic hingga freezy itu berlaku untuk varian distro linux lama dan baru akhirnya nekat install distro arch linux karena paketnya kita build terpisah sesuai kebutuhan, seperti apa perjalanannya mari kita ulas satu persatu</summary></entry><entry><title type="html">Erorr Android Studio 2.0 di linux 64bit</title><link href="http://localhost:4000/erorr-android-studio/" rel="alternate" type="text/html" title="Erorr Android Studio 2.0 di linux 64bit" /><published>2016-05-02T00:00:00+00:00</published><updated>2016-05-02T00:00:00+00:00</updated><id>http://localhost:4000/erorr-android-studio</id><content type="html" xml:base="http://localhost:4000/erorr-android-studio/">&lt;figure style=&quot;width: 400px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/android-studio.png&quot; /&gt;
+&lt;figcaption&gt;android studio&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Hal yang menarik dari &lt;a href=&quot;http://developer.android.com/sdk/index.html&quot;&gt;Android studio 2.0&lt;/a&gt; yang terinstall di linux 64bit adalah kutemukan
+error disana sini, mungkin waktu kemarin masih pakek &lt;a href=&quot;https://www.linuxmint.com/&quot;&gt;linuxmint 17&lt;/a&gt; android studio dari versi 1.7 langsung ku update ke versi 2.0 jadi tidak ku temukan error yang berarti setelah migrasi ke &lt;a href=&quot;http://www.ubuntu.com/&quot;&gt;ubuntu 16.04&lt;/a&gt; dan install dari awal android studio 2.0 barulah berjumpa dengan errornya, apa saja errornya? ini dia check this out&lt;/p&gt;
+
+&lt;h2 id=&quot;unable-to-run-mksdcard&quot;&gt;Unable to run mksdcard&lt;/h2&gt;
+
+&lt;figure style=&quot;width: 600px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/unable.png&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;setelah finish install lalu pilih setting default atau custom dan munculah pesan error ini dikarenakan android studio yang terisntall di linux 64 bit butuh library 38bit,library apa saja yang diperlukan:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://packages.debian.org/sid/libstdc++6&quot;&gt;lib32stdc++6&lt;/a&gt; adalah library untuk progam C++&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://packages.debian.org/jessie/lib32z1&quot;&gt;lib32z1&lt;/a&gt; adalah library implentasi method kompresi deflate yg terdapat di gzip dan pkzip&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;langsung buka terminal dan langsung install&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;apt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lib32stdc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;
+ &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;apt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lib32z1&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;figure style=&quot;width: 600px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/no-error.gif&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;problem solved untuk unable to run mksdcard&lt;/p&gt;
+
+&lt;h2 id=&quot;r-layout-cannot-resolved&quot;&gt;R layout cannot resolved&lt;/h2&gt;
+
+&lt;figure style=&quot;width: 600px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/eee.png&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;setelah error pertama unable to run mksdcard teratasi kemudian bukak project
+gradle sync dan yooooott error kedua muncul mulai dari gradle build yang prosesnya lama sampai R layout cannot resolved. ada beberapa akibat munculnya error ini diantaranya adalah:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://gradle.org/&quot;&gt;gradle&lt;/a&gt; crash akibat tersimpannya beberapa versi gradle&lt;/li&gt;
+  &lt;li&gt;tidak singkronya antara sdk build tools project dengan sdk build tools yang dimiliki&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;solusi untuk point yang pertama dengan menghapus salah satu versi gradle letaknya di /home/.AndroidStudio2.0/ setelah itu restart android studio.&lt;/p&gt;
+
+&lt;figure style=&quot;width: 600px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/projectstruct.gif&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;dan solusi untuk point yang kedua adalah merubah sdk build tools project dengan cara buka sdk build tools yang telah terisntall (ctrl+alt+shift+s) atau File–project Structure–app–Build Tools Version (seperti gambar diatas)  rubah dengan yang telah di install cara mengetahui build tools yang terisntall liat saja di sdk manager.
+ &lt;br /&gt;
+akhirnya teratasi sudah, semua ERROR-nya mungkin kamu kelebihan error dari apa yang saya jumpai monggo ayo kita diskusikan&lt;/p&gt;</content><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><category term="Linux" /><summary type="html">android studio</summary></entry><entry><title type="html">Ritual setelah install Linux</title><link href="http://localhost:4000/Ritual-setelah-install-ulang/" rel="alternate" type="text/html" title="Ritual setelah install Linux" /><published>2016-04-27T00:00:00+00:00</published><updated>2016-04-27T00:00:00+00:00</updated><id>http://localhost:4000/Ritual-setelah-install-ulang</id><content type="html" xml:base="http://localhost:4000/Ritual-setelah-install-ulang/">&lt;figure style=&quot;width: 400px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/ubuntu16.jpg&quot; /&gt;
+&lt;figcaption&gt;credit: google&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;aside class=&quot;sidebar__right&quot;&gt;
+&lt;nav class=&quot;toc&quot;&gt;
+    &lt;header&gt;&lt;h4 class=&quot;nav__title&quot;&gt;&lt;i class=&quot;fa fa-file-text&quot;&gt;&lt;/i&gt; Contents&lt;/h4&gt;&lt;/header&gt;
+&lt;ul class=&quot;toc__menu&quot; id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#install-driver-wireless&quot; id=&quot;markdown-toc-install-driver-wireless&quot;&gt;Install Driver wireless&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#install-codecs&quot; id=&quot;markdown-toc-install-codecs&quot;&gt;Install codecs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#install-chrome&quot; id=&quot;markdown-toc-install-chrome&quot;&gt;Install Chrome&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#install-git&quot; id=&quot;markdown-toc-install-git&quot;&gt;Install git&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#install-oracle-java&quot; id=&quot;markdown-toc-install-oracle-java&quot;&gt;Install Oracle Java&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#install-jekyll&quot; id=&quot;markdown-toc-install-jekyll&quot;&gt;Install Jekyll&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#install-android-studio-2&quot; id=&quot;markdown-toc-install-android-studio-2&quot;&gt;Install Android studio 2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/nav&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;Setelah denger &lt;a href=&quot;http://www.ubuntu.com&quot;&gt;ubuntu&lt;/a&gt; launch versi LTS 
+ (long terms support) di tahun ini, langsung saya bergegas
+ untuk &lt;a href=&quot;http://www.ubuntu.com/download&quot;&gt;download&lt;/a&gt; ,sudah menjadi kebiasaan dari dulu untuk memakai versi LTS varian distro yang satu ini ya untuk harian memang sangat stable, tapi minusnya kurang update
+ inovasi terbaru dari technology opensourcenya dimana makin hari makin cepat pergerakannya, selesai install ubuntu ini beberapa ritual saya untuk menyempurnakan dekstop untuk digunakan sehari hari&lt;/p&gt;
+
+&lt;h2 id=&quot;install-driver-wireless&quot;&gt;Install Driver wireless&lt;/h2&gt;
+&lt;p&gt;untuk laptop saya thinkpad edge e145 driver kebetulan wirelessnya gak langsung
+ detect alias harus di install sendiri cukup konekin modem buka terminal dan&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;ss&quot;&gt;:~&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;apt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bcmwl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;kernel&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;source&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;kebetulan hardware laptop saya pakek broadcom kalau sudah terinstall otomatis akan bisa detect Acces point (SSID) terdekat&lt;/p&gt;
+
+&lt;h2 id=&quot;install-codecs&quot;&gt;Install codecs&lt;/h2&gt;
+&lt;p&gt;menurut &lt;a href=&quot;https://en.wikipedia.org/wiki/Codec&quot;&gt;wikipedia&lt;/a&gt; codec adalah progam
+ computer untuk encoding atau decoding data digital. biasa kalau setelah install waktu play music player atau film di video player dia akan bisu dan kalau di telusuri di terminal akan mengeluarkan pesan tidak ditemukannya codec 
+ kalau di ubuntuk tinggal klik perintah ini di terminal&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; :~$ sudo apt-get install ubuntu-restricted-extras
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;kalau sudah done coba dengan memainkan mp3 dan memainkan video dalam format apapun untuk memastikan codec berjalan dengan sempurna&lt;/p&gt;
+
+&lt;h2 id=&quot;install-chrome&quot;&gt;Install Chrome&lt;/h2&gt;
+&lt;p&gt;Browser bawakan ubuntu adalah firefox dan saya lebih selera dengan Chrome&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;ss&quot;&gt;:~&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;wget&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;google&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;linux&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;direct&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;google&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;chrome&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stable_current_amd64&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;deb&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;:~&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dpkg&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;google&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;chrome&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stable_current_amd64&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;deb&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;install-git&quot;&gt;Install git&lt;/h2&gt;
+&lt;p&gt;Berikutnya adalah yang tak kalah pentingnya yang mesti di install version control &lt;a href=&quot;https://en.wikipedia.org/wiki/Git_%28software%29&quot;&gt;GIT&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;:~$ sudo apt-get install git 
+:~$ git init
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;lanjut deh dengan &lt;code class=&quot;highlighter-rouge&quot;&gt;git clone&lt;/code&gt; untuk membuat repository local projectnya&lt;/p&gt;
+
+&lt;h2 id=&quot;install-oracle-java&quot;&gt;Install Oracle Java&lt;/h2&gt;
+&lt;p&gt;Secara default Ubuntu terinstall &lt;a href=&quot;https://en.wikipedia.org/wiki/OpenJDK&quot;&gt;openjdk java&lt;/a&gt; untuk kebutuhan saya android studio menyarankan pakek jdk dari oracle
+ maka dari itu biar gak crash nantinnya saya uninstall openjdk dulu dengan&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;ss&quot;&gt;:~&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;apt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;purge&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;openjdk&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jre&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;:~&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;apt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;remove&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;openjdk&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jre&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;headless&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;:~&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rm&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rfv&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/usr/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jvm&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;java&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;openjdk&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;amd64&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;lalu kita install java versi oraclenya&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;ss&quot;&gt;:~&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;apt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;repository&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ppa&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:webupd8team&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;java&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;:~&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;apt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;update&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;:~&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;apt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;oracle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;java8&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;installer&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;untuk memastikan java suda terinstall dengan sempurna&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;ss&quot;&gt;:~&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;java&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;version&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;kalau berhasil akan muncul seperti gambar&lt;/p&gt;
+&lt;figure style=&quot;width: 600px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/bash.png&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;install-jekyll&quot;&gt;Install Jekyll&lt;/h2&gt;
+
+&lt;p&gt;karena saya ngeblog dengan bantuan &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;jekyll&lt;/a&gt; maka selanjutnya adalah menginstall jekyll yang dibutuhkan sebelum install jekyll adalah install &lt;a href=&quot;https://en.wikipedia.org/wiki/Ruby_%28programming_language%29&quot;&gt;ruby&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;ss&quot;&gt;:~&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;apt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ruby2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ruby2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dev&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;:~&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ruby2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;v&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;:~&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;apt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ruby&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dev&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;setelah ruby terinstall dengan sempurna barulah kita bisa install jekyll&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;ss&quot;&gt;:~&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;okeylah kalau sudah terinstall happy blogging&lt;/p&gt;
+
+&lt;h2 id=&quot;install-android-studio-2&quot;&gt;Install Android studio 2&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://developer.android.com/tools/studio/index.html&quot;&gt;Android studio&lt;/a&gt; jugak merupakan peralatan yang paling sangat saya butuhkan penunjang kegiatan bekarya langkah awalnya adalah &lt;a href=&quot;http://developer.android.com/sdk/index.html&quot;&gt;mendownload&lt;/a&gt; android studionya terlebih dahulu trus exstract ke folder &lt;code class=&quot;highlighter-rouge&quot;&gt;/opt/&lt;/code&gt; lalu panggil lewat konsole&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;ss&quot;&gt;:~&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/opt/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;android&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;studio&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bin&lt;/span&gt;
+ &lt;span class=&quot;n&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;studio&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;h&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;akhirnya lengkap sudah ritualnya dan laptop siap untuk digunakan aktifitas sehari hari&lt;/p&gt;</content><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><category term="Linux" /><summary type="html">credit: google</summary></entry><entry><title type="html">Failed to resized display</title><link href="http://localhost:4000/failed-to-resized-display/" rel="alternate" type="text/html" title="Failed to resized display" /><published>2015-02-17T00:00:00+00:00</published><updated>2015-02-17T00:00:00+00:00</updated><id>http://localhost:4000/failed-to-resized-display</id><content type="html" xml:base="http://localhost:4000/failed-to-resized-display/">&lt;figure style=&quot;width: 400px&quot; class=&quot;align-center&quot;&gt;
 &lt;img src=&quot;/images/drivereroorvlc.png&quot; /&gt;
 &lt;figcaption&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -26,7 +508,48 @@ dengan bukak vlc mode konsole waktu play video munculah error failed to resized 
 &lt;img src=&quot;/images/solved.png&quot; /&gt;
 &lt;figcaption&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;okey sekian tulisan saya kali ini dan saya sudah gak sabar untuk melanjutkan video yang tadi semoga dapat berguna&lt;/p&gt;</content><category term="Linux" /><summary>enak enak liat video di vlc tiba tiba gambarnya pada gak karuan seperti foto diatas analisa pertama adalah mungkin karena codecnya setelah saya update ternyata sama saja. Maklum baru ganti peralatan yang baru sekarang makek lenovo thinkpad e145 jadi baru kali ini kenak masalah video sebelumnya makek acer aspire 5315 asik asik aja heuheuheu biar gak makin penasaran chek errornya</summary></entry><entry><title>dpkg: unrecoverable fatal error</title><link href="/Dpkg-unrecoverable-fatal-error/" rel="alternate" type="text/html" title="dpkg: unrecoverable fatal error" /><published>2015-01-14T00:00:00+07:00</published><updated>2015-01-14T00:00:00+07:00</updated><id>/Dpkg:-unrecoverable-fatal-error</id><content type="html" xml:base="/Dpkg-unrecoverable-fatal-error/">&lt;figure style=&quot;width: 400px&quot; class=&quot;align-center&quot;&gt;
+&lt;p&gt;okey sekian tulisan saya kali ini dan saya sudah gak sabar untuk melanjutkan video yang tadi semoga dapat berguna&lt;/p&gt;</content><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><category term="Linux" /><summary type="html">enak enak liat video di vlc tiba tiba gambarnya pada gak karuan seperti foto diatas analisa pertama adalah mungkin karena codecnya setelah saya update ternyata sama saja. Maklum baru ganti peralatan yang baru sekarang makek lenovo thinkpad e145 jadi baru kali ini kenak masalah video sebelumnya makek acer aspire 5315 asik asik aja heuheuheu biar gak makin penasaran chek errornya</summary></entry><entry><title type="html">Rock’in stage with linux</title><link href="http://localhost:4000/rockin-stage-with-linux/" rel="alternate" type="text/html" title="Rock'in stage with linux" /><published>2015-02-15T00:00:00+00:00</published><updated>2015-02-15T00:00:00+00:00</updated><id>http://localhost:4000/rockin-stage-with-linux</id><content type="html" xml:base="http://localhost:4000/rockin-stage-with-linux/">&lt;figure style=&quot;width: 400px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/mlete.jpg&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;tu poto saya di atas stage bukan lagi nyari wifi loh ya? jangan salah terka apalagi salah sangka
+okey pagi yang cerah di februari yang penuh propagandis ini saya mau share betapa selama ini 
+linux operating system dan software opensource telah bermanfaat untuk aktivitas aktivitas saya
+sebagai musisi dan sebagai software developer di kesempatan kali ini manfaat bagi seorang musisi
+itu buat apa sih ?? jadi saya memakai laptop (berisi linux dan beberapa sofwtare opensource) sebagai
+pengganti pedalboard/efek gitar&lt;/p&gt;
+
+&lt;figure style=&quot;width: 400px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/pedals.jpg&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;buat yang gaktau pedalboard poto diatas adalah gambaran dari pedalboard konvensional
+nah saya gantikan dengan sofwate opensource bernama guitarix…&lt;/p&gt;
+
+&lt;figure style=&quot;width: 400px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/guitarrix.png&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;ini penampakan interface sofware guitarix mantabkan? untuk peforma gimana mas?gak usah
+diragukan lagi dah tau sendirikan linux bisa berjalan dengan speck laptop yg low end ,
+menggunakan linux sejak awal kuliah dulu(gini gini pernah kuliah) 2008an kalau makek 
+untuk aktivitas band &lt;a href=&quot;https://www.facebook.com/pages/skepticmemory/90933298506&quot;&gt;SkepticMemory&lt;/a&gt; sejak akhir 2009an baik latihan, recording hingga live perfomance belum pernahmengalami luck atau stuck laptop saya acer aspire 5315 ram 1Gb processor celeron 1,73GHz&lt;/p&gt;
+
+&lt;figure style=&quot;width: 400px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/gitari.jpg&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;ini penampakan sosok indah yang selalu menemani saya dalam berkarir di permusikan heuheuheu
+penggunakan teknologi itu gak harus seragam banyak alternatif lain diluar sana kalau kita mau
+memanfaatkannya terpenting lagi adalah dalam bekarya kita dibiasakan menghormati hak intelektual
+orang lain dengan tidak membajak karya orang lain masak iya kita bekarya di atas softaware atau
+operation system bajakan? nantik kalau karya kita dibajak marah marah itulah alesan &lt;a href=&quot;http://www.glamvian.com/Kenapa-harus-linux/&quot;&gt;kenapa harus linux?&lt;/a&gt; okey semoga hari ini mendapat inspirasi baru dari tulisan saya kali ini&lt;/p&gt;
+
+&lt;iframe width=&quot;480&quot; height=&quot;270&quot; src=&quot;https://www.youtube.com/embed/d3pY-AqT-tI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Bonus videoklip band saya heuheuheu terimakasih \mm/&lt;/p&gt;</content><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><category term="Linux" /><summary type="html"></summary></entry><entry><title type="html">dpkg: unrecoverable fatal error</title><link href="http://localhost:4000/Dpkg-unrecoverable-fatal-error/" rel="alternate" type="text/html" title="dpkg: unrecoverable fatal error" /><published>2015-01-14T00:00:00+00:00</published><updated>2015-01-14T00:00:00+00:00</updated><id>http://localhost:4000/Dpkg:-unrecoverable-fatal-error</id><content type="html" xml:base="http://localhost:4000/Dpkg-unrecoverable-fatal-error/">&lt;figure style=&quot;width: 400px&quot; class=&quot;align-center&quot;&gt;
 &lt;img src=&quot;/images/hello_world_01.jpg&quot; /&gt;
 &lt;figcaption&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -40,17 +563,17 @@ dengan bukak vlc mode konsole waktu play video munculah error failed to resized 
 setelah cari sana sini ternyata itu bug yang sudah ada sejak beberapa varian
 turunan keluarga besar debian. 
 itu terjadi karena ada corupt file di &lt;code class=&quot;highlighter-rouge&quot;&gt;/var/lib/dpkg/info/&lt;/code&gt; berulang ulang karena beberapa tidak memiliki final new line.&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;os&lt;/span&gt;  
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;os&lt;/span&gt;  
   
-&lt;span class=&quot;n&quot;&gt;dpkg_path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;/var/lib/dpkg/info/&#39;&lt;/span&gt;  
+&lt;span class=&quot;n&quot;&gt;dpkg_path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'/var/lib/dpkg/info/'&lt;/span&gt;  
 &lt;span class=&quot;n&quot;&gt;paths&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;listdir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dpkg_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  
 &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;path&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;paths&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;  
     &lt;span class=&quot;n&quot;&gt;path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dpkg_path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;  
-    &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;a+&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  
+    &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'a+'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  
     &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;  
-    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;  
-        &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  
-        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;added newline character to:&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;  
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;  
+        &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  
+        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'added newline character to:'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;  
     &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;close&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;     
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
@@ -65,56 +588,7 @@ jangan lupa waktu nge run pake sebagai root misal :~&amp;gt; sudo python mbuh.py
 &lt;/figure&gt;
 
 &lt;p&gt;beres sudah masalah beroo ayoo lekas update dan upgrade atau install sesuatu yang tadi eroor kayak aku yg gagal install git sekarang sudah lancar….. 
-thanks to pokerbirch for python scripth.. hapy coding everyone&lt;/p&gt;</content><category term="Linux" /><category term="pemrogaman" /><summary>hello 2015 heuheuheu waktunya turun gunung beroooo vakum coret blog dari 2012 dimulai dari bercandaan tuhan dengan syntak :</summary></entry><entry><title>App konversi mata uang for android</title><link href="/App-konversi-mata-uang-for-Android/" rel="alternate" type="text/html" title="App konversi mata uang for android" /><published>2012-07-26T00:00:00+07:00</published><updated>2012-07-26T00:00:00+07:00</updated><id>/App-konversi-mata-uang-for-Android</id><content type="html" xml:base="/App-konversi-mata-uang-for-Android/">&lt;figure style=&quot;width: 200px&quot; class=&quot;align-center&quot;&gt;
-&lt;img src=&quot;/images/anime.png&quot; /&gt;
-&lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;hari yang telah larut heuheuehue tapi tak mematahkan semangat untuk menulis. okey sesuai judul saya akan share hasil coba coba barangkali bermanfaat buat sekitar. Sebenarnya ini aplikasi pertama  yang saya rangkai di eclipse sebelum &lt;a href=&quot;http://www.glamvian.com/App-TasbihDigital-for-Android/&quot;&gt;aplikasi Tasbih digital&lt;/a&gt; ,aplikasi konversi mata uang ini  terinspirasi dari sebuah buku pemrogaman yang kebetulan membahas tentang android utak atik sana sini akhirnya jadi sesuai imajinasi di otak okey ini screenshootnya chek this out :&lt;/p&gt;
-
-&lt;figure style=&quot;width: 200px&quot; class=&quot;align-left&quot;&gt;
-&lt;img src=&quot;/images/utama.png&quot; /&gt;
-&lt;figcaption&gt;main&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;figure style=&quot;width: 200px&quot; class=&quot;align-right&quot;&gt;
-&lt;img src=&quot;/images/men.png&quot; /&gt;
-&lt;figcaption&gt;menu&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;figure style=&quot;width: 200px&quot; class=&quot;align-center&quot;&gt;
-&lt;img src=&quot;/images/setting.png&quot; /&gt;
-&lt;figcaption&gt;setting&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;figure style=&quot;width: 200px&quot; class=&quot;align-left&quot;&gt;
-&lt;img src=&quot;/images/mata uang.png&quot; /&gt;
-&lt;figcaption&gt;menu mata uang&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;figure style=&quot;width: 200px&quot; class=&quot;align-right&quot;&gt;
-&lt;img src=&quot;/images/hasil.png&quot; /&gt;
-&lt;figcaption&gt;hasil&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Alur dari aplikasi sangat sederhana pilih konversi dari dollar ke rupiah atau sebaliknya lalu masukkan nilai mata uang dan tekan deh tombol konversi heuheuehue pada menu pilihan mata uang dollar bisa di ganti mata uang euro dan pounds , pada menu setting kita jugak bisa inputkan nilai tukar yang sedang update.&lt;/p&gt;
-
-&lt;p&gt;lagi lagi tester masih di galaxy mini dengan OS (2.3.4)GingerBeard silahkan di download apknya disini &lt;a href=&quot;https://github.com/glamvian/konversi-mata-uang&quot;&gt;konversi mata uang github&lt;/a&gt; kritik dan saran untuk pengembangan sangat saya trima&lt;/p&gt;</content><category term="Android" /><summary>hari yang telah larut heuheuehue tapi tak mematahkan semangat untuk menulis. okey sesuai judul saya akan share hasil coba coba barangkali bermanfaat buat sekitar. Sebenarnya ini aplikasi pertama  yang saya rangkai di eclipse sebelum aplikasi Tasbih digital ,aplikasi konversi mata uang ini  terinspirasi dari sebuah buku pemrogaman yang kebetulan membahas tentang android utak atik sana sini akhirnya jadi sesuai imajinasi di otak okey ini screenshootnya chek this out :</summary></entry><entry><title>Interpreter Python</title><link href="/interpreter-python/" rel="alternate" type="text/html" title="Interpreter Python" /><published>2012-07-24T00:00:00+07:00</published><updated>2012-07-24T00:00:00+07:00</updated><id>/interpreter-python</id><content type="html" xml:base="/interpreter-python/">&lt;figure style=&quot;width: 300px&quot; class=&quot;align-center&quot;&gt;
+thanks to pokerbirch for python scripth.. hapy coding everyone&lt;/p&gt;</content><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><category term="Linux" /><category term="Pemrogaman" /><summary type="html">hello 2015 heuheuheu waktunya turun gunung beroooo vakum coret blog dari 2012 dimulai dari bercandaan tuhan dengan syntak :</summary></entry><entry><title type="html">Interpreter Python</title><link href="http://localhost:4000/interpreter-python/" rel="alternate" type="text/html" title="Interpreter Python" /><published>2012-12-05T00:00:00+00:00</published><updated>2012-12-05T00:00:00+00:00</updated><id>http://localhost:4000/interpreter-python</id><content type="html" xml:base="http://localhost:4000/interpreter-python/">&lt;figure style=&quot;width: 300px&quot; class=&quot;align-center&quot;&gt;
 &lt;img src=&quot;/images/pytthon.png&quot; /&gt;
 &lt;figcaption&gt;credit: google.com&lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -130,12 +604,13 @@ thanks to pokerbirch for python scripth.. hapy coding everyone&lt;/p&gt;</conten
 
 &lt;p&gt;yang paling meneyenangkan bagi pengguna operating system Linux seperti saya adalah python dilengkapi fasilitas interpreter seperti shell yang tertanam secara default di &lt;code class=&quot;highlighter-rouge&quot;&gt;/usr/bin/python&lt;/code&gt;. ini memungkinkan  user Linux mencoba python secara interaktif. Mari langsung saja untuk mencobanya tekan ctrl+alt+t (buka console)&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&quot;language-console&quot;&gt; glamvian@glamvian ~ $ python
+&lt;div class=&quot;language-console highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; glamvian@glamvian ~ $ python
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;maka akan muncul:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;Python&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;2.7&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;default&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Oct&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2011&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;03&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;08&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; 
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;Python&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;2.7&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;default&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Oct&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2011&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;03&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;08&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; 
 &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GCC&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;4.6&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;on&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;linux2&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;Type&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;help&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;copyright&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;credits&quot;&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;license&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;more&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;information&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; 
@@ -144,20 +619,20 @@ thanks to pokerbirch for python scripth.. hapy coding everyone&lt;/p&gt;</conten
 &lt;p&gt;tanda »&amp;gt; adalah perintah prompt utama python .
 sekarang mari mencoba nya&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;  
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;  
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;     
 &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;  
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;15&lt;/span&gt;  
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;l&lt;/span&gt;  
 &lt;span class=&quot;mi&quot;&gt;15&lt;/span&gt;  
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;l&lt;/span&gt;  
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;luas: &#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;en&lt;/span&gt;  
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'luas: '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;en&lt;/span&gt;  
 &lt;span class=&quot;n&quot;&gt;luas&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;150&lt;/span&gt;  
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;p&gt;keren gak? coba lagi ageh&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;  
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;  
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;  
 &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Nilai a adalah 1&quot;&lt;/span&gt;  
 &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;  
@@ -188,122 +663,4 @@ c=a*b&lt;/p&gt;
 save degan belajar.py nah panggil deh lewat console(ctrl+alt+t) dengan perintah&lt;/p&gt;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;glamvian@glamvian ~ $ python belajar.py&lt;/code&gt;
-liat hasilnya, selamat mengeksplorisasi bahasa pemrogaman yang fenomena ini dan akan sangat menjanjikan di masa yang akan datang.&lt;/p&gt;</content><category term="Pemrogaman" /><summary>credit: google.com
-
-lagi pingin nerusin bikin desain logo button app lakok malas datang iseng buka koleksi buku  eh tiba tiba menyelinap buku pemrogaman python.Menurutku ini bahasa pemrogaman yang tak kalah fenomena dari bahasa pemrogaman java kenapa? bayangkan hanya beberapa tahun saja bahasa pemrogaman python sudah masuk ranking 5besar bahasa pemrogaman yang sering dipakai para progammers heuheuehue tak heran sih karena orientasinya yang OPEN SOURCE membuat komunitasnya tumbuh subur. Diantara kelebihan bahasa pemrogaman obyek dinamis ini adalah :</summary></entry><entry><title>Bingung pilih Distro Linux?</title><link href="/Bingung-pilih-distro-linux/" rel="alternate" type="text/html" title="Bingung pilih Distro Linux?" /><published>2012-07-23T00:00:00+07:00</published><updated>2012-07-23T00:00:00+07:00</updated><id>/Bingung-pilih-distro-linux?</id><content type="html" xml:base="/Bingung-pilih-distro-linux/">&lt;figure style=&quot;width: 300px&quot; class=&quot;align-center&quot;&gt;
-&lt;img src=&quot;/images/dl.jpeg&quot; /&gt;
-&lt;figcaption&gt;credit: teklordz.net&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p style=&quot;text-align: justify;&quot;&gt;setelah menindak lanjuti tulisan saya &lt;a href=&quot;http://www.glamvian.com/Kenapa-harus-linux/&quot;&gt;Kenapa harus linux&lt;/a&gt;??pasti buat yang belum pernah cobain Operating System &lt;code class=&quot;highlighter-rouge&quot;&gt;Linux&lt;/code&gt; pasti bingung milih varian linux apa yang mau dicoba. Dulu waktu tahun 2008 saya jugak merasakannya karena teknologi dan kelebihan kelebihannya kernel Linux banyak yang makai dan pesat pula perkembanganya. Mungkin karena free dan bebas untuk di cuztomise menjadikan menjamurnya berbagi Distro linux yang tersebar di dunia. Sebentar mungkin ada yang belum paham istilah distro linux entar dikira tempat jual baju heuheuehue Distro linux adalah kernel linux ditambah dengan kumpulan paket-paket dari GNU dan yang lainnya dipaket menjadi satu dengan tujuan untuk mempermudah distribusi software tersebut. Ada dua macam distribusi/ distro linux yaitu &lt;code class=&quot;highlighter-rouge&quot;&gt;distro mayor&lt;/code&gt; adalah distro utama (Debian,Redhat,Slackware,SUSE,Mandriva) hampir semua &lt;code class=&quot;highlighter-rouge&quot;&gt;distro minor&lt;/code&gt; di turunkan dari distro mayor tersebut.&lt;/p&gt;
-
-&lt;figure style=&quot;width: 700px&quot; class=&quot;align-center&quot;&gt;
-&lt;img src=&quot;/images/tl.jpg&quot; /&gt;
-&lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;pada gambar di atas menunjukkan dari waktu kewaktu distro linux lahir atau di turunkan dari distro distro yang terdahulu . Untuk referensi bagi yang baru ingin migrasi ke linux dan dipake untuk sehari hari bisa di coba distro keluarga &lt;a href=&quot;http://www.debian.org&quot;&gt;Debian&lt;/a&gt; misal &lt;a href=&quot;http://www.ubuntu.com&quot;&gt;Ubuntu&lt;/a&gt; ini distro yang sangat fenomena dengan dukungan package yang baik dan stable dan ada bisa jugak cobain &lt;a href=&quot;https://www.linuxmint.com/&quot;&gt;LinuxMint&lt;/a&gt; yang diturunkan dari Ubuntu  keluarga Debian.Bedasarkan rank di &lt;a href=&quot;http://distrowatch.com&quot;&gt;DistroWatch&lt;/a&gt; LinuxMint ada di urutan pertama sebagai distro Linux yang sering di download dan dipake user.&lt;/p&gt;
-
-&lt;figure style=&quot;width: 200px&quot; class=&quot;align-right&quot;&gt;
-&lt;img src=&quot;/images/rank.png&quot; /&gt;
-&lt;figcaption&gt; credit: distrowatch&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;Kebanyakan dari pengalaman teman teman yang mau migrasi adalah beredarnya ketakutan-ketakutan yang mendasar misal takut salah partisi,takut hardware rusak,takut gak bisa konfigurasi dan lain lain saya kira ketakutan itu yang membuat kita gak pernah maju.Mana mungkin kita tau suatu hal yang kita takutin kalau kita belum pernah mencobanya? dan jangn kuatir karena Linux besar dan tumbuh subur dari komunitas-komunitas darisana terdapat dokumentasi yg jelas tentang problem solving,tutorial dan sebagainya. so tunggu apa lagi? lets try&lt;/p&gt;</content><category term="Linux" /><summary>credit: teklordz.net</summary></entry><entry><title>Apps tasbih digital for android</title><link href="/App-TasbihDigital-for-Android/" rel="alternate" type="text/html" title="Apps tasbih digital for android" /><published>2012-07-21T00:00:00+07:00</published><updated>2012-07-21T00:00:00+07:00</updated><id>/App-TasbihDigital-for-Android</id><content type="html" xml:base="/App-TasbihDigital-for-Android/">&lt;p&gt;selamat menunaikan ibadah puasa di bulan ramadhan buat yang muslim.
-Semoga tahun ini lebih baek dari bulan ramadhan tahun tahun sebelumnya. Okey pada postingan kali ini saya akan mencoba promo aplikasi sederhana buatan sendiri. Semua berawal dari iseng kangen makan pentol jumbo isi telur puyuh yang ada di negeri arab surabaya (kawasan wisata religi sunan ampel surabaya) karena lumayan lama gak main main di daerah situ terakhir waktu menjelang UAS SMK jadi agak lupa dimana tempat orang jualan pentol .Saya mencari melewati gang sempit pasar pusat jualan berbagai macam asesoris untuk ole-ole disana lah saya melihat ada tasbih konvensional berbagai jenis sampek ada yang digital. Nah berangkat dari situ ide untuk membuat App TasbihDigital untuk android muncul. Ini tampilan screenshotnya&lt;/p&gt;
-&lt;figure style=&quot;width: 120px&quot; class=&quot;align-left&quot;&gt;
-   &lt;img src=&quot;/images/tampilanU.png&quot; /&gt;
-&lt;figcaption&gt;UI.&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;figure style=&quot;width: 120px&quot; class=&quot;align-right&quot; alt=&quot;&quot;&gt; 
-  &lt;img src=&quot;/images/menu.png&quot; /&gt;
-&lt;figcaption&gt;menu&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;figure style=&quot;width: 120px&quot; class=&quot;align-center&quot;&gt;
-&lt;img src=&quot;/images/repeat.png&quot; /&gt;
-&lt;figcaption&gt;repeat&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;figure style=&quot;width: 120px&quot; class=&quot;align-left&quot;&gt;
-&lt;img src=&quot;/images/input repeat.png&quot; /&gt;
-&lt;figcaption&gt;input repeat&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;figure style=&quot;width: 120px&quot; class=&quot;align-right&quot;&gt;
-&lt;img src=&quot;/images/fisnishing.png&quot; /&gt;
-&lt;figcaption&gt;count done&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;idenya simpel ketika count di touch maka angka di monitor semakin bermtambah dan berhenti di angka yang kita inginkan mulai 7,33,100 atau bisa di inputkan sesuai selera heuheuheu&lt;/p&gt;
-
-&lt;p&gt;tester masih di samsung galaxy mini dengan OS 2.3.4(Gingerbread). Silahkan di ‘fork’ &lt;a href=&quot;https://github.com/glamvian/Tasbih-digital&quot;&gt;github TasbihDigital&lt;/a&gt; semoga bermanfaat untuk error ,logcat kritik dan saran sangat di terima.&lt;/p&gt;</content><category term="Android" /><summary>selamat menunaikan ibadah puasa di bulan ramadhan buat yang muslim.
-Semoga tahun ini lebih baek dari bulan ramadhan tahun tahun sebelumnya. Okey pada postingan kali ini saya akan mencoba promo aplikasi sederhana buatan sendiri. Semua berawal dari iseng kangen makan pentol jumbo isi telur puyuh yang ada di negeri arab surabaya (kawasan wisata religi sunan ampel surabaya) karena lumayan lama gak main main di daerah situ terakhir waktu menjelang UAS SMK jadi agak lupa dimana tempat orang jualan pentol .Saya mencari melewati gang sempit pasar pusat jualan berbagai macam asesoris untuk ole-ole disana lah saya melihat ada tasbih konvensional berbagai jenis sampek ada yang digital. Nah berangkat dari situ ide untuk membuat App TasbihDigital untuk android muncul. Ini tampilan screenshotnya
-
-   
-UI.
-
- 
-  
-menu
-
-
-
-repeat
-
-
-
-input repeat
-
-
-
-count done
-
-
-
-
-
-
-
-
-
-
-
-
-idenya simpel ketika count di touch maka angka di monitor semakin bermtambah dan berhenti di angka yang kita inginkan mulai 7,33,100 atau bisa di inputkan sesuai selera heuheuheu
-
-tester masih di samsung galaxy mini dengan OS 2.3.4(Gingerbread). Silahkan di ‘fork’ github TasbihDigital semoga bermanfaat untuk error ,logcat kritik dan saran sangat di terima.</summary></entry><entry><title>Kenapa harus linux??</title><link href="/Kenapa-harus-linux/" rel="alternate" type="text/html" title="Kenapa harus linux??" /><published>2012-02-13T00:00:00+07:00</published><updated>2012-02-13T00:00:00+07:00</updated><id>/Kenapa-harus-linux??</id><content type="html" xml:base="/Kenapa-harus-linux/">&lt;p style=&quot;text-align: justify;&quot;&gt;hari pertama setelah vakum ngeblog karena insiden salah input tahun 1889.
-oke oke kenapa harus Linux? kita sebagai warga indonesia yang berasaskan pancasila harusnya menjunjung tinggi sila ke 2 dan ke 5 dimana hak hak operating system berlisensi dan software proprietary harus kita hormati.
- Dampak buruk yang timbul dari tidak mengamalkan sila sila tersebut adalah  membajak operating system berlisensi dan software propietary .&lt;/p&gt;
-&lt;figure style=&quot;width: 200px&quot; class=&quot;align-left&quot;&gt;
-&lt;img src=&quot;/images/software-pirate.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;figcaption&gt;credit:braintless tales.com&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;sebagai dosen/guru atau tenaga pengajar apa tidak malu ketika mengajar dengan media operating system bajakan ? apakah ilmu itu barokah kalau medianya saja dari hal hal yang buruk dan mana sisi edukasinya?&lt;/p&gt;
-
-&lt;p&gt;sebagai progammer/designer atau pekerja seni lainnya sangat dipertanyakan ke aslian atau originalitas karyannya kalau mereka membuat suatu produk/karya dari operating system dan software bajakan dan apakah gajinya berkah?&lt;/p&gt;
-
-&lt;p style=&quot;text-align: justify;&quot;&gt;sebagai mahasiswa/murid? sebagai pejabat tinggi pemerintah? apapun bidangnya kalau sudah masuk di area computing harusnya mulai “sadar” apa itu operating system dan software proprietary. Gak sanggup membeli operating system yang asli karena mahal? ya kan ada Linux operating system yg berlisensi GNU(General Public License) bebas dipakai diubah dan di sebarkan kembali… trus jugak gak bisa beli software priopetary? ya kan ada software-software opensource.&lt;/p&gt;
-
-&lt;p style=&quot;text-align: justify;&quot;&gt;Indonesia sebagai negara berkembang mengharuskan warganya untuk berpola pikir ekonomis kalau mau dipikir kenapa gak memakai yang gratis dan legal/halal kan lebih barokah. Dalam agamapun dijelaskan tentang dilarang mengambil hak oranglain tanpa isin dengan nama lain mencuri atau membajak tentunya dalam agama apapun pasti melarang setiap umatnya untuk itu.&lt;/p&gt;
-
-&lt;p&gt;Dalam UU HAKI ketentuan pidana pasal 72 hukuman bagi yang memakai operating system dan software bajakan dendanya mencapai Rp.500.000.000(Lima ratus juta rupiah).&lt;/p&gt;
-
-&lt;figure style=&quot;width: 250px&quot; class=&quot;align-center&quot;&gt;
-&lt;img src=&quot;/images/linux.png&quot; alt=&quot;&quot; /&gt;
-&lt;figcaption&gt;credit:google.com&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p style=&quot;text-align: justify;&quot;&gt;Masih kenapa harus Linux?ya Linux yang dibangun oleh Linus trovalds pada tahun 1991 haruse menjadi berkah buat warga warga negara berkembang dengan linux kita yg berekonomi menengah ke atas bisa belajar / bekerja/ bekarya . Haruse dengan Linux memangkas anggaran suatu negara/pemerintahan untuk membeli operating system berlisensi dan software priopetary dan anggarannya bisa di alihkan untuk dunia pendidikkan atau menghidupi warganya yang “miskin”. Haruse  dengan Linux kita sebagai mahasiswa/penggiat dunia teknologi informasi bisa menjadi kreatif dan cerdas  apakah kita bisa melihat struktur dan mempelajari operating system berlisensi? tentunya selain mahal jugak semua akses tertutup .&lt;/p&gt;</content><category term="Linux" /><summary>hari pertama setelah vakum ngeblog karena insiden salah input tahun 1889.
-oke oke kenapa harus Linux? kita sebagai warga indonesia yang berasaskan pancasila harusnya menjunjung tinggi sila ke 2 dan ke 5 dimana hak hak operating system berlisensi dan software proprietary harus kita hormati.
- Dampak buruk yang timbul dari tidak mengamalkan sila sila tersebut adalah  membajak operating system berlisensi dan software propietary .
-
-
-credit:braintless tales.com
-
-sebagai dosen/guru atau tenaga pengajar apa tidak malu ketika mengajar dengan media operating system bajakan ? apakah ilmu itu barokah kalau medianya saja dari hal hal yang buruk dan mana sisi edukasinya?</summary></entry></feed>
+liat hasilnya, selamat mengeksplorisasi bahasa pemrogaman yang fenomena ini dan akan sangat menjanjikan di masa yang akan datang.&lt;/p&gt;</content><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><category term="Pemrogaman" /><summary type="html">credit: google.com lagi pingin nerusin bikin desain logo button app lakok malas datang iseng buka koleksi buku eh tiba tiba menyelinap buku pemrogaman python.Menurutku ini bahasa pemrogaman yang tak kalah fenomena dari bahasa pemrogaman java kenapa? bayangkan hanya beberapa tahun saja bahasa pemrogaman python sudah masuk ranking 5besar bahasa pemrogaman yang sering dipakai para progammers heuheuehue tak heran sih karena orientasinya yang OPEN SOURCE membuat komunitasnya tumbuh subur. Diantara kelebihan bahasa pemrogaman obyek dinamis ini adalah :</summary></entry></feed>
