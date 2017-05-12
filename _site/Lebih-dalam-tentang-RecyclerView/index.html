@@ -242,7 +242,19 @@
 
 <p style="text-align: justify;">Modular hampir di setiap bagian dari RecyclerView dan untuk mendalaminya saya harus merasa nyaman dengan element elementnya kayak <code class="highlighter-rouge">RecyclerView.Adapter</code> , <code class="highlighter-rouge">LayoutManager</code> , <code class="highlighter-rouge">ItemAnimator</code>  dll berangkat dari sana mencoba untuk menelaah satu persatu</p>
 <h2 id="adapter">Adapter</h2>
-<p style="text-align: justify;">RecyclerView mempunyai Adapter sebuah subclass RecyclerView.Adapter digunakan untuk mengikat data dari beberapa sumber data ke View, Adapter mengirimkan View ke RecyclerView melalui object ViewHolder, ViewHolder sendiri berisikan refrence root object view untuk item digunakan untuk meng cache object view di layout supaya mempermudah pada saat memperbarui view dengan data yang baru dalam app contoh yang saya pelajari dari udacity class adapter saya namakan GreenAdapter.java</p>
+<p style="text-align: justify;">Adapter dipanggil RecyclerView untuk membuat item baru dalam bentuk ViewHolder,adapter jugak mengumpulkan atau menggabungkan item dengan data dan return informasi mengenai tentang data seperti banyaknya item di dalam source data, Adapter meminta kita untuk meng override tida method yaitu:</p>
+<ul style="text-align: justify;">
+  <li>onCreateViewHolder yang dipanggil ketika RecyclerView menginstanisasi intance ViewHolder</li>
+</ul>
+<ul>
+  <li>onBindViewHolder method ini dipanggil ketika RecyclerView ingin mengisi view dengan data</li>
+  <li>getItemCount yang return jumlah dari item ke dalam data source</li>
+</ul>
+
+<figure style="text-align: justify;" class="align-center">
+<img src="/images/methodAdapter.gif" />
+<figcaption>ilustrasi override method Adapter</figcaption>
+</figure>
 
         
       </section>
