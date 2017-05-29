@@ -63,3 +63,4 @@ okey untuk membuat asynchronous dari thread background dan thread user interface
 <img src="/images/asyncloader.gif">
 <figcaption></figcaption>
 </figure> 
+`Loader` terikat LifeCycle app secara otomatis menangani perubahan seperti rotasi, loader di desain untu memuat ulang jika user keluar dari activity kita dapat menghindari beban tambahan jika tida suka dengan mencache dan mengirimkan kembali hasil yang ada.
