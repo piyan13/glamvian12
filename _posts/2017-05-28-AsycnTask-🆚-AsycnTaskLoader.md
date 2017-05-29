@@ -57,5 +57,9 @@ okey untuk membuat asynchronous dari thread background dan thread user interface
 <figcaption></figcaption>
 </figure> 
 ## AsyncTaskLoader ##
- 
- 
+ Untuk permasalahan diatas terjawab dengan `Loader` yang menyediakan Framework untuk asynchronous loading data didaftarkan oleh id dengan komponen yang disebut `LoadManager` yang memungkinkan mereka hidup diluar LifeCycle activity yang terkait mencegah pemuatan duplikat yang terjadi secara paralel jika ingin load data di thread background kita dapat mengimplentasikan Loader yang disebut `AsyncTaskLoader`yang jugak mengimplementasikan fungsi yang sama dengan `AsyncTask` tapi dengan siklus yang berbeda.
+ {: style="text-align: justify;"}
+ <figure style="width: 600px" class="align-center">
+<img src="/images/asyncloader.gif">
+<figcaption></figcaption>
+</figure> 
