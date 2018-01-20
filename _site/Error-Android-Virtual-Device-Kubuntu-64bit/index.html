@@ -263,11 +263,10 @@ okey problem <code class="highlighter-rouge">EmptyThrowable: Failed to create th
 
 <p style="text-align: justify;">saat run emulator muncul error baru libGL error setelah baca baca di bug reportnya google jawabanya adalah libstdc++6 yang barusan di install belom terload di sdk kita</p>
 
-<div class="language-ruby highlighter-rouge"><pre class="highlight"><code> <span class="o">~</span><span class="p">:</span><span class="err">$</span> <span class="n">cd</span> <span class="o">~</span><span class="sr">/Android/</span><span class="no">Sdk</span><span class="o">/</span><span class="n">tools</span><span class="o">/</span><span class="n">lib64</span><span class="o">/</span><span class="n">libstdc</span><span class="o">++</span>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="o">~</span><span class="p">:</span><span class="err">$</span> <span class="n">cd</span> <span class="o">~</span><span class="sr">/Android/</span><span class="no">Sdk</span><span class="o">/</span><span class="n">tools</span><span class="o">/</span><span class="n">lib64</span><span class="o">/</span><span class="n">libstdc</span><span class="o">++</span>
  <span class="o">~</span><span class="p">:</span><span class="err">$</span> <span class="n">mv</span> <span class="n">libstdc</span><span class="o">++</span><span class="p">.</span><span class="nf">so</span><span class="o">.</span><span class="mi">6</span> <span class="n">libstdc</span><span class="o">++</span><span class="p">.</span><span class="nf">so</span><span class="o">.</span><span class="mi">6</span><span class="p">.</span><span class="nf">bak</span>
  <span class="o">~</span><span class="p">:</span><span class="err">$</span> <span class="n">ln</span> <span class="o">-</span><span class="n">s</span> <span class="sr">/usr/</span><span class="n">lib64</span><span class="o">/</span><span class="n">libstdc</span><span class="o">++</span><span class="p">.</span><span class="nf">so</span><span class="o">.</span><span class="mi">6</span> <span class="o">~</span><span class="sr">/Android/</span><span class="no">Sdk</span><span class="o">/</span><span class="n">tools</span><span class="o">/</span><span class="n">lib64</span><span class="o">/</span><span class="n">libstdc</span><span class="o">++</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <figure style="width: 200px" class="align-center">
 <img src="/images/solved.jpg" />

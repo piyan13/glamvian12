@@ -288,9 +288,8 @@
 
 <p class="notice--info"><strong>Note:</strong> tidak semua type slalu digunakan untuk menandai yang tidak digunakan cukup gunakan type <code class="highlighter-rouge">Void</code></p>
 
-<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="kd">private</span> <span class="kd">class</span> <span class="nc">MyTask</span> <span class="kd">extends</span> <span class="n">AsyncTask</span><span class="o">&lt;</span><span class="n">Void</span><span class="o">,</span> <span class="n">Void</span><span class="o">,</span> <span class="n">Void</span><span class="o">&gt;{...}</span>
-</code></pre>
-</div>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">private</span> <span class="kd">class</span> <span class="nc">MyTask</span> <span class="kd">extends</span> <span class="n">AsyncTask</span><span class="o">&lt;</span><span class="n">Void</span><span class="o">,</span> <span class="n">Void</span><span class="o">,</span> <span class="n">Void</span><span class="o">&gt;{...}</span>
+</code></pre></div></div>
 <p>untuk menjalankan AsyncTask cukup dengan memanggil <code class="highlighter-rouge">execute</code> dengan parameter selanjutnya AsyncTask menjalankan beberapa langkah:</p>
 
 <p><strong>1.</strong> memanggil <code class="highlighter-rouge">onPreExecute</code> di thread UI jadi kita dapat menginisialisasi apapun yang inginkan di thread ui sebelum task background dimulai</p>
