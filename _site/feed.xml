@@ -1,4 +1,146 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-31T07:04:53+00:00</updated><id>http://localhost:4000/</id><title type="html">./SO</title><subtitle>personal blog</subtitle><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><entry><title type="html">Kangen Flazx dan learnr.pro Terobati</title><link href="http://localhost:4000/kangen-Flazx-dan-learnr-pro/" rel="alternate" type="text/html" title="Kangen Flazx dan learnr.pro Terobati" /><published>2018-03-27T00:00:00+00:00</published><updated>2018-03-27T00:00:00+00:00</updated><id>http://localhost:4000/kangen-Flazx-dan-learnr-pro</id><content type="html" xml:base="http://localhost:4000/kangen-Flazx-dan-learnr-pro/">&lt;p style=&quot;text-align: justify;&quot;&gt;Hari ini merasa beruntung sekali karena akhirnya terobati rasa kangen saya akan situs Flazx dan Learnr.pro terobati dan saya yakin situs yang mengobati ini samapersis mungkin kalau tidak developernya atau orang dibalik situs tersebut visi dan isi kontent darinya samapersis kayak Flazx atau learnr.pro&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-28T18:03:11+00:00</updated><id>http://localhost:4000/</id><title type="html">./SO</title><subtitle>personal blog</subtitle><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><entry><title type="html">Install ReactNative dengan banyak ERORR</title><link href="http://localhost:4000/Install-ReactNative/" rel="alternate" type="text/html" title="Install ReactNative dengan banyak ERORR" /><published>2018-05-28T00:00:00+00:00</published><updated>2018-05-28T00:00:00+00:00</updated><id>http://localhost:4000/Install-ReactNative</id><content type="html" xml:base="http://localhost:4000/Install-ReactNative/">&lt;figure style=&quot;width: 700px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/react6.png&quot; /&gt;
+&lt;figcaption&gt;credit: codeburst&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;aside class=&quot;sidebar__right&quot;&gt;
+&lt;nav class=&quot;toc&quot;&gt;
+    &lt;header&gt;&lt;h4 class=&quot;nav__title&quot;&gt;&lt;i class=&quot;fa fa-file-text&quot;&gt;&lt;/i&gt; Contents&lt;/h4&gt;&lt;/header&gt;
+&lt;ul class=&quot;toc__menu&quot; id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#install-wathcman&quot; id=&quot;markdown-toc-install-wathcman&quot;&gt;install wathcman&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#install-libtool&quot; id=&quot;markdown-toc-install-libtool&quot;&gt;install libtool&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#install-libssl&quot; id=&quot;markdown-toc-install-libssl&quot;&gt;install libssl&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#install-python-dev&quot; id=&quot;markdown-toc-install-python-dev&quot;&gt;install python-dev&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#install-flow&quot; id=&quot;markdown-toc-install-flow&quot;&gt;install flow&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#install-react-native-cli&quot; id=&quot;markdown-toc-install-react-native-cli&quot;&gt;install react native cli&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/nav&gt;
+&lt;/aside&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;Bulan puasa tahun ini di awali dengan suka cita diberi kesempatan kembali untuk berkreasi di dunia progamming baru beberapa hari dan terkesan sangat cepat updatenya mulai takjub dengan Contraints layout, project kompleks dengan usia 2tahun dan si boss yang lagi seru serunya dengan ReactNative beberapa minggu sebelumnya tanpa sengaja saya install flutter walaupun belum sempet cobak cobak kecepatan build antara ReactNative dan fluuter kalau diliat dari video video yutub sama sama cepatnya kali ini karena di sela sela beradaptasi dengan pekerjaan baru yang gak baru baru banget sudah idola sejak masih duduk di bangku perkuliahan saya install ReactNative di mesin linux andalan saya terkejutnya banyak menemui ERORR, apa saja erorrnya mari kita uraikan sebelumnya saya telah install android studio tentunya java dan nodeJs( lupa install ini buat apa sebelumnya ) untuk kali jelas buat mesin utama ReactNative, saya secara langsung mengikuti panduan langkah demi langkah install ReactNative dari &lt;a href=&quot;https://www.moveoapps.com/blog/how-to-install-react-native-on-ubuntu-17-10/&quot;&gt;blog ini&lt;/a&gt; mulailah menemui error ketika install watchman dimana watchman diperlukan untuk melihat file system&lt;/p&gt;
+
+&lt;h2 id=&quot;install-wathcman&quot;&gt;install wathcman&lt;/h2&gt;
+&lt;p&gt;peringatan awal ketika melalui langkah autogen.sh&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; ~/watchman $ ./autogen.sh
+ your system lacks libtoolize
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;install-libtool&quot;&gt;install libtool&lt;/h3&gt;
+&lt;p&gt;yang berarti harus install dulu &lt;code class=&quot;highlighter-rouge&quot;&gt;libtool&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo apt-get install libtool
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;figure style=&quot;width: 500px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/react1.png&quot; /&gt;
+&lt;figcaption&gt;./autogen.sh&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;kiraen output begitu pertanda semua ok maka saya teruskan dengan langkah selanjutnya yaitu &lt;code class=&quot;highlighter-rouge&quot;&gt;$./configure&lt;/code&gt; karena dengan tidak adanya pesan peringatan yang berarti saya lanjutkan dengan &lt;code class=&quot;highlighter-rouge&quot;&gt;$ make&lt;/code&gt; langsung keluar pesan error&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ContentHash.cpp:13:25: fatal error: openssl/sha.h: No such file or directory
+compilation terminated.
+Makefile:3143: recipe for target 'watchman-ContentHash.o' failed
+make[1]: *** [watchman-ContentHash.o] Error 1
+make[1]: Leaving directory '/home/glmvn/react_native/watchman'
+Makefile:1101: recipe for target 'all' failed
+make: *** [all] Error 2
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;install-libssl&quot;&gt;install libssl&lt;/h3&gt;
+&lt;p&gt;itu yang berarti tidak ditemukannya library ssl langsung saja install &lt;code class=&quot;highlighter-rouge&quot;&gt;$ sudo apt-get install libssl-dev&lt;/code&gt; dan dicoba &lt;code class=&quot;highlighter-rouge&quot;&gt;make&lt;/code&gt; ulang dan muncul pesan error baru&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;watchman-ContentHash.o: In function `watchman::ContentHashCache::computeHashImmediate(watchman::ContentHashCacheKey const&amp;amp;) const':
+/home/glmvn/react_native/watchman/ContentHash.cpp:65: undefined reference to `SHA1_Init'
+/home/glmvn/react_native/watchman/ContentHash.cpp:78: undefined reference to `SHA1_Update'
+/home/glmvn/react_native/watchman/ContentHash.cpp:81: undefined reference to `SHA1_Final'
+collect2: error: ld returned 1 exit status
+Makefile:1566: recipe for target 'watchman' failed
+make[1]: *** [watchman] Error 1
+make[1]: Leaving directory '/home/glmvn/react_native/watchman'
+Makefile:1101: recipe for target 'all' failed
+make: *** [all] Error 2
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;setelah mencari clue di github tempat repository watchman berada saya menemukan jawaban &lt;a href=&quot;https://github.com/facebook/watchman/issues/514&quot;&gt;setelah install libssl untuk melakukan ./autogen.sh dan ./configure ulang sebelum make&lt;/a&gt; setelah saya ikuti emang bener siih tapi muncul pesan erorr baru&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cd python &amp;amp;&amp;amp; /usr/bin/python ./setup.py clean build_py -c -d . build_ext -i
+/usr/lib/python2.7/distutils/dist.py:267: UserWarning: Unknown distribution option: 'zip_safe'
+  warnings.warn(msg)
+/usr/lib/python2.7/distutils/dist.py:267: UserWarning: Unknown distribution option: 'test_suite'
+  warnings.warn(msg)
+running clean
+running build_py
+byte-compiling ./pywatchman/compat.py to compat.pyc
+byte-compiling ./pywatchman/capabilities.py to capabilities.pyc
+byte-compiling ./pywatchman/__init__.py to __init__.pyc
+byte-compiling ./pywatchman/encoding.py to encoding.pyc
+byte-compiling ./pywatchman/load.py to load.pyc
+byte-compiling ./pywatchman/pybser.py to pybser.pyc
+running build_ext
+building 'pywatchman.bser' extension
+creating build
+creating build/temp.linux-x86_64-2.7
+creating build/temp.linux-x86_64-2.7/pywatchman
+x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fno-strict-aliasing -Wdate-time -D_FORTIFY_SOURCE=2 -g -fstack-protector-strong -Wformat -Werror=format-security -fPIC -I/usr/include/python2.7 -c pywatchman/bser.c -o build/temp.linux-x86_64-2.7/pywatchman/bser.o
+pywatchman/bser.c:31:20: fatal error: Python.h: No such file or directory
+compilation terminated.
+error: command 'x86_64-linux-gnu-gcc' failed with exit status 1
+Makefile:5060: recipe for target 'py-build' failed
+make[1]: *** [py-build] Error 1
+make[1]: Leaving directory '/home/glmvn/react_native/watchman'
+Makefile:1101: recipe for target 'all' failed
+make: *** [all] Error 2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;install-python-dev&quot;&gt;install python-dev&lt;/h3&gt;
+&lt;p&gt;ternyata package build pythonnya belom ada langsung saja saya install &lt;code class=&quot;highlighter-rouge&quot;&gt;$ sudo apt-get install python-dev&lt;/code&gt; terus ulangi lagi ./autogen.sh , ./configure dan akhirnya&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cd python &amp;amp;&amp;amp; /usr/bin/python ./setup.py clean build_py -c -d . build_ext -i
+/usr/lib/python2.7/distutils/dist.py:267: UserWarning: Unknown distribution option: 'zip_safe'
+  warnings.warn(msg)
+/usr/lib/python2.7/distutils/dist.py:267: UserWarning: Unknown distribution option: 'test_suite'
+  warnings.warn(msg)
+running clean
+removing 'build/temp.linux-x86_64-2.7' (and everything under it)
+removing 'build'
+running build_py
+running build_ext
+building 'pywatchman.bser' extension
+creating build
+creating build/temp.linux-x86_64-2.7
+creating build/temp.linux-x86_64-2.7/pywatchman
+x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fno-strict-aliasing -Wdate-time -D_FORTIFY_SOURCE=2 -g -fstack-protector-strong -Wformat -Werror=format-security -fPIC -I/usr/include/python2.7 -c pywatchman/bser.c -o build/temp.linux-x86_64-2.7/pywatchman/bser.o
+x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -Wdate-time -D_FORTIFY_SOURCE=2 -g -fstack-protector-strong -Wformat -Werror=format-security -Wl,-Bsymbolic-functions -Wl,-z,relro -Wdate-time -D_FORTIFY_SOURCE=2 -g -fstack-protector-strong -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/pywatchman/bser.o -o /home/glmvn/react_native/watchman/python/pywatchman/bser.so
+make[1]: Leaving directory '/home/glmvn/react_native/watchman'
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;tidak aku temukan pesan erorr yang berarti maka langsung tanpa basa basi &lt;code class=&quot;highlighter-rouge&quot;&gt;$ sudo make install&lt;/code&gt;&lt;/p&gt;
+
+&lt;figure style=&quot;width: 500px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/react2.png&quot; /&gt;
+&lt;figcaption&gt; versi watchman&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h2 id=&quot;install-flow&quot;&gt;install flow&lt;/h2&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;beres jugak install watchman lanjut boor heuheuheu lanjutnya adalah install flow cukup download di 
+&lt;a href=&quot;https://github.com/facebook/flow/releases/download/v0.62.0/flow-linux64-v0.62.0.zip&quot;&gt;github flow&lt;/a&gt; setelah di unzip move ke &lt;code class=&quot;highlighter-rouge&quot;&gt;usr/local/bin/flow&lt;/code&gt; baru setelah flow tiada halangan yang berarti dilanjutkan dengan install ReactNative&lt;/p&gt;
+&lt;h2 id=&quot;install-react-native-cli&quot;&gt;install react native cli&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$npm install -g react-native-cli
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;waktunya testing dengan membuat project baru &lt;code class=&quot;highlighter-rouge&quot;&gt;$reactreact-native init TestingApp&lt;/code&gt; langsung deh colok device android dan pastikannya dengan &lt;code class=&quot;highlighter-rouge&quot;&gt;lsusb&lt;/code&gt; setelah pasti terbaca pastikan konek ke adb dengan &lt;code class=&quot;highlighter-rouge&quot;&gt;adb devices&lt;/code&gt;masuk ke folder testingApp dan cuss run &lt;code class=&quot;highlighter-rouge&quot;&gt;react-native run-android&lt;/code&gt;&lt;/p&gt;
+&lt;figure style=&quot;width: 600px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/react3.png&quot; /&gt;
+&lt;figcaption&gt;react native run android&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;saatnya buka file &lt;code class=&quot;highlighter-rouge&quot;&gt;App.js&lt;/code&gt; di IDE ATOM&lt;/p&gt;
+&lt;figure style=&quot;width: 800px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/react4.gif&quot; /&gt;
+&lt;figcaption&gt;react native run android&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;kelebihan reactnative edit,save trus teka &lt;code class=&quot;highlighter-rouge&quot;&gt;RR&lt;/code&gt; di emulator ajaib&lt;/p&gt;
+
+&lt;figure style=&quot;width: 800px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/react5.gif&quot; /&gt;
+&lt;figcaption&gt;react build&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;okey sekian dulu erorr dan percobaan reactnative kemungkinan besar kesempatan untuk build app mobile dengan react native sangat besar mengingat banyak sekali keuntungannya semangat boor&lt;/p&gt;</content><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><category term="Android" /><summary type="html">credit: codeburst Contents</summary></entry><entry><title type="html">Kangen Flazx dan learnr.pro Terobati</title><link href="http://localhost:4000/kangen-Flazx-dan-learnr-pro/" rel="alternate" type="text/html" title="Kangen Flazx dan learnr.pro Terobati" /><published>2018-03-27T00:00:00+00:00</published><updated>2018-03-27T00:00:00+00:00</updated><id>http://localhost:4000/kangen-Flazx-dan-learnr-pro</id><content type="html" xml:base="http://localhost:4000/kangen-Flazx-dan-learnr-pro/">&lt;p style=&quot;text-align: justify;&quot;&gt;Hari ini merasa beruntung sekali karena akhirnya terobati rasa kangen saya akan situs Flazx dan Learnr.pro terobati dan saya yakin situs yang mengobati ini samapersis mungkin kalau tidak developernya atau orang dibalik situs tersebut visi dan isi kontent darinya samapersis kayak Flazx atau learnr.pro&lt;/p&gt;
 
 &lt;figure style=&quot;width: 450px&quot; class=&quot;align-center&quot;&gt;
 &lt;img src=&quot;/images/flazx.jpg&quot; /&gt;
@@ -248,7 +390,7 @@ akhirnya kepikiran untuk install thinkpad archlinux muncul ketakutan konfigurasi
 &lt;figcaption&gt;uml clas MainActivity&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;ada beberapa catatan misal backstack transaction di fragment gimana fungsinya adalah ketika user klik tombol kembali waprlos akan menuju list yang sebelumnya di klik , dan untuk issues ketika app berjalan tiba tiba kita ganti rotasi device itu jugak menjadi tambahan tambahan untuk pembedahan Fragment kali ini dan saya sempet jugak mengamali deadlock saat menuliskan di blog ini ….. done!&lt;/p&gt;</content><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><category term="Android" /><summary type="html">Contents Studi kasus kali ini adalah tentang Fragment dengan app sederhana warplos yaitu app yang menampilkan profil usaha kecil menengah di daerah Bangkingan RW2 surabaya dimana pokok pembahasannya adalah nantik warplos bisa menyesuaikan tampilan saat di run di phone atau tablet,</summary></entry><entry><title type="html">Mendalami Activity Lifecyle</title><link href="http://localhost:4000/Mendalami-LifeCycle-Activity/" rel="alternate" type="text/html" title="Mendalami Activity Lifecyle" /><published>2017-01-13T00:00:00+00:00</published><updated>2017-01-13T00:00:00+00:00</updated><id>http://localhost:4000/Mendalami-LifeCycle-Activity</id><content type="html" xml:base="http://localhost:4000/Mendalami-LifeCycle-Activity/">&lt;aside class=&quot;sidebar__right&quot;&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;ada beberapa catatan misal backstack transaction di fragment gimana fungsinya adalah ketika user klik tombol kembali waprlos akan menuju list yang sebelumnya di klik , dan untuk issues ketika app berjalan tiba tiba kita ganti rotasi device itu jugak menjadi tambahan tambahan untuk pembedahan Fragment kali ini dan saya sempet jugak mengamali deadlock saat menuliskan di blog ini ….. done!&lt;/p&gt;</content><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><category term="Android" /><summary type="html">Contents Studi kasus kali ini adalah tentang Fragment dengan app sederhana warplos yaitu app yang menampilkan profil usaha kecil menengah di daerah Bangkingan RW2 surabaya dimana pokok pembahasannya adalah nantik warplos bisa menyesuaikan tampilan saat di run di phone atau tablet,</summary></entry><entry><title type="html">Mendalami Activity Lifecyle</title><link href="http://localhost:4000/Mendalami-LifeCycle-Activity/" rel="alternate" type="text/html" title="Mendalami Activity Lifecyle" /><published>2017-01-13T00:00:00+00:00</published><updated>2017-01-13T00:00:00+00:00</updated><id>http://localhost:4000/Mendalami-LifeCycle-Activity</id><content type="html" xml:base="http://localhost:4000/Mendalami-LifeCycle-Activity/">&lt;aside class=&quot;sidebar__right&quot;&gt;
 &lt;nav class=&quot;toc&quot;&gt;
     &lt;header&gt;&lt;h4 class=&quot;nav__title&quot;&gt;&lt;i class=&quot;fa fa-file-text&quot;&gt;&lt;/i&gt; Contents&lt;/h4&gt;&lt;/header&gt;
 &lt;ul class=&quot;toc__menu&quot; id=&quot;markdown-toc&quot;&gt;
@@ -537,199 +679,4 @@ kenapa tidak bisa load main class? ternyata saya menemukan syntax new package pe
 &lt;figcaption&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p style=&quot;text-align: justify;&quot;&gt;tapi justru setelah code ini berhasil mengeluarkan output beberapa pertanyaan langsung menghujam di pikiran saya,alih alih akan membuat tulisan kali selesai malah bisa jadi tulisan kali ini akan bersambung . okey output yang dihasilkan diambil dari tanggal yang tertera di system computer setelah saya teliti lagi ada selisih sekitar 3menit sama waktu sholat di masjid surabaya beberapa hari mencari informasi ternyata banyak masjid di surabaya dan jawatimur masih berpedoman ke radio yang disiarkan di masjid rahmat salah satu masjid bersejarah di surabaya dan akhirnya saya jugak dapat informasi kalau masjid rahmat surabaya berpedoman pada tim hisab dan ruhiyat kementrian agama, &lt;a href=&quot;http://simbi.kemenag.go.id/sihat/waktu-sholat&quot;&gt;jadwal sholat&lt;/a&gt; mungkin kedepan saya akan lebih mencari tahu lagi kenapa masih bisa selisih lebih dari 3 menit dari jadwal yang ditentukan oleh kementrian agama&lt;/p&gt;</content><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><category term="Java" /><summary type="html">waktu sholat Karena cukup penasaran dengan algoritma perhitungan waktu sholat dan kebutuhan jugak sih karena terkadang pekerjaan yang saya jalani berada pada posisi tidak dapat mendengar bunyi suara adzan bahkan posisi di tempat penduduknya mayoritas non muslim,terbesit keinginan untuk mencari algoritma dari perhitungan sholat dan menemukan beberapa referensi di website praytime.org disana di terangkan bagaimana cara menghitung waktu sholat secara detail yang bersumber dari hadist dan al-quran tidak hanya alur perhitungan manualnya disana jugak sudah ada contoh source code yang di tulis dalam bahasa javascript dan di digubah dalam beberapa bahasa pemrogaman terutama java setelah saya download langsung saya coba compile di terminal</summary></entry><entry><title type="html">Membangkitkan sang legenda dengan Arch linux</title><link href="http://localhost:4000/membangkitkan-sang-legenda-dengan-archlinux/" rel="alternate" type="text/html" title="Membangkitkan sang legenda dengan Arch linux" /><published>2016-05-10T00:00:00+00:00</published><updated>2016-05-10T00:00:00+00:00</updated><id>http://localhost:4000/membangkitkan-sang-legenda-dengan-archlinux</id><content type="html" xml:base="http://localhost:4000/membangkitkan-sang-legenda-dengan-archlinux/">&lt;figure style=&quot;width: 200px&quot; class=&quot;align-center&quot;&gt;
-&lt;img src=&quot;/images/aspire.png&quot; /&gt;
-&lt;figcaption&gt;legenda acer aspire 5315&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;Acer aspire 5315 adalah alat tempur yang melegenda bagi saya dengan sejarah yang cukup panjang menemani belajar dikala susah maupun senang saat di perguruan tinggi ,terhitung dari tahun 2008an hingga awal 2014 sang legenda resmi menjadi hiasan di meja gudang penuh amunisi dikarenakan salah diagnosa penyakitnya. Alhamdulilah awal bulan mei bisa ketemu ahli perangkat keras dokter spesialis muhammad ngok sekarang bukak klinik di ketintang barat memberi wacana kalau mesin aspire 5315 saya normal hanya saja lcdnya yg bermasalah jadi kepikiran untuk mempersiapkannya untuk menambah amunisi developing saya. alkisah dari dulu laptop ini sangat pemilih dalam hal operating system hanya bisa berjalan sempurna di keluarga debian seperti ubuntu dan linuxmint ada saja kendala kalau di install selain turunan debian mulai kernel panic hingga freezy itu berlaku untuk varian distro linux lama dan baru akhirnya nekat install distro arch linux karena paketnya kita build terpisah sesuai kebutuhan, seperti apa perjalanannya mari kita ulas satu persatu&lt;/p&gt;
-
-&lt;aside class=&quot;sidebar__right&quot;&gt;
-&lt;nav class=&quot;toc&quot;&gt;
-    &lt;header&gt;&lt;h4 class=&quot;nav__title&quot;&gt;&lt;i class=&quot;fa fa-file-text&quot;&gt;&lt;/i&gt; Contents&lt;/h4&gt;&lt;/header&gt;
-&lt;ul class=&quot;toc__menu&quot; id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#mode-partisi&quot; id=&quot;markdown-toc-mode-partisi&quot;&gt;Mode Partisi&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#format-filesystem-dan-swap&quot; id=&quot;markdown-toc-format-filesystem-dan-swap&quot;&gt;Format filesystem dan Swap&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#waktunya-download-dan-install-package-base&quot; id=&quot;markdown-toc-waktunya-download-dan-install-package-base&quot;&gt;Waktunya download dan install package base&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#membuat-password-root-dan-user&quot; id=&quot;markdown-toc-membuat-password-root-dan-user&quot;&gt;Membuat password root dan user&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#konfigurasi-lokasi-bahasa-dan-zona-waktu&quot; id=&quot;markdown-toc-konfigurasi-lokasi-bahasa-dan-zona-waktu&quot;&gt;konfigurasi lokasi bahasa dan zona waktu&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#install-bootloader-dan-beres-beres&quot; id=&quot;markdown-toc-install-bootloader-dan-beres-beres&quot;&gt;Install Bootloader dan beres beres&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-  &lt;/nav&gt;
-&lt;/aside&gt;
-
-&lt;p&gt;salah satu hal yang menarik dari menginstall operating system linux adalah
-sisi dokumentasinya yang sangat lengkap keuntungan opensource dengan komunitas terbesar jadi bahan untuk bacaan atau referensi di kala terjadi error gak usah panic tinggal check di forumnya atau wikipedianya karena error itulah pelajaran baru akan dimulai pintu pengetahuan sudah menjelang di pelupuk mata kali ini referensi lengkapnya ada di &lt;a href=&quot;https://wiki.archlinux.org/&quot; style=&quot;text-align: justify;&quot;&gt;arch wiki&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;mode-partisi&quot;&gt;Mode Partisi&lt;/h2&gt;
-
-&lt;figure style=&quot;width: 500px&quot; class=&quot;align-center&quot;&gt;
-&lt;img src=&quot;/images/booting.gif&quot; /&gt;
-&lt;figcaption&gt;booting liveusb&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;Note:&lt;/strong&gt; untuk persiapan booting mode liveusb dan mentahan .iso arch bisa kunjungi &lt;a href=&quot;https://www.archlinux.org/download/&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;setelah booting dengan liveusb barulah install mode command line dimulai dengan
-partisi menggunakan applikasi &lt;code class=&quot;highlighter-rouge&quot;&gt;cfdisk&lt;/code&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@archiso&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# cfdisk&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;figure style=&quot;width: 400px&quot; class=&quot;align-center&quot;&gt;
-&lt;img src=&quot;/images/cfdisk.png&quot; /&gt;
-&lt;figcaption&gt;credit google&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;saya cuman butuh 2 partisi yaitu partisi linux filesystem dan swap tinggal sesuain sama kebutuhan saja, kalau hardisknya sudah ada partisinya dan ragu bagian mana yang akan digunakan format atau delete bisa menggunakan &lt;code class=&quot;highlighter-rouge&quot;&gt;cfdisk -l&lt;/code&gt; untuk melihat ada berapa partisi di hardisk&lt;/p&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@archiso&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# fdisk -l&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;format-filesystem-dan-swap&quot;&gt;Format filesystem dan Swap&lt;/h2&gt;
-
-&lt;p&gt;partisi telah siap dan saatnya untuk format filesystem saya memimilih ext4 lalu  mount partisi root pada directory /mnt&lt;/p&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@archiso&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# mkfs.ext4 /dev/sda1&lt;/span&gt;
- &lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@archiso&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# mount /dev/sda1 /mnt&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;Note:&lt;/strong&gt; ada beberapa type dari filesystem untuk referensi lebih lanjut bisa baca baca &lt;a href=&quot;https://wiki.archlinux.org/index.php/file_systems&quot;&gt;arch wiki file systems&lt;/a&gt;
-atau bisa jugak ingin mengetahui perbedaan ext2 ext3 dan ext4 bisa kunjungi artikel ini &lt;a href=&quot;http://www.thegeekstuff.com/2011/05/ext2-ext3-ext4/&quot;&gt;theegeekstuff&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;filesystem telah siap tinggal kita format partisi swap , apa itu swap ? silahkan ke &lt;a href=&quot;https://wiki.archlinux.org/index.php/Swap&quot;&gt;arch wiki swap&lt;/a&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@archiso&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# mkswap /dev/sda2&lt;/span&gt;
- &lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@archiso&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# swapon /dev/sda2&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p class=&quot;notice--warning&quot;&gt;&lt;strong&gt;peringatan:&lt;/strong&gt; pastikan mengingat /dev/sda dari filesystem dan swap yang sudah di alokasikan di mode partisi jangan sampai ketuker antara swap dan filesystem&lt;/p&gt;
-
-&lt;h2 id=&quot;waktunya-download-dan-install-package-base&quot;&gt;Waktunya download dan install package base&lt;/h2&gt;
-
-&lt;figure style=&quot;width: 600px&quot; class=&quot;align-center&quot;&gt;
-&lt;img src=&quot;/images/pacstrap.gif&quot; /&gt;
-&lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@archiso&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# pacstrap -i /mnt base&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;Note:&lt;/strong&gt; untuk terlebih dahulu memastikan ada koneksi internet karena saya memakai jaringan wifi jadi konektivitasnya di jembatani oleh &lt;code class=&quot;highlighter-rouge&quot;&gt;wpa_supplicant&lt;/code&gt; dengan &lt;code class=&quot;highlighter-rouge&quot;&gt;wifi-menu&lt;/code&gt; silahkan check &lt;a href=&quot;https://wiki.archlinux.org/index.php/Wireless_network_configuration#Getting_some_useful_information&quot;&gt;arch wiki internet&lt;/a&gt;&lt;/p&gt;
-
-&lt;p class=&quot;notice--danger&quot;&gt;&lt;strong&gt;Tips:&lt;/strong&gt; jangan lupa untuk menginstall app dan library konektivias internet untuk selanjutnya digunakan pada saat setelah installasi selesai misal &lt;code class=&quot;highlighter-rouge&quot;&gt;iw&lt;/code&gt;,&lt;code class=&quot;highlighter-rouge&quot;&gt;dialog&lt;/code&gt;,&lt;code class=&quot;highlighter-rouge&quot;&gt;wpa_supplicant&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;setelah terinstall dengan sempurna paket base di /mnt selanjutnya adalah configurasi fstab tugasnya file ini bisa dibaca di &lt;a href=&quot;https://wiki.archlinux.org/index.php/Fstab&quot;&gt;arch wiki fstab&lt;/a&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@archiso&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# genfstab -U /mnt &amp;gt;&amp;gt; /mnt/etc/fstab&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;figure style=&quot;width: 600px&quot; class=&quot;align-center&quot;&gt;
-&lt;img src=&quot;/images/fstab.gif&quot; /&gt;
-&lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&quot;membuat-password-root-dan-user&quot;&gt;Membuat password root dan user&lt;/h2&gt;
-
-&lt;p&gt;akun root atau superuser digunakan system adminitration misal untuk melakukan kegiatan install dan akses folder folder yang ada di system, maka selain kegiatan sifatnya biasa di sarankan untuk membuat akun lagi selain root . karena arch mode liveusb menggunakan auto login maka untuk kepentingan keamanan maka kita harus memasukkan password root&lt;/p&gt;
-
-&lt;figure style=&quot;width: 400px&quot; class=&quot;align-center&quot;&gt;
-&lt;img src=&quot;/images/chroot.gif&quot; /&gt;
-&lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@archiso&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# arch-chroot /mnt /bin/bash&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;setelah masuk ke mode root langsung deh &lt;code class=&quot;highlighter-rouge&quot;&gt;passwd&lt;/code&gt;&lt;/p&gt;
-
-&lt;figure style=&quot;width: 400px&quot; class=&quot;align-center&quot;&gt;
-&lt;img src=&quot;/images/passwd.gif&quot; /&gt;
-&lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;oke beres password superuser root saatnya membuat user lain untuk tugas tugas sederhana dan untuk keamanan jugak, sebelum itu install dulu paket sudo fungsinya untuk memberikan beberapa ijin akses ke system akun user&lt;/p&gt;
-
-&lt;figure style=&quot;width: 600px&quot; class=&quot;align-center&quot;&gt;
-&lt;img src=&quot;/images/sudopac.gif&quot; /&gt;
-&lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;n&quot;&gt;sh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;4.3&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#pacman -S sudo bash-completion&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;setelah terinstall baru kita menambah user dan memberikannya password&lt;/p&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;n&quot;&gt;sh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;4.3&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# useradd -m -g users -G wheel,storage,power -s /bin/bash &amp;lt;namauser&amp;gt;&lt;/span&gt;
- &lt;span class=&quot;n&quot;&gt;passwd&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;namauser&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;figure style=&quot;width: 600px&quot; class=&quot;align-center&quot;&gt;
-&lt;img src=&quot;/images/useradd.gif&quot; /&gt;
-&lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;nah setelah itu baru kita konfigurasi user yang baru ditambahkan untuk berada dalam grup wheel agar bisa menjalankan tugas tugas yang membutuhkan akses ke system dengan sudo&lt;/p&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;n&quot;&gt;sh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;4.3&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#EDITOR=nano visudo&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;setelah masuk ke teks editor nano hapus tanda # &lt;code class=&quot;highlighter-rouge&quot;&gt;%whell ALL=(ALL) ALL&lt;/code&gt; seperti pada gambar dibawah ini&lt;/p&gt;
-
-&lt;figure style=&quot;width: 500px&quot; class=&quot;align-center&quot;&gt;
-&lt;img src=&quot;/images/sudoers.gif&quot; /&gt;
-&lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;beres dah masalah useradd langsung memasukkan nama hostname komputer berguna saat koneksi antar komputer&lt;/p&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;n&quot;&gt;sh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;4.3&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# echo nama komputer &amp;gt; /etc/hostname&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p class=&quot;notice--danger&quot;&gt;&lt;strong&gt;peringatan:&lt;/strong&gt; Hayo looh ingat ingat lagi password root dan user jangan sampe kelupaan&lt;/p&gt;
-
-&lt;h2 id=&quot;konfigurasi-lokasi-bahasa-dan-zona-waktu&quot;&gt;konfigurasi lokasi bahasa dan zona waktu&lt;/h2&gt;
-
-&lt;p&gt;saya menggunakan bahasa inggris saja karena sudah terbiasa bor&lt;/p&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;n&quot;&gt;sh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;4.3&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#nano /etc/locale.gen&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;hapus tanda # di lokasi dan bahasa yang dipilih setelah itu klik &lt;code class=&quot;highlighter-rouge&quot;&gt;locale-gen&lt;/code&gt; untuk mengenerate&lt;/p&gt;
-
-&lt;figure style=&quot;width: 600px&quot; class=&quot;align-center&quot;&gt;
-&lt;img src=&quot;/images/locale.gif&quot; /&gt;
-&lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;selanjutanya menentukan zona waktu&lt;/p&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;n&quot;&gt;sh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;4.3&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#ls /usr/share/zoneinfo/&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;maka akan muncul gambar dibawah ini karena saya menggunakan jakarta dia berada di directory Asia&lt;/p&gt;
-&lt;figure style=&quot;width: 600px&quot; class=&quot;align-center&quot;&gt;
-&lt;img src=&quot;/images/zoneinfo.png&quot; /&gt;
-&lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;n&quot;&gt;sh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;4.3&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#ln -s /usr/share/zoneinfo/Asia/Jakarta&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;okey beres zona waktu , bahasa dan lokasi sudah terkonfigurasi dengan benar&lt;/p&gt;
-
-&lt;h2 id=&quot;install-bootloader-dan-beres-beres&quot;&gt;Install Bootloader dan beres beres&lt;/h2&gt;
-
-&lt;p&gt;kegiatan kali ini diawali dengan bash script mkinitcpio yang digunakan untuk membuat initial ramdisk environment &lt;a href=&quot;https://wiki.archlinux.org/index.php/Mkinitcpio&quot;&gt;arch wiki mkinitcpio&lt;/a&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;n&quot;&gt;sh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;4.3&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#mkinitcpio -p linux&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;setelah itu download dan install grub&lt;/p&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;n&quot;&gt;sh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;4.3&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#pacman -S grub_bios&lt;/span&gt;
- &lt;span class=&quot;n&quot;&gt;sh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;4.3&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#grub install /dev/sda&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;figure style=&quot;width: 600px&quot; class=&quot;align-center&quot;&gt;
-&lt;img src=&quot;/images/grubpac.gif&quot; /&gt;
-&lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;konfigurasi boot di grub&lt;/p&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;n&quot;&gt;sh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;4.3&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#grub-mkconfig -o /boot/grub/grub.cfg&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;fiuuuuuh akhirnya saat saat terakhir telah tiba dalam daya dan upaya membangkitkan sang legenda 5315 tinggal unmount dan reboot jurus pamungkasnya
-check this out bor&lt;/p&gt;
-
-&lt;figure style=&quot;width: 600px&quot; class=&quot;align-center&quot;&gt;
-&lt;img src=&quot;/images/fiuh.gif&quot; /&gt;
-&lt;figcaption&gt;finally&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Alhamdulilah sang legenda kini menampaki ruang baru dan menjadi alat tempur andalan saya lagi ini bener bener masih permulaan, ya awal yang baru sejarah baru buat aspire karena ternyata tidak hanya distro debian tapi arch jugak bisa keep badass lah pokoke&lt;/p&gt;</content><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><category term="Linux" /><summary type="html">legenda acer aspire 5315 Acer aspire 5315 adalah alat tempur yang melegenda bagi saya dengan sejarah yang cukup panjang menemani belajar dikala susah maupun senang saat di perguruan tinggi ,terhitung dari tahun 2008an hingga awal 2014 sang legenda resmi menjadi hiasan di meja gudang penuh amunisi dikarenakan salah diagnosa penyakitnya. Alhamdulilah awal bulan mei bisa ketemu ahli perangkat keras dokter spesialis muhammad ngok sekarang bukak klinik di ketintang barat memberi wacana kalau mesin aspire 5315 saya normal hanya saja lcdnya yg bermasalah jadi kepikiran untuk mempersiapkannya untuk menambah amunisi developing saya. alkisah dari dulu laptop ini sangat pemilih dalam hal operating system hanya bisa berjalan sempurna di keluarga debian seperti ubuntu dan linuxmint ada saja kendala kalau di install selain turunan debian mulai kernel panic hingga freezy itu berlaku untuk varian distro linux lama dan baru akhirnya nekat install distro arch linux karena paketnya kita build terpisah sesuai kebutuhan, seperti apa perjalanannya mari kita ulas satu persatu</summary></entry></feed>
+&lt;p style=&quot;text-align: justify;&quot;&gt;tapi justru setelah code ini berhasil mengeluarkan output beberapa pertanyaan langsung menghujam di pikiran saya,alih alih akan membuat tulisan kali selesai malah bisa jadi tulisan kali ini akan bersambung . okey output yang dihasilkan diambil dari tanggal yang tertera di system computer setelah saya teliti lagi ada selisih sekitar 3menit sama waktu sholat di masjid surabaya beberapa hari mencari informasi ternyata banyak masjid di surabaya dan jawatimur masih berpedoman ke radio yang disiarkan di masjid rahmat salah satu masjid bersejarah di surabaya dan akhirnya saya jugak dapat informasi kalau masjid rahmat surabaya berpedoman pada tim hisab dan ruhiyat kementrian agama, &lt;a href=&quot;http://simbi.kemenag.go.id/sihat/waktu-sholat&quot;&gt;jadwal sholat&lt;/a&gt; mungkin kedepan saya akan lebih mencari tahu lagi kenapa masih bisa selisih lebih dari 3 menit dari jadwal yang ditentukan oleh kementrian agama&lt;/p&gt;</content><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><category term="Java" /><summary type="html">waktu sholat Karena cukup penasaran dengan algoritma perhitungan waktu sholat dan kebutuhan jugak sih karena terkadang pekerjaan yang saya jalani berada pada posisi tidak dapat mendengar bunyi suara adzan bahkan posisi di tempat penduduknya mayoritas non muslim,terbesit keinginan untuk mencari algoritma dari perhitungan sholat dan menemukan beberapa referensi di website praytime.org disana di terangkan bagaimana cara menghitung waktu sholat secara detail yang bersumber dari hadist dan al-quran tidak hanya alur perhitungan manualnya disana jugak sudah ada contoh source code yang di tulis dalam bahasa javascript dan di digubah dalam beberapa bahasa pemrogaman terutama java setelah saya download langsung saya coba compile di terminal</summary></entry></feed>
