@@ -1,4 +1,177 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-28T18:03:11+00:00</updated><id>http://localhost:4000/</id><title type="html">./SO</title><subtitle>personal blog</subtitle><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><entry><title type="html">Install ReactNative dengan banyak ERORR</title><link href="http://localhost:4000/Install-ReactNative/" rel="alternate" type="text/html" title="Install ReactNative dengan banyak ERORR" /><published>2018-05-28T00:00:00+00:00</published><updated>2018-05-28T00:00:00+00:00</updated><id>http://localhost:4000/Install-ReactNative</id><content type="html" xml:base="http://localhost:4000/Install-ReactNative/">&lt;figure style=&quot;width: 700px&quot; class=&quot;align-center&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-04-19T08:46:20+00:00</updated><id>http://localhost:4000/</id><title type="html">./SO</title><subtitle>personal blog</subtitle><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><entry><title type="html">CodeMagic memang ajaib</title><link href="http://localhost:4000/codemagic-memang-ajaib/" rel="alternate" type="text/html" title="CodeMagic memang ajaib" /><published>2019-04-19T00:00:00+00:00</published><updated>2019-04-19T00:00:00+00:00</updated><id>http://localhost:4000/codemagic-memang-ajaib</id><content type="html" xml:base="http://localhost:4000/codemagic-memang-ajaib/">&lt;figure style=&quot;width: 700px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/Codemagic.jpg&quot; /&gt;
+&lt;figcaption&gt;credit: nevercode&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;aside class=&quot;sidebar__right&quot;&gt;
+&lt;nav class=&quot;toc&quot;&gt;
+    &lt;header&gt;&lt;h4 class=&quot;nav__title&quot;&gt;&lt;i class=&quot;fa fa-file-text&quot;&gt;&lt;/i&gt; Contents&lt;/h4&gt;&lt;/header&gt;
+&lt;ul class=&quot;toc__menu&quot; id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#setting-repository-project&quot; id=&quot;markdown-toc-setting-repository-project&quot;&gt;Setting Repository Project&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#setup-triggers-branch&quot; id=&quot;markdown-toc-setup-triggers-branch&quot;&gt;Setup Triggers Branch&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#test&quot; id=&quot;markdown-toc-test&quot;&gt;Test&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#build&quot; id=&quot;markdown-toc-build&quot;&gt;Build&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#publish&quot; id=&quot;markdown-toc-publish&quot;&gt;Publish&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#settingan-flow-publish-untuk-ci&quot; id=&quot;markdown-toc-settingan-flow-publish-untuk-ci&quot;&gt;settingan flow publish untuk CI&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#test-ci-continous-integration&quot; id=&quot;markdown-toc-test-ci-continous-integration&quot;&gt;Test CI (Continous Integration)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#settingan-flow-publish-untuk-cd&quot; id=&quot;markdown-toc-settingan-flow-publish-untuk-cd&quot;&gt;settingan flow publish untuk CD&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#google-play&quot; id=&quot;markdown-toc-google-play&quot;&gt;google play&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#apple-store-connect&quot; id=&quot;markdown-toc-apple-store-connect&quot;&gt;apple store connect&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#test-cicd&quot; id=&quot;markdown-toc-test-cicd&quot;&gt;Test CI/CD&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/nav&gt;
+&lt;/aside&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;Akhirnya menulis lagi! kali ini aku ingin menulis tentang CI/CD (continous integration dan develivery) risetnya demi kebutuhan di kerjaan, tujuannya adalah efisiensi waktu development product product forca mobile , kebetulan di team RnD forcaErp pt sisi (sinergi informatika semen indonesia) mobile developer belom menerapkan tools CI/CD berbeda dengan ForcaErp devnya yang sudah memakai jenkins. monggo check &lt;a href=&quot;http://forca.id/&quot;&gt;erpForca&lt;/a&gt; , riset kali ini menggunakan tools &lt;a href=&quot;https://codemagic.io/&quot;&gt;CodeMagic&lt;/a&gt; tools yang benar benar fokus CI/CD untuk &lt;a href=&quot;https://flutter.dev/&quot;&gt;Flutter&lt;/a&gt;.
+Tl;dr dibawah ini adalah setup di workflow default dari codemagic dengan tujuan akhir delivery google play console android dan app store untuk ios.&lt;/p&gt;
+
+&lt;h2 id=&quot;setting-repository-project&quot;&gt;Setting Repository Project&lt;/h2&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;setelah login dengan git version control dimana codemagic mengakomodir github, gitlab dan bitbucket secara otomatis semua repository kita di load dihalaman codemagic.&lt;/p&gt;
+&lt;figure style=&quot;width: 700px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/home.png&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;pilih setting project yang akan kita setup untuk CI/CD di codemagic.&lt;/p&gt;
+
+&lt;h2 id=&quot;setup-triggers-branch&quot;&gt;Setup Triggers Branch&lt;/h2&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;build triggers disini adalah branch repository project yang di jadikan pemicu untuk codemagic melakukan build normalnya adalah branch master tapi tergantung kita jugak.&lt;/p&gt;
+&lt;figure style=&quot;width: 700px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/build_triggers.png&quot; /&gt;
+&lt;figcaption&gt;build triggers&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;disana ada pilihan pattern yang bisa di gunakan misal * menunjuk ke semua branch menjadi trigger untuk keterangan lengkapnya bisa klik show pattern examples jugak ada opsi dibawahnya untuk automatic triggering buildnya otomatis setiap waktu ada push ke branch atau setiap ada pull request ke branch.&lt;/p&gt;
+&lt;figure style=&quot;width: 700px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/build_master.png&quot; /&gt;
+&lt;figcaption&gt;show pattern&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure style=&quot;width: 700px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/buil_everypush.png&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;test&quot;&gt;Test&lt;/h2&gt;
+&lt;p&gt;test disini adalah mengarah ke package test di project flutter karena di project saya tidak memakai unit test jadi disini tidak saya centang untuk enable flutter test dan stop build if test fail yang berarti flow test ini saya lewati&lt;/p&gt;
+&lt;figure style=&quot;width: 700px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/test.png&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;build&quot;&gt;Build&lt;/h2&gt;
+&lt;p&gt;di flow build ini kita bisa memilih bakal di build versi flutter berapa repository kita :&lt;/p&gt;
+&lt;figure style=&quot;width: 700px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/flowbuild_version.png&quot; /&gt;
+&lt;figcaption&gt;pilihan build flutter version&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;sesuai goal dari riset saya yang mau jadikan dua mobile platform sekaligus yaitu ios dan android maka dibawah ini adalah setup flow build saya&lt;/p&gt;
+&lt;figure style=&quot;width: 700px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/build_an_ios.gif&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;publish&quot;&gt;Publish&lt;/h2&gt;
+&lt;figure style=&quot;width: 700px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/flowPublish.png&quot; /&gt;
+&lt;figcaption&gt;tampilan flow publish&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;di dalam flow publish ini  ada beberapa setting yang harus di setup saran saya adalah pastikan dulu apakah CI bekerja dengan lancar setelah itu baru setting untuk CD, setting apa saja yang untuk CI ?:&lt;/p&gt;
+
+&lt;h3 id=&quot;settingan-flow-publish-untuk-ci&quot;&gt;settingan flow publish untuk CI&lt;/h3&gt;
+
+&lt;p style=&quot;text-align: justify;&quot;&gt;1.android code signing untuk menghasilkan apk.release apa saja yang diperlukan kunjungi &lt;a href=&quot;https://developer.android.com/studio/publish/app-signing?hl=id&quot;&gt;link ini&lt;/a&gt;&lt;/p&gt;
+&lt;figure style=&quot;width: 700px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/android_code_signing.png&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;2.ios code signing kalau ingin menghasilkan file .ipa disana ada pilihan automatic dan manual, saya sarankan untuk manual karena automatic percobaan saya beberapa kali masih menemui error. di manual cukup isi dengan code signing certificate dalam format .p12 dan isi provsioning profiles (disarankan yang distribution) dengan format .mobileprovision, kalau belom tahu cara untuk mendapatkan certificate .p12 bisa kunjungi &lt;a href=&quot;https://support.magplus.com/hc/en-us/articles/203808748-iOS-Creating-a-Distribution-Certificate-and-p12-File&quot;&gt;link ini&lt;/a&gt;, jika ios code signing ini tidak di isi maka artifactnya dalam bentum runner.&lt;/p&gt;
+&lt;figure style=&quot;width: 500px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/ios_signing.png&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;3.setup email yang akan dijadikan archive artifact dan jugak untuk notifikasi baik ketika build failed ataupun sukses, ada opsi jugak untuk slack selain email&lt;/p&gt;
+&lt;figure style=&quot;width: 500px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/flowPublish_email.png&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;test-ci-continous-integration&quot;&gt;Test CI (Continous Integration)&lt;/h3&gt;
+&lt;figure style=&quot;width: 700px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/startNewBuild.png&quot; /&gt;
+&lt;figcaption&gt;start new build&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;pilih start new build pojok kanan atas&lt;/p&gt;
+
+&lt;figure style=&quot;width: 700px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/testCi_succes.gif&quot; /&gt;
+&lt;figcaption&gt;tampilan ketika berhasil test CI&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;jika berhasil check email/slack yang sudah di setup seperti dibawah ini:&lt;/p&gt;
+
+&lt;figure style=&quot;width: 500px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/email_ios_android.gif&quot; /&gt;
+&lt;figcaption&gt;tampilan email&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;setelah memastikan CI berjalan dengan semestinya selanjutnya adalah setup CD&lt;/p&gt;
+
+&lt;h3 id=&quot;settingan-flow-publish-untuk-cd&quot;&gt;settingan flow publish untuk CD&lt;/h3&gt;
+&lt;p&gt;ketika settingan CI kita sudah tidak menemui kendala berikutnya tinggal setup flow publish google play untuk android dan apple store connect untuk ios yang mana tujuannya adalah automate delivery ketika build sukses.&lt;/p&gt;
+
+&lt;h4 id=&quot;google-play&quot;&gt;google play&lt;/h4&gt;
+&lt;p&gt;yang dibutuhkan untuk menyinkronkan codemagic ke google play adalah credential api google play file format dalam bentuk .json bagaimana cara untuk mendapatkan file ini bisa di sima &lt;a href=&quot;https://support.appinstitute.com/hc/en-us/articles/115002827469-How-to-Get-Your-Google-Play-JSON-Key&quot;&gt;artikel ini&lt;/a&gt;,
+setelah itu centang publish even if test fail.&lt;/p&gt;
+&lt;figure style=&quot;width: 700px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/googleplay.png&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&quot;apple-store-connect&quot;&gt;apple store connect&lt;/h4&gt;
+&lt;p&gt;isi dengan apple id yang sudah terdaftar di apple development untuk password saya sarankan memakai application-spesific password bagaimana cara membuatnya? kunjungi appleid.apple.com –&amp;gt; security –&amp;gt; authentiiasi two factor . sertakan app id lalu uncentang publish even if test fail&lt;/p&gt;
+&lt;figure style=&quot;width: 500px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/iosstore_connect.png&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;test-cicd&quot;&gt;Test CI/CD&lt;/h2&gt;
+&lt;p&gt;bisa kembali ke ide repository local untuk push ke git atau tombol start new build di pojok kanan atas di codemagic&lt;/p&gt;
+
+&lt;figure style=&quot;width: 700px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/testCD_prosess.gif&quot; /&gt;
+&lt;figcaption&gt;proses build &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;kalau sudah sukses akan seperti dibawah ini&lt;/p&gt;
+
+&lt;figure style=&quot;width: 700px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/succes_CD.gif&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;untuk memastikan bisa di check di google play console dan ios store&lt;/p&gt;
+
+&lt;figure style=&quot;width: 700px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/succes_andro_delivery.gif&quot; /&gt;
+&lt;figcaption&gt;tampilan di google play&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure style=&quot;width: 700px&quot; class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;/images/succes_ios_delivery.gif&quot; /&gt;
+&lt;figcaption&gt;tampilan di apple store&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;seperti itulah setup codemagic yang telah saya riset masih banyak keluwesan yang ada di codemagic yang belom aku explore, mungkin tulisan berikutnya akan lebih dalem lagi semoga tentang codemagic, disini saya belom sempet membandingkan dengan tool sejenis apakah perfomance, security dll. mungkin di kemudian hari bakal bisa kasih testi kalau sudah cobain tool selain codemagic, okey terimakasih semoga bermanfaat.&lt;/p&gt;
+
+&lt;p&gt;referensi :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment&quot;&gt;continous integration vs delivery vs deployment&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@nirespire/what-is-cicd-concepts-in-continuous-integration-and-deployment-4fe3f6625007&quot;&gt;what is cicd concept in continous integration and deployment&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=GsQ5MHHVNqQ&quot;&gt;Flutter: CI CD With Codemagic Automate Your Workflow&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><category term="Android" /><summary type="html">credit: nevercode Contents</summary></entry><entry><title type="html">Install ReactNative dengan banyak ERORR</title><link href="http://localhost:4000/Install-ReactNative/" rel="alternate" type="text/html" title="Install ReactNative dengan banyak ERORR" /><published>2018-05-28T00:00:00+00:00</published><updated>2018-05-28T00:00:00+00:00</updated><id>http://localhost:4000/Install-ReactNative</id><content type="html" xml:base="http://localhost:4000/Install-ReactNative/">&lt;figure style=&quot;width: 700px&quot; class=&quot;align-center&quot;&gt;
 &lt;img src=&quot;/images/react6.png&quot; /&gt;
 &lt;figcaption&gt;credit: codeburst&lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -630,53 +803,4 @@ okey problem &lt;code class=&quot;highlighter-rouge&quot;&gt;EmptyThrowable: Fai
 &lt;figure style=&quot;width: 500px&quot; class=&quot;align-center&quot;&gt;
 &lt;img src=&quot;/images/emudone.gif&quot; /&gt;
 &lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;</content><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><category term="Linux" /><summary type="html">kinfo Tibalah saatnya untuk upgrade Ram ddr3l thinkpad e145 dari 4GB ke 8GB di iringi penuh drama semenjak pertama kali upgrade ke 4GB dan 8GB adalah upgrade terakhir karena thinkpad ini hanya bisa up to 8GB menurut website resminya tapi menurut kabar beredar dari mas mas di VGEN service center ini thinkpad bisa sampek 16GB tapi rasanya saya tidak sebegitu tertarik untuk coba coba pasalnya upgrade ke 8GB hanya untuk memenuhi rekomendasi system untuk android studio di operating system linux</summary></entry><entry><title type="html">Membongkar source code PrayTime</title><link href="http://localhost:4000/membongkar-source-code-PrayTime/" rel="alternate" type="text/html" title="Membongkar source code PrayTime" /><published>2016-10-12T00:00:00+00:00</published><updated>2016-10-12T00:00:00+00:00</updated><id>http://localhost:4000/membongkar-source-code-PrayTime</id><content type="html" xml:base="http://localhost:4000/membongkar-source-code-PrayTime/">&lt;figure style=&quot;width: 200px&quot; class=&quot;align-center&quot;&gt;
-&lt;img src=&quot;/images/analog.JPG&quot; /&gt;
-&lt;figcaption&gt;waktu sholat&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;Karena cukup penasaran dengan algoritma perhitungan waktu sholat dan kebutuhan jugak sih karena terkadang pekerjaan yang saya jalani berada pada posisi tidak dapat mendengar bunyi 
-suara adzan bahkan posisi di tempat penduduknya mayoritas non muslim,terbesit keinginan untuk mencari algoritma dari perhitungan sholat dan menemukan beberapa referensi di website &lt;a href=&quot;http://praytimes.org/&quot;&gt;praytime.org&lt;/a&gt; disana di terangkan bagaimana cara menghitung waktu sholat secara detail yang bersumber dari hadist dan al-quran tidak hanya alur perhitungan manualnya disana jugak sudah ada contoh &lt;a href=&quot;http://praytimes.org/wiki/Code&quot;&gt;source code&lt;/a&gt; yang di tulis dalam bahasa &lt;code class=&quot;highlighter-rouge&quot;&gt;javascript&lt;/code&gt; dan di digubah dalam beberapa bahasa pemrogaman terutama &lt;code class=&quot;highlighter-rouge&quot;&gt;java&lt;/code&gt; setelah saya download langsung saya coba compile di terminal&lt;/p&gt;
-
-&lt;figure style=&quot;width: 500px&quot; class=&quot;align-center&quot;&gt;
-&lt;img src=&quot;/images/erorDeprecate.gif&quot; /&gt;
-&lt;figcaption&gt;deprecated API&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;langsung menemukan Deprecated API (Application Progamming Interface) pada class DATE&lt;/p&gt;
-&lt;figure style=&quot;width: 600px&quot; class=&quot;align-center&quot;&gt;
-&lt;img src=&quot;/images/ana1.png&quot; /&gt;
-&lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;figure style=&quot;width: 700px&quot; class=&quot;align-center&quot;&gt;
-&lt;img src=&quot;/images/ana2.png&quot; /&gt;
-&lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p style=&quot;text-align: justify;&quot;&gt;kalau diliat dari dokumentasi &lt;a href=&quot;https://docs.oracle.com/javase/7/docs/api/java/util/Date.html&quot;&gt;javadoc&lt;/a&gt; sejak jdk 1.1 telah digantikan oleh Calendar.set di laptop saya telah menggunakan jdk 1.8 setelah menganalisa dengan seksama ternyata yang menggunakan class Date adalah method kedua alias opsional jadi saya &lt;code class=&quot;highlighter-rouge&quot;&gt;comments&lt;/code&gt; saja untuk sementara karena beberapa kali saya coba untuk merubah ke calendar.set belum bisa teratasi heuheuheu&lt;/p&gt;
-&lt;figure style=&quot;width: 700px&quot; class=&quot;align-center&quot;&gt;
-&lt;img src=&quot;/images/coment.png&quot; /&gt;
-&lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;figure style=&quot;width: 500px&quot; class=&quot;align-center&quot;&gt;
-&lt;img src=&quot;/images/erorpackage.gif&quot; /&gt;
-&lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p style=&quot;text-align: justify;&quot;&gt;okey compiler sudah tidak ngriwik lagi tapi setelah di execute bytecode-nya muncul pesan &lt;code class=&quot;highlighter-rouge&quot;&gt;Error:could not find or load main class PrayTime&lt;/code&gt;
-kenapa tidak bisa load main class? ternyata saya menemukan syntax new package pemanggilan package newpackage di line 25 yang gak jelas maksutnya masih misteri&lt;/p&gt;
-
-&lt;figure style=&quot;width: 700px&quot; class=&quot;align-center&quot;&gt;
-&lt;img src=&quot;/images/failpackage.png&quot; /&gt;
-&lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;setelah saya hapus syntax di line 25 akhirnya bisa melihat output dari source code PrayTime&lt;/p&gt;
-
-&lt;figure style=&quot;width: 500px&quot; class=&quot;align-center&quot;&gt;
-&lt;img src=&quot;/images/suksescom.gif&quot; /&gt;
-&lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p style=&quot;text-align: justify;&quot;&gt;tapi justru setelah code ini berhasil mengeluarkan output beberapa pertanyaan langsung menghujam di pikiran saya,alih alih akan membuat tulisan kali selesai malah bisa jadi tulisan kali ini akan bersambung . okey output yang dihasilkan diambil dari tanggal yang tertera di system computer setelah saya teliti lagi ada selisih sekitar 3menit sama waktu sholat di masjid surabaya beberapa hari mencari informasi ternyata banyak masjid di surabaya dan jawatimur masih berpedoman ke radio yang disiarkan di masjid rahmat salah satu masjid bersejarah di surabaya dan akhirnya saya jugak dapat informasi kalau masjid rahmat surabaya berpedoman pada tim hisab dan ruhiyat kementrian agama, &lt;a href=&quot;http://simbi.kemenag.go.id/sihat/waktu-sholat&quot;&gt;jadwal sholat&lt;/a&gt; mungkin kedepan saya akan lebih mencari tahu lagi kenapa masih bisa selisih lebih dari 3 menit dari jadwal yang ditentukan oleh kementrian agama&lt;/p&gt;</content><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><category term="Java" /><summary type="html">waktu sholat Karena cukup penasaran dengan algoritma perhitungan waktu sholat dan kebutuhan jugak sih karena terkadang pekerjaan yang saya jalani berada pada posisi tidak dapat mendengar bunyi suara adzan bahkan posisi di tempat penduduknya mayoritas non muslim,terbesit keinginan untuk mencari algoritma dari perhitungan sholat dan menemukan beberapa referensi di website praytime.org disana di terangkan bagaimana cara menghitung waktu sholat secara detail yang bersumber dari hadist dan al-quran tidak hanya alur perhitungan manualnya disana jugak sudah ada contoh source code yang di tulis dalam bahasa javascript dan di digubah dalam beberapa bahasa pemrogaman terutama java setelah saya download langsung saya coba compile di terminal</summary></entry></feed>
+&lt;/figure&gt;</content><author><name>Glamvian</name><email>glmvn.composer@gmail.com</email></author><category term="Linux" /><summary type="html">kinfo Tibalah saatnya untuk upgrade Ram ddr3l thinkpad e145 dari 4GB ke 8GB di iringi penuh drama semenjak pertama kali upgrade ke 4GB dan 8GB adalah upgrade terakhir karena thinkpad ini hanya bisa up to 8GB menurut website resminya tapi menurut kabar beredar dari mas mas di VGEN service center ini thinkpad bisa sampek 16GB tapi rasanya saya tidak sebegitu tertarik untuk coba coba pasalnya upgrade ke 8GB hanya untuk memenuhi rekomendasi system untuk android studio di operating system linux</summary></entry></feed>
