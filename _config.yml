@@ -18,14 +18,14 @@ teaser                   :  "glmvn1.jpg"
 # breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               :  "disqus"
+  provider               :  #"disqus"
   disqus:
-    shortname            : "httpwwwglamviancom" 
+    shortname            : #"httpwwwglamviancom" 
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    colorscheme          :  dark # "light" (default), "dark"
 
 # SEO Related
 google_site_verification : "Tv3QETuW1AWzu2iYIj0U51MMTY9kpTw12AoBm1aQZuw"
